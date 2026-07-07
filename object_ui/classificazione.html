@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>Classificazione</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+</head>
+<body>
+<h3 class="toc-header" id="instrumentFamily_ME">1.1 Famiglia</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> instrumentFamily_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Inserire la famiglia principale di appartenenza dello strumento.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="hs_wikidata_ME">1.2 Classificazione Hornbostel-Sachs</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> hs_wikidata_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo Linked Data. Inserire almento tre lettere per avviare la ricerca del taxon appropriato e scegliere tra le alternative proposte nelle porzioni dell'albero HS visualizzato e filtrato per le parole di ricerca. Viene utilizzata la classificazione HS rivista da Febo Guizzi, in italiano. Per ulteriori dettagli consultare la documentazione.</p></blockquote>
+<blockquote class="is-warning"><p>Campo Linked Data: Per i termini ammissibili, aggiornati al <span class="dynamic-datetime"></span>, clicca sul seguente link per eseguire la query in tempo reale: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20distinct%20%3Fitem%20%3FitemLabel%20%3Fhs%20%3Fsearch%0AWHERE%20%7B%0A%20%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ1254773%20%3B%0A%20%20%20%20%20%20%20%20wdt%3AP361%20%3Fclassificazione%20.%0A%20%20VALUES%20%3Fclassificazione%20%7Bwd%3AQ53424891%20%20wd%3AQ496327%20%20wd%3AQ26836418%7D%0A%20%0A%20%20%3Fitem%20%3Fp%20%3Fhs%20.%0A%20%20VALUES%20%3Fp%20%7Bwdt%3AP1762%20wdt%3AP13598%7D%0A%20%0A%20%20%3Fitem%20wdt%3AP1448%20%3Ftaxon%20.%0A%20%20FILTER%20%28LANG%28%3Ftaxon%29%20%3D%20%22it%22%29%0A%20%0A%20%20BIND%28CONCAT%28%3Fhs%2C%20%22%20%22%2C%20%3Ftaxon%29%20AS%20%3Fsearch%29%0A%20%0AFILTER%20%28%0A%23%20%20%20%20%20REGEX%28%3Fhs%2C%20%22%2A%2A%2APLACEHOLDER%2A%2A%2A%22%2C%20%22i%22%29%20%7C%7C%0A%23%20%20%20%20%20REGEX%28%3Ftaxon%2C%20%22%2A%2A%2APLACEHOLDER%2A%2A%2A%22%2C%20%22i%22%29%20%7C%7C%0A%23%20%20%20%20%20REGEX%28%3FitemLabel%2C%20%22%2A%2A%2APLACEHOLDER%2A%2A%2A%22%29%0A%20%20%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2C%20it%22.%20%7D%20%20%0A%20%0A%7D%0AORDER%20BY%20%3Fhs%0A%09" target="_blank">Esegui Query</a> (attenzione: per query complesse occorre attendere diversi secondi prima della restituzione dei risultati).</p></blockquote>
+<button class="query-toggle-button" data-target="hs_wikidata_ME-query">Mostra Query</button>
+<blockquote id="hs_wikidata_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT distinct ?item ?itemLabel ?hs ?search
+WHERE {
+ 
+  ?item wdt:P31 wd:Q1254773 ;
+        wdt:P361 ?classificazione .
+  VALUES ?classificazione {wd:Q53424891  wd:Q496327  wd:Q26836418}
+ 
+  ?item ?p ?hs .
+  VALUES ?p {wdt:P1762 wdt:P13598}
+ 
+  ?item wdt:P1448 ?taxon .
+  FILTER (LANG(?taxon) = "it")
+ 
+  BIND(CONCAT(?hs, " ", ?taxon) AS ?search)
+ 
+FILTER (
+    REGEX(?hs, "***PLACEHOLDER***", "i") ||
+    REGEX(?taxon, "***PLACEHOLDER***", "i") ||
+    REGEX(?itemLabel, "***PLACEHOLDER***")
+  )
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE], it". }  
+ 
+}
+ORDER BY ?hs
+	</code></pre></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="hs_suffix_ME">1.3 Suffisso HS</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> hs_suffix_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo Linked Data. Inserire almento tre lettere per avviare la ricerca del taxon appropriato e scegliere tra le alternative proposte nelle porzioni dell'albero HS visualizzato e filtrato per le parole di ricerca. Viene utilizzata la classificazione HS rivista da Febo Guizzi, in italiano. Per ulteriori dettagli consultare la documentazione.</p></blockquote>
+<blockquote class="is-warning"><p>Campo Linked Data: Per i termini ammissibili, aggiornati al <span class="dynamic-datetime"></span>, clicca sul seguente link per eseguire la query in tempo reale: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%0A%3Fqid%20%3Furl%0A%3Fhs%20%3Ftaxon%20%3FclassLabel%0A%3Fsearch%0A%23%3Fdesc%0AWHERE%20%7B%0A%20%20%7B%0A%20%20%20%20%3Froot%20wdt%3AP31%20wd%3AQ134778286%20.%0A%20%20%20%20VALUES%20%3Fp%20%7Bp%3AP1762%20p%3AP13598%7D%0A%20%20%20%0A%20%20%20%20%3Froot%20%3Fp%20%3Fstatement%20.%0A%20%20%20%20%3Fstatement%20ps%3AP1762%7Cps%3AP13598%20%3Fhs%20.%0A%20%20%20%20OPTIONAL%20%7B%20%3Fstatement%20pq%3AP13044%20%3Fclass%20.%20%7D%0A%20%20%20%0A%20%20%20%20%3Froot%20wdt%3AP1448%20%3Ftaxon%20.%0A%20%20%20%20FILTER%20%28LANG%28%3Ftaxon%29%20%3D%20%22it%22%29%0A%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%3Fclass%20rdfs%3Alabel%20%3FclassLabel%20.%0A%20%20%20%20%20%20FILTER%20%28LANG%28%3FclassLabel%29%20%3D%20%22it%22%29%0A%20%20%20%20%7D%0A%0A%20%20%20%20BIND%28CONCAT%28%0A%20%20%20%20%20%20%3Fhs%2C%20%22%20%22%2C%20%3Ftaxon%2C%0A%20%20%20%20%20%20IF%28BOUND%28%3FclassLabel%29%2C%20CONCAT%28%22%20%5B%22%2C%20%3FclassLabel%2C%20%22%5D%22%29%2C%20%22%22%29%0A%20%20%20%20%29%20AS%20%3Fsearch%29%0A%20%20%20%0A%20%20%20%20FILTER%20%28%0A%23%20%20%20%20%20REGEX%28%3Fsearch%2C%20%22%2A%2A%2APLACEHOLDER%2A%2A%2A%22%2C%20%22i%22%29%0A%20%20%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20%3Froot%20wdt%3AP31%20wd%3AQ134778286%20.%0A%20%20%20%20%3Fitem%20wdt%3AP279%2A%20%3Froot%20.%0A%0A%20%20%20%20VALUES%20%3Fp%20%7Bp%3AP1762%20p%3AP13598%7D%0A%20%20%20%20%3Fitem%20%3Fp%20%3Fstatement%20.%0A%20%20%20%20%3Fstatement%20ps%3AP1762%7Cps%3AP13598%20%3Fhs%20.%0A%20%20%20%20OPTIONAL%20%7B%20%3Fstatement%20pq%3AP13044%20%3Fclass%20.%20%7D%0A%20%20%20%0A%20%20%20%20%3Fitem%20wdt%3AP1448%20%3Ftaxon%20.%0A%20%20%20%20FILTER%20%28LANG%28%3Ftaxon%29%20%3D%20%22it%22%29%0A%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%3Fclass%20rdfs%3Alabel%20%3FclassLabel%20.%0A%20%20%20%20%20%20FILTER%20%28LANG%28%3FclassLabel%29%20%3D%20%22it%22%29%0A%20%20%20%20%7D%0A%0A%20%20%20%20BIND%28CONCAT%28%0A%20%20%20%20%20%20%3Fhs%2C%20%22%20%22%2C%20%3Ftaxon%2C%0A%20%20%20%20%20%20IF%28BOUND%28%3FclassLabel%29%2C%20CONCAT%28%22%20%5B%22%2C%20%3FclassLabel%2C%20%22%5D%22%29%2C%20%22%22%29%0A%20%20%20%20%29%20AS%20%3Fsearch%29%0A%20%20%20%0A%20%20%20%20FILTER%20%28%0A%23%20%20%20%20%20REGEX%28%3Fsearch%2C%20%22%2A%2A%2APLACEHOLDER%2A%2A%2A%22%2C%20%22i%22%29%0A%20%20%29%0A%20%20%7D%0A%0A%20%20BIND%28COALESCE%28STRAFTER%28STR%28%3Fitem%29%2C%20%22entity/%22%29%2C%20STRAFTER%28STR%28%3Froot%29%2C%20%22entity/%22%29%29%20AS%20%3Fqid%29%0A%20%20BIND%28IRI%28CONCAT%28%22http%3A//www.wikidata.org/entity/%22%2C%20%3Fqid%29%29%20AS%20%3Furl%29%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cit%2Cen%22.%0A%20%20%20%20%23%3Froot%20schema%3Adescription%20%3FrootDescription.%0A%20%20%20%20%23%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%7D%0A%20%20%23BIND%28COALESCE%28%3FitemDescription%2C%20%3FrootDescription%29%20AS%20%3Fdesc%29%0A%7D%0AORDER%20BY%20%3Fhs" target="_blank">Esegui Query</a> (attenzione: per query complesse occorre attendere diversi secondi prima della restituzione dei risultati).</p></blockquote>
+<button class="query-toggle-button" data-target="hs_suffix_ME-query">Mostra Query</button>
+<blockquote id="hs_suffix_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT
+?qid ?url
+?hs ?taxon ?classLabel
+?search
+#?desc
+WHERE {
+  {
+    ?root wdt:P31 wd:Q134778286 .
+    VALUES ?p {p:P1762 p:P13598}
+   
+    ?root ?p ?statement .
+    ?statement ps:P1762|ps:P13598 ?hs .
+    OPTIONAL { ?statement pq:P13044 ?class . }
+   
+    ?root wdt:P1448 ?taxon .
+    FILTER (LANG(?taxon) = "it")
+
+    OPTIONAL {
+      ?class rdfs:label ?classLabel .
+      FILTER (LANG(?classLabel) = "it")
+    }
+
+    BIND(CONCAT(
+      ?hs, " ", ?taxon,
+      IF(BOUND(?classLabel), CONCAT(" [", ?classLabel, "]"), "")
+    ) AS ?search)
+   
+    FILTER (
+    REGEX(?search, "***PLACEHOLDER***", "i")
+  )
+  }
+  UNION
+  {
+    ?root wdt:P31 wd:Q134778286 .
+    ?item wdt:P279* ?root .
+
+    VALUES ?p {p:P1762 p:P13598}
+    ?item ?p ?statement .
+    ?statement ps:P1762|ps:P13598 ?hs .
+    OPTIONAL { ?statement pq:P13044 ?class . }
+   
+    ?item wdt:P1448 ?taxon .
+    FILTER (LANG(?taxon) = "it")
+
+    OPTIONAL {
+      ?class rdfs:label ?classLabel .
+      FILTER (LANG(?classLabel) = "it")
+    }
+
+    BIND(CONCAT(
+      ?hs, " ", ?taxon,
+      IF(BOUND(?classLabel), CONCAT(" [", ?classLabel, "]"), "")
+    ) AS ?search)
+   
+    FILTER (
+    REGEX(?search, "***PLACEHOLDER***", "i")
+  )
+  }
+
+  BIND(COALESCE(STRAFTER(STR(?item), "entity/"), STRAFTER(STR(?root), "entity/")) AS ?qid)
+  BIND(IRI(CONCAT("http://www.wikidata.org/entity/", ?qid)) AS ?url)
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "[AUTO_LANGUAGE],it,en".
+    #?root schema:description ?rootDescription.
+    #?item schema:description ?itemDescription.
+  }
+  #BIND(COALESCE(?itemDescription, ?rootDescription) AS ?desc)
+}
+ORDER BY ?hs</code></pre></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="hs_notes_ME">1.4 Note Classificazione Hornbostel-Sachs</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> hs_notes_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Inserire eventuali note alla classficazione HS.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="typological_definition_CN">1.5 Definizione tipologica</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> typological_definition_CN</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> In questo container vengono inseriti dati relativi alle definizioni tipologiche dello strumento.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="typological_definition_ME">1.5.1 Definizione tipologica (legacy MPS)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> typological_definition_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo legacy (non più utilizzato per nuove catalogazioni). Contiene definizioni tipologiche relative al processo di catalogazione avviato al Museo del Paesaggio Sonoro.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="typologicaldef_lod_ME">1.5.2 Definizione tipologica (LOD)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> typologicaldef_lod_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo Linked Data. Inserire almeno tre lettere e scegliere tra le alternative proposte. Per un elenco completo delle definizioni tipologiche disponibili e per la richiesta di inserimento di nuove definizioni tipologiche fare riferimento alla documentazione.</p></blockquote>
+<blockquote class="is-warning"><p>Campo Linked Data: Per i termini ammissibili, aggiornati al <span class="dynamic-datetime"></span>, clicca sul seguente link per eseguire la query in tempo reale: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Flang%0AWHERE%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP1762%20%3Fvalue%20.%0A%20%20%20%20%3Fitem%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel%20.%0A%23%20%20%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%20%20%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22en%22%29%29%0A%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22en%22%29%29%0A%20%20%20%20FILTER%28LANG%28%3FitemLabel%29%20%3D%20LANG%28%3FitemDescription%29%29%0A%20%20%20%0A%20%20BIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2C%20en%2C%20it%22.%20%7D%20%0A%7D%20%0Aorder%20by%20%3Fitem" target="_blank">Esegui Query</a> (attenzione: per query complesse occorre attendere diversi secondi prima della restituzione dei risultati).</p></blockquote>
+<button class="query-toggle-button" data-target="typologicaldef_lod_ME-query">Mostra Query</button>
+<blockquote id="typologicaldef_lod_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT ?item ?itemLabel ?itemDescription ?lang
+WHERE {
+    ?item wdt:P1762 ?value .
+    ?item(rdfs:label|skos:altLabel) ?itemLabel .
+    FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+    
+    FILTER(LANGMATCHES(LANG(?itemLabel), "it") || LANGMATCHES(LANG(?itemLabel), "en"))
+    ?item schema:description ?itemDescription.
+    FILTER(LANGMATCHES(LANG(?itemDescription), "it") || LANGMATCHES(LANG(?itemDescription), "en"))
+    FILTER(LANG(?itemLabel) = LANG(?itemDescription))
+   
+  BIND(LANG(?itemLabel) AS ?lang)
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE], en, it". } 
+} 
+order by ?item</code></pre></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="def_tipo_note">1.5.3 Note</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> def_tipo_note</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Inserire eventuali note alla definizione tipologica.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="keyword_MIMO_it_ME">1.6 keyword MIMO italiano</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> keyword_MIMO_it_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Keyword MIMO italiane. I menù relativi alle keyword vengono popolati in tempo reale tramite interrogazione di una versione LOD dei vocabolari controllati generati da MIMO.</p></blockquote>
+<blockquote class="is-warning"><p>Campo Linked Data: Per i termini ammissibili, aggiornati al <span class="dynamic-datetime"></span>, clicca sul seguente link per eseguire la query in tempo reale: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20%3Fitem%20%3FitemLabel%20%7B%0A%3Fitem%20%3Chttp%3A//www.w3.org/2004/02/skos/core%23inScheme%3E%20%3Chttp%3A//www.mimo-db.eu/InstrumentsKeywords%23%3E%20.%0A%3Fitem%20%3Chttp%3A//www.w3.org/2004/02/skos/core%23prefLabel%3E%20%3FitemLabel%0A%23%20FILTER%20%28REGEX%28%3FitemLabel%2C%20%22%2A%2A%2APLACEHOLDER%2A%2A%2A%22%2C%20%22i%22%29%29%0AFILTER%20%28LANG%28%3FitemLabel%29%20%3D%20%22it%22%29%0A%7D%0AORDER%20BY%20%3FitemLabel" target="_blank">Esegui Query</a> (attenzione: per query complesse occorre attendere diversi secondi prima della restituzione dei risultati).</p></blockquote>
+<button class="query-toggle-button" data-target="keyword_MIMO_it_ME-query">Mostra Query</button>
+<blockquote id="keyword_MIMO_it_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT ?item ?itemLabel {
+?item <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.mimo-db.eu/InstrumentsKeywords#> .
+?item <http://www.w3.org/2004/02/skos/core#prefLabel> ?itemLabel
+FILTER (REGEX(?itemLabel, "***PLACEHOLDER***", "i"))
+FILTER (LANG(?itemLabel) = "it")
+}
+ORDER BY ?itemLabel</code></pre></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="MIMO_ITA_LEGACY_ME">1.7 Mimo Keyword ITA (legacy item)</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> MIMO_ITA_LEGACY_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo legacy (non più utilizzato per nuove catalogazioni). Campo a testo libero per l'inserimento di keyword MIMO.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="keyword_MIMO_all_languages_ME">1.8 keyword MIMO all languages</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> keyword_MIMO_all_languages_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Keyword MIMO multilingua. I menù relativi alle keyword vengono popolati in tempo reale tramite interrogazione di una versione LOD dei vocabolari controllati generati da MIMO.</p></blockquote>
+<blockquote class="is-warning"><p>Campo Linked Data: Per i termini ammissibili, aggiornati al <span class="dynamic-datetime"></span>, clicca sul seguente link per eseguire la query in tempo reale: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20%3Fitem%20%3FitemLabel%20%7B%0A%3Fitem%20%3Chttp%3A//www.w3.org/2004/02/skos/core%23inScheme%3E%20%3Chttp%3A//www.mimo-db.eu/InstrumentsKeywords%23%3E%20.%0A%3Fitem%20%3Chttp%3A//www.w3.org/2004/02/skos/core%23prefLabel%3E%20%3FitemLabel%0A%23%20FILTER%20%28REGEX%28%3FitemLabel%2C%20%22%2A%2A%2APLACEHOLDER%2A%2A%2A%22%2C%20%22i%22%29%29%0A%23FILTER%20%28LANG%28%3FitemLabel%29%20%3D%20%22it%22%29%0A%7D%0AORDER%20BY%20%3FitemLabel" target="_blank">Esegui Query</a> (attenzione: per query complesse occorre attendere diversi secondi prima della restituzione dei risultati).</p></blockquote>
+<button class="query-toggle-button" data-target="keyword_MIMO_all_languages_ME-query">Mostra Query</button>
+<blockquote id="keyword_MIMO_all_languages_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT ?item ?itemLabel {
+?item <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.mimo-db.eu/InstrumentsKeywords#> .
+?item <http://www.w3.org/2004/02/skos/core#prefLabel> ?itemLabel
+FILTER (REGEX(?itemLabel, "***PLACEHOLDER***", "i"))
+#FILTER (LANG(?itemLabel) = "it")
+}
+ORDER BY ?itemLabel</code></pre></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="MIMO_alllanguages_LEGACY_ME">1.9 Mimo Keyword all languages (legacy item)</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> MIMO_alllanguages_LEGACY_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo legacy (non più utilizzato per nuove catalogazioni). Campo a testo libero per l'inserimento di keyword MIMO.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="INST_mediumofperf_ME">1.10 Mezzo di esecuzione (LoC)</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> INST_mediumofperf_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo Linked Data. Consente di inserire, avviando la ricerca almeno con tre lettere, il nome di uno strumento musicale reperito dai vocabolari della Library of Congress, legando la classificazione etno-organologica a vocabolari di area biblliografica utili, ad esempio, in fase di arricchimento bilbiografico sul portale di navigazione. Utilizzato principalmente per strumenti di area euroculta.</p></blockquote>
+<blockquote class="is-warning"><p>Campo Linked Data: Per i termini ammissibili, aggiornati al <span class="dynamic-datetime"></span>, clicca sul seguente link per eseguire la query in tempo reale: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fvalue%20%3Flang%0AWHERE%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP8516%20%3Fvalue.%0A%20%20%20%20%23FILTER%20%28REGEX%28%3Fvalue%2C%20%22mp%22%2C%20%22i%22%29%29%0A%20%20%20%20%20%20%20%20%3Fitem%20%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%23%20%20%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%20%20%3Fitem%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%20%20%20%20%20%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22en%22%29%29%0A%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22en%22%29%29%0A%20%20%20%20FILTER%28LANG%28%3FitemLabel%29%20%3D%20LANG%28%3FitemDescription%29%29%0A%20%20%20%0A%20%20BIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2C%20en%2C%20it%22.%20%7D%20%0A%0A%7D%20%0Aorder%20by%20%3Fitem" target="_blank">Esegui Query</a> (attenzione: per query complesse occorre attendere diversi secondi prima della restituzione dei risultati).</p></blockquote>
+<button class="query-toggle-button" data-target="INST_mediumofperf_ME-query">Mostra Query</button>
+<blockquote id="INST_mediumofperf_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT ?item ?itemLabel ?itemDescription ?value ?lang
+WHERE {
+    ?item wdt:P8516 ?value.
+    #FILTER (REGEX(?value, "mp", "i"))
+        ?item (rdfs:label|skos:altLabel) ?itemLabel.
+    FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+    ?item(rdfs:label|skos:altLabel) ?itemLabel.
+     
+    FILTER(LANGMATCHES(LANG(?itemLabel), "it") || LANGMATCHES(LANG(?itemLabel), "en"))
+    ?item schema:description ?itemDescription.
+    FILTER(LANGMATCHES(LANG(?itemDescription), "it") || LANGMATCHES(LANG(?itemDescription), "en"))
+    FILTER(LANG(?itemLabel) = LANG(?itemDescription))
+   
+  BIND(LANG(?itemLabel) AS ?lang)
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE], en, it". } 
+
+} 
+order by ?item</code></pre></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+</body>
+</html>

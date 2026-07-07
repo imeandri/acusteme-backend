@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>Informazioni principali</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+</head>
+<body>
+<h3 class="toc-header" id="idno">1.1 Identificativo</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Identificativo</p> <p><strong>CA element code:</strong> idno</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="signature_numbering_CN">1.2 Numerazione segnature</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> signature_numbering_CN</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Container strutturato per l'indicazione della segnatura attribuita alla risorsa archivistica</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="signature_numbering_ME">1.2.1 Metodo numerazione segnatura</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> signature_numbering_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indicare il criterio utilizzato per attribuire la segnatura alla risorsa descritta (es. numerazione progressiva, classificazione tematica, codice alfanumerico, segnatura per serie, ecc.).</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="signature_type_ME">1.2.2 Tipo segnatura</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> signature_type_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indicare la tipologia della segnatura associata alla risorsa</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="preferred_labels">1.3 N/A</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> N/A</p> <p><strong>CA element code:</strong> preferred_labels</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="archivaldescription_ME">1.4 Descrizione archivistica breve (280 caratteri)</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> archivaldescription_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo testuale per la descrizione archivistica breve di una risorsa secondo gli standard internazionali ISAD(G) (General International Standard Archival Description) o il modello concettuale RiC-O (Records in Contexts Ontology).</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="long_archivaldescription_ME">1.5 Descrizione archivistica estesa</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> long_archivaldescription_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo testuale per la descrizione archivistica estesa di una risorsa secondo gli standard internazionali ISAD(G) (General International Standard Archival Description) o il modello concettuale RiC-O (Records in Contexts Ontology).</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="typeOfArchRes_ME">1.6 Tipo di risorsa archivistica</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> typeOfArchRes_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo Linked Data. Indicare il tipo di risorsa (e.g. “Cue Sheet”, “Documento sonoro di registrazione sul campo”). Inserire almeno tre lettere per la ricerca Linked Data e scegliere tra le alternative proposte. Per l'elenco dei termini ammessi consultare la documentazione (i).</p></blockquote>
+<blockquote class="is-warning"><p>Campo Linked Data: Per i termini ammissibili, aggiornati al <span class="dynamic-datetime"></span>, clicca sul seguente link per eseguire la query in tempo reale: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Flang%0AWHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP279%2A%20wd%3AQ49848%20.%0A%20%20FILTER%28%3Fitem%20%21%3D%20wd%3AQ49848%29%0A%0A%20%20FILTER%28%0A%20%20%20%20EXISTS%20%7B%20%3Fitem%20wdt%3AP366%20%3Fd%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20VALUES%20%3Fd%20%7B%20wd%3AQ164204%20wd%3AQ208365%20wd%3AQ43455%20wd%3AQ23404%20%7D%20%7D%0A%20%20%20%20%7C%7C%0A%20%20%20%20EXISTS%20%7B%20%3Fitem%20wdt%3AP2579%20%3Fd%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20VALUES%20%3Fd%20%7B%20wd%3AQ164204%20wd%3AQ208365%20wd%3AQ43455%20wd%3AQ23404%20%7D%20%7D%0A%20%20%29%0A%0A%20%20%3Fitem%20rdfs%3Alabel%20%3FitemLabel%20.%0A%20%20FILTER%28LANG%28%3FitemLabel%29%20IN%20%28%22it%22%2C%22en%22%29%29%0A%20%20BIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%0A%23%20%20%20FILTER%28%20REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%20%29%0A%0A%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription%20.%0A%20%20FILTER%28LANG%28%3FitemDescription%29%20IN%20%28%22it%22%2C%22en%22%29%29%0A%20%20FILTER%28LANG%28%3FitemDescription%29%20%3D%20%3Flang%29%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%2Cit%22.%20%7D%0A%7D%0ALIMIT%2050" target="_blank">Esegui Query</a> (attenzione: per query complesse occorre attendere diversi secondi prima della restituzione dei risultati).</p></blockquote>
+<button class="query-toggle-button" data-target="typeOfArchRes_ME-query">Mostra Query</button>
+<blockquote id="typeOfArchRes_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT ?item ?itemLabel ?itemDescription ?lang
+WHERE {
+  ?item wdt:P279* wd:Q49848 .
+  FILTER(?item != wd:Q49848)
+
+  FILTER(
+    EXISTS { ?item wdt:P366 ?d .
+             VALUES ?d { wd:Q164204 wd:Q208365 wd:Q43455 wd:Q23404 } }
+    ||
+    EXISTS { ?item wdt:P2579 ?d .
+             VALUES ?d { wd:Q164204 wd:Q208365 wd:Q43455 wd:Q23404 } }
+  )
+
+  ?item rdfs:label ?itemLabel .
+  FILTER(LANG(?itemLabel) IN ("it","en"))
+  BIND(LANG(?itemLabel) AS ?lang)
+
+  FILTER( REGEX(?itemLabel, "^(***PLACEHOLDER***)", "i") )
+
+  ?item schema:description ?itemDescription .
+  FILTER(LANG(?itemDescription) IN ("it","en"))
+  FILTER(LANG(?itemDescription) = ?lang)
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en,it". }
+}
+LIMIT 50</code></pre></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="set_info_CN">1.7 Record set info</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> set_info_CN</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Tipologia e livello del record set: consente di specificare la tipologia archivistica del set (es. fondo, serie, collezione) e se si tratta di un set di livello 1, cioè un set di primo livello associato direttamente a un ente; il flag “livello 1” è utilizzato per costruire la gerarchia principale dei set.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="recordsetType_ME">1.7.1 Tipologia Record set</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> recordsetType_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Vocabolario chiuso. Indicare la tipologia di Record set</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="is_level1_ME">1.7.2 Set di primo livello</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> is_level1_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indica se il set è un set di primo livello, cioè direttamente associato a un ente e utilizzato come nodo iniziale della gerarchia.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="form_of_content_ME">1.8 Contenuto principale</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> form_of_content_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì (max 3 volte)</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Vocabolario chiuso. Indicare il contenuto principale e prevalente della risorsa. Se nessuno è prevalente indicare “Contenuti multipli”. Se nessuno è pertinente indicare “Altra forma del contenuto”.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="unitdate">1.9 Data unità</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> unitdate</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Registrare almeno uno dei seguenti tipi di date per l'unità di descrizione, come
+appropriato ai materiali e al livello di descrizione</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="date_value">1.9.1 Valore data</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> DateRange</p> <p><strong>CA element code:</strong> date_value</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indicare la data specifica in riferimento al tipo di data selezionato.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="dates_types">1.9.2 Tipo data</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> dates_types</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Specificare la tipologia della data indicata: ad esempio, data di pubblicazione, data di stampa. data di copyright, ecc.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="extent_text">1.10 Estensione</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> extent_text</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Registra l'entità dell'unità di descrizione fornendo il numero di fisico o logico
+Unità in numeri arabi e l'unità di misurazione.Dai il mezzo specifico (media)
+dell'unità di descrizione.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="archival_localization_CN">1.11 Provenienza geografica</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> archival_localization_CN</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indicare le date e i luoghi di provenienza geografica della risorsa</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="arch_luogo_rilevamento">1.11.1 Luogo (GeoNames)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> GeoNames</p> <p><strong>CA element code:</strong> arch_luogo_rilevamento</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indicare uno o più luoghi di provenienza. Usare preferenzialmente Geonames per indicare divisioni amministrative (ADM1, ADM2, ADM3) il più precise possibili e il campo successivo per indicare coordinate e areali.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="arch_coordinate_rilevamento">1.11.2 Coordinate rilevamento</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Geocode</p> <p><strong>CA element code:</strong> arch_coordinate_rilevamento</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indicare uno o più coordinate di provenienza (marker) oppure disegnare un areale (freeform, poligoni, rettangoli, cerchi). È possibile editare le forme una volta disegnate.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="arch_note_localizzazione">1.11.3 Note localizzazione</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> arch_note_localizzazione</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> nan</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="localization_CN">1.12 Localizzazione</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> localization_CN</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indicare le date e i luoghi di rilevamento sul campo (per risorse etnomusicologiche)</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="survery_dates_ME">1.12.1 Date di rilevamento</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> DateRange</p> <p><strong>CA element code:</strong> survery_dates_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indicare una o più date di rilevamento sul campo.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="luogo_rilevamento">1.12.2 Luogo (GeoNames)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> GeoNames</p> <p><strong>CA element code:</strong> luogo_rilevamento</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indicare uno o più luoghi di rilevamento sul campo. Usare preferenzialmente Geonames per indicare divisioni amministrative (ADM1, ADM2, ADM3) il più precise possibili e il campo successivo per indicare coordinate e areali.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="coordinate_rilevamento">1.12.3 Coordinate/Areale</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Geocode</p> <p><strong>CA element code:</strong> coordinate_rilevamento</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indicare uno o più coordinate di rilevamento sul campo (marker) oppure disegnare un areale (freeform, poligoni, rettangoli, cerchi). È possibile editare le forme una volta disegnate.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="note_localizzazione">1.12.4 Note</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> note_localizzazione</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo libero per inserire eventuali annotazioni supplementari sulla localizzazione fisica o virtuale della risorsa bibliografica.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+</body>
+</html>

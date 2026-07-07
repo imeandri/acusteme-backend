@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+venv/
+.venv/
+
+wikijs_debug/
+wikijs_live_check_*.tsv
+wikijs_upload_config.json
+
+ACUSTEME_profile_before_cleanup.xml
+READ ME.rtf

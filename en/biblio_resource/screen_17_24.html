@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>Other ethnomusicological descriptors</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+</head>
+<body>
+<h3 class="toc-header" id="ca_objects">1.1 Related Resources</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Relationship</p> <p><strong>CA element code:</strong> ca_objects</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="indexes_ME">1.2 Reference to Consolidated Index (Linked data)</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> indexes_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> nan</p></blockquote>
+<blockquote class="is-warning"><p>Linked Data field: for the allowed terms, updated on <span class="dynamic-datetime"></span>, click the following link to run the query in real time: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3Fqvalue%20%3FitemDescription%20%3Fvalue%20%3Furl%20%3Flang%0AWHERE%20%7B%0A%20%20%0A%20%20%20%3Fitem%20wdt%3AP31%20wd%3AQ47451145.%0A%20%20%20%20%3Fitem%20wdt%3AP528%20%3Ffolktale_type.%0A%20%20%20%20%3Fitem%20wdt%3AP2540%20%3Fvalue%3B%0A%20%20%20%20%20%20%20%20%20%20%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%23%20%20%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0AFILTER%28LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22en%22%29%29%0A%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22en%22%29%29%0A%20%20%20%20FILTER%28LANG%28%3FitemLabel%29%20%3D%20LANG%28%3FitemDescription%29%29%20%20%0A%20%20%20%20%0A%20%20%20%20OPTIONAL%7B%20%3Fitem%20wdt%3AP31%20wd%3AQ47451145.%0A%20%20%20%20%3Fitem%20wdt%3AP528%20%3Ffolktale_type.%0A%20%20%20%20%3Fitem%20wdt%3AP2540%20%3Fvalue%3B%0A%20%20%20%20p%3AP2540/pq%3AP1810%20%3Fqvalue.%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20OPTIONAL%7B%3Fitem%20wdt%3AP31%20wd%3AQ47451145.%0A%20%20%20%20%3Fitem%20wdt%3AP528%20%3Ffolktale_type.%0A%20%20%20%20%3Fitem%20wdt%3AP2540%20%3Fvalue%3B%0A%20%20%20%20p%3AP2540/pq%3AP4970%20%3Fqvalue.%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20OPTIONAL%20%7B%3Fitem%20wdt%3AP31%20wd%3AQ47451145.%0A%20%20%20%20%3Fitem%20wdt%3AP528%20%3Ffolktale_type.%0A%20%20%20%20%3Fitem%20wdt%3AP2540%20%3Fvalue%3B%0A%20%20%20%20p%3AP2540/pq%3AP1810%20%3Fqvalue.%0A%23%20%20%20%20%20FILTER%20%28REGEX%28%3Fqvalue%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%20%20BIND%28IF%28CONTAINS%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%29%2C%20COALESCE%28%3FitemLabel%2C%20%3Fqvalue%29%2C%20%3Fqvalue%29%20AS%20%3FdisplayLabel%29%0A%20%20%20%0A%20%20%20%20%7D%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP31%20wd%3AQ47451145.%0A%20%20%20%20%3Fitem%20wdt%3AP528%20%3Ffolktale_type.%0A%20%20%20%20%3Fitem%20wdt%3AP2540%20%3Fvalue%3B%0A%20%20%20%20p%3AP2540/pq%3AP4970%20%3Fqvalue.%0A%23%20%20%20%20%20FILTER%20%28REGEX%28%3Fqvalue%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%20%20BIND%28IF%28CONTAINS%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%29%2C%20COALESCE%28%3FitemLabel%2C%20%3Fqvalue%29%2C%20%3Fqvalue%29%20AS%20%3FdisplayLabel%29%7D%0A%20%20%20%20%0A%20%20%20%20OPTIONAL%20%7B%3Fitem%20wdt%3AP31%20wd%3AQ47451145.%0A%20%20%20%20%3Fitem%20wdt%3AP528%20%3Ffolktale_type.%0A%20%20%20%20%3Fitem%20wdt%3AP2540%20%3Fvalue%3B%0A%20%20%20%20p%3AP2540/pq%3AP1810%20%3Fqvalue.%0A%23%20%20%20%20%20FILTER%20%28REGEX%28%3Fvalue%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%7D%0A%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP31%20wd%3AQ47451145.%0A%20%20%20%20%3Fitem%20wdt%3AP528%20%3Ffolktale_type.%0A%20%20%20%20%3Fitem%20wdt%3AP2540%20%3Fvalue%3B%0A%20%20%20%20p%3AP2540/pq%3AP4970%20%3Fqvalue.%0A%23%20%20%20%20%20FILTER%20%28REGEX%28%3Fvalue%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20BIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%2Cit%22.%20%7D%0A%20%20BIND%28%0A%20%20CONCAT%28%0A%20%20%20%20%22ATU%20Index%3A%20%22%2C%20%0A%20%20%20%20IF%28BOUND%28%3Fqvalue%29%2C%20%3Fqvalue%2C%20%22%22%29%2C%20%0A%20%20%20%20IF%28BOUND%28%3Fqvalue%29%2C%20%22%20%22%2C%20%22%22%29%2C%20%0A%20%20%20CONCAT%28%22http%3A//www.mftd.org/index.php%3Faction%3Datu%26src%3Datu%26id%3D%22%2C%20%3Fvalue%29%0A%20%20%29%20AS%20%3Furl%0A%29%0A%7D%0Aorder%20by%20%3Fitem" target="_blank">Run Query</a> (for complex queries, wait several seconds before results are returned).</p></blockquote>
+<button class="query-toggle-button" data-target="indexes_ME-query">Show Query</button>
+<blockquote id="indexes_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT ?item ?itemLabel ?qvalue ?itemDescription ?value ?url ?lang
+WHERE {
+  
+   ?item wdt:P31 wd:Q47451145.
+    ?item wdt:P528 ?folktale_type.
+    ?item wdt:P2540 ?value;
+          (rdfs:label|skos:altLabel) ?itemLabel.
+    FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+FILTER(LANGMATCHES(LANG(?itemLabel), "it") || LANGMATCHES(LANG(?itemLabel), "en"))
+    ?item schema:description ?itemDescription.
+    FILTER(LANGMATCHES(LANG(?itemDescription), "it") || LANGMATCHES(LANG(?itemDescription), "en"))
+    FILTER(LANG(?itemLabel) = LANG(?itemDescription))  
+    
+    OPTIONAL{ ?item wdt:P31 wd:Q47451145.
+    ?item wdt:P528 ?folktale_type.
+    ?item wdt:P2540 ?value;
+    p:P2540/pq:P1810 ?qvalue.
+            }
+    OPTIONAL{?item wdt:P31 wd:Q47451145.
+    ?item wdt:P528 ?folktale_type.
+    ?item wdt:P2540 ?value;
+    p:P2540/pq:P4970 ?qvalue.
+            }
+    OPTIONAL {?item wdt:P31 wd:Q47451145.
+    ?item wdt:P528 ?folktale_type.
+    ?item wdt:P2540 ?value;
+    p:P2540/pq:P1810 ?qvalue.
+    FILTER (REGEX(?qvalue, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+    BIND(IF(CONTAINS(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)"), COALESCE(?itemLabel, ?qvalue), ?qvalue) AS ?displayLabel)
+   
+    }
+    OPTIONAL {
+    ?item wdt:P31 wd:Q47451145.
+    ?item wdt:P528 ?folktale_type.
+    ?item wdt:P2540 ?value;
+    p:P2540/pq:P4970 ?qvalue.
+    FILTER (REGEX(?qvalue, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+    BIND(IF(CONTAINS(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)"), COALESCE(?itemLabel, ?qvalue), ?qvalue) AS ?displayLabel)}
+    
+    OPTIONAL {?item wdt:P31 wd:Q47451145.
+    ?item wdt:P528 ?folktale_type.
+    ?item wdt:P2540 ?value;
+    p:P2540/pq:P1810 ?qvalue.
+    FILTER (REGEX(?value, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))}
+ OPTIONAL {
+    ?item wdt:P31 wd:Q47451145.
+    ?item wdt:P528 ?folktale_type.
+    ?item wdt:P2540 ?value;
+    p:P2540/pq:P4970 ?qvalue.
+    FILTER (REGEX(?value, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+                }
+  BIND(LANG(?itemLabel) AS ?lang)
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en,it". }
+  BIND(
+  CONCAT(
+    "ATU Index: ", 
+    IF(BOUND(?qvalue), ?qvalue, ""), 
+    IF(BOUND(?qvalue), " ", ""), 
+   CONCAT("http://www.mftd.org/index.php?action=atu&src=atu&id=", ?value)
+  ) AS ?url
+)
+}
+order by ?item</code></pre></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="notation_term_ME">1.3 Term related to notation system (ethnomusicological resources)</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> notation_term_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Linked Data field: indicate, if relevant, one or more terms related to the notation system used, including in local name if present. Search by entering at least three letters to activate the search.</p></blockquote>
+<blockquote class="is-warning"><p>Linked Data field: for the allowed terms, updated on <span class="dynamic-datetime"></span>, click the following link to run the query in real time: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Flang%0AWHERE%20%7B%0A%20%20%0A%20%20%20%20%3Fitem%20wdt%3AP5008%20wd%3AQ120325256.%0A%20%20%20%20%3Fitem%20wdt%3AP2579%20wd%3AQ208365.%0A%20%20%20%20%3Fitem%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%23%20%20%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22en%22%29%29%0A%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22en%22%29%29%0A%20%20%20%20FILTER%28LANG%28%3FitemLabel%29%20%3D%20LANG%28%3FitemDescription%29%29%0A%20%20%20%0A%20%20BIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2C%20en%2C%20it%22.%20%7D%20%20%0A%0A%7D%20%0Aorder%20by%20%3Fitem" target="_blank">Run Query</a> (for complex queries, wait several seconds before results are returned).</p></blockquote>
+<button class="query-toggle-button" data-target="notation_term_ME-query">Show Query</button>
+<blockquote id="notation_term_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT ?item ?itemLabel ?itemDescription ?lang
+WHERE {
+  
+    ?item wdt:P5008 wd:Q120325256.
+    ?item wdt:P2579 wd:Q208365.
+    ?item(rdfs:label|skos:altLabel) ?itemLabel.
+    FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+    FILTER(LANGMATCHES(LANG(?itemLabel), "it") || LANGMATCHES(LANG(?itemLabel), "en"))
+    ?item schema:description ?itemDescription.
+    FILTER(LANGMATCHES(LANG(?itemDescription), "it") || LANGMATCHES(LANG(?itemDescription), "en"))
+    FILTER(LANG(?itemLabel) = LANG(?itemDescription))
+   
+  BIND(LANG(?itemLabel) AS ?lang)
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE], en, it". }  
+
+} 
+order by ?item</code></pre></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="transc_ann_type_CN">1.4 Transcription/annotation type</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> transc_ann_type_CN</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> If the resource is (or contains) an oral source or an If the resource is an ethnomusicological or ethnochoreological transcript or an ethnomusicological or ethnochoreological annotation file, indicate its type in the relevant field.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="type_of_transcription_text_ME">1.4.1 Textual transcription type</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> type_of_transcription_text_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Select the type of text transcription, according to the conventions adopted for transcribing interviews, dialogues, oral or written texts in the resource. Available values are derived from internal controlled vocabularies.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="type_of_transcription_ME">1.4.2 Ethnomusicological transcription type</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> type_of_transcription_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Specify the type of ethnomusicological transcription used to represent the musical performance or work (e.g., linear transcription, graphic transcription, with Western or alternative notation). Menu values are derived from a controlled vocabulary consistent with disciplinary practices.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="type_of_annotation_etno_ME">1.4.3 Ethnomusicological annotation type</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> type_of_annotation_etno_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indicate the type of ethnomusicological annotation associated with the transcription, e.g., rhythmic, modal, timbral, analytic annotations. Available values are predefined in the controlled vocabulary.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="type_of_trans_etnochor_ME">1.4.4 Ethnochoreological transcription type</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> type_of_trans_etnochor_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Select the type of transcription adopted to describe or represent a choreographic practice (e.g., Labanotation, symbolic, descriptive). Options are drawn from a controlled vocabulary of ethnochoreological practices.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="type_of_annotation_etnochor_ME">1.4.5 Type of ethnocoreological annotation</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> type_of_annotation_etnochor_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indicate the type of annotation used to supplement or interpret an ethnochoreological transcript. Selection from controlled menu.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="ca_objects">1.5 Related Resources</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Relationship</p> <p><strong>CA element code:</strong> ca_objects</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> If the resource is (or contains) an oral source or a poetic formit is possible in the relevant field the resource that is a transcription of its text, if the same has already been cataloged, or enter via quick add a new resource.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="ca_objects">1.6 Related Resources</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Relationship</p> <p><strong>CA element code:</strong> ca_objects</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Allows you to add a digital annotation/segmentation for the audiovisual resource or for a sound recording.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+</body>
+</html>

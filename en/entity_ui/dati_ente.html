@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>Institutin Data</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+</head>
+<body>
+<h3 class="toc-header" id="idno">1.1 Identifier</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Identifier</p> <p><strong>CA element code:</strong> idno</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="preferred_labels">1.2 Official name</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> N/A</p> <p><strong>CA element code:</strong> preferred_labels</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="alt_name_ME">1.3 Alternative name</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> alt_name_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Any alternative names, acronyms, acronyms or language forms other than the official name.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="corporate_body_type_ME">1.4 Corporate body type</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> corporate_body_type_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> indicate the type of collective organization [not currently implemented].</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="authority_entities_CN">1.5 Authority services and identifiers</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> authority_entities_CN</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Structured container for managing regulatory identifiers and external authority services linked to the entity (person, entity, collective).
+The following fields exploit Linked Data mechanisms with automatic search and suggestions from external knowledge bases.
+They foster semantic interoperability, disambiguation, and alignment to international standards.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="WIKIPEDIA_ME">1.5.1 Wikipedia</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> WIKIPEDIA_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Linked Data field that allows the entity to be associated with a Wikipedia entry by search and selection.
+Entries in different languages can be selected. Association encourages linking to popular and contextual content.
+The chosen entry must be consistent with the agent's identity and unambiguous.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="wikidata_correlation_ME">1.5.2 Correspondence with Wikidata entity</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> wikidata_correlation_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Linked Data field for selecting the corresponding entity in Wikidata.
+Association with a Wikidata entity (e.g., Q5582) allows integration with a large semantic graph and inheritance of external properties (e.g., VIAF, ISNI, BNF, LC).
+It is recommended to always validate that the selected entity is correct and up-to-date.</p></blockquote>
+<blockquote class="is-warning"><p>Linked Data field: for the allowed terms, updated on <span class="dynamic-datetime"></span>, click the following link to run the query in real time: <a class="is-external-link" href="https://query.wikidata.org/embed.html#select%20distinct%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Flang%20%0Awhere%20%7B%0A%20%20%20SERVICE%20wikibase%3Amwapi%20%7B%0A%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Aendpoint%20%22www.wikidata.org%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20wikibase%3Aapi%20%22EntitySearch%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20mwapi%3Asearch%20%22%2A%2A%2APLACEHOLDER%2A%2A%2A%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20mwapi%3Alanguage%20%22it%22.%0A%20%20%20%20%20%20%3Fitem%20wikibase%3AapiOutputItem%20mwapi%3Aitem.%0A%20%20%20%20%20%20%3Fnum%20wikibase%3AapiOrdinal%20true.%0A%20%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cit%2Cen%22%20.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%3Fitem%20%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22en%22%29%29%0A%20%20%20%7D%0A%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22en%22%29%29%0A%20%20%20%20%20%20FILTER%28LANG%28%3FitemLabel%29%20%3D%20LANG%28%3FitemDescription%29%29%0A%20%20%20%20BIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%7D" target="_blank">Run Query</a> (for complex queries, wait several seconds before results are returned).</p></blockquote>
+<button class="query-toggle-button" data-target="wikidata_correlation_ME-query">Show Query</button>
+<blockquote id="wikidata_correlation_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">select distinct ?item ?itemLabel ?itemDescription ?lang 
+where {
+   SERVICE wikibase:mwapi {
+      bd:serviceParam wikibase:endpoint "www.wikidata.org";
+                      wikibase:api "EntitySearch";
+                      mwapi:search "***PLACEHOLDER***";
+                      mwapi:language "it".
+      ?item wikibase:apiOutputItem mwapi:item.
+      ?num wikibase:apiOrdinal true.
+  }
+  SERVICE wikibase:label {
+                   bd:serviceParam wikibase:language "[AUTO_LANGUAGE],it,en" .
+                   }
+  ?item (rdfs:label|skos:altLabel) ?itemLabel.
+  OPTIONAL {
+     ?item schema:description ?itemDescription.
+      FILTER(LANGMATCHES(LANG(?itemDescription), "it") || LANGMATCHES(LANG(?itemDescription), "en"))
+   }
+  FILTER(LANGMATCHES(LANG(?itemLabel), "it") || LANGMATCHES(LANG(?itemLabel), "en"))
+      FILTER(LANG(?itemLabel) = LANG(?itemDescription))
+    BIND(LANG(?itemLabel) AS ?lang)
+}</code></pre></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="VIAF_IS">1.5.3 VIAF (from Wikidata)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> VIAF_IS</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Linked Data derived field (read-only or suggested) that retrieves the Virtual International Authority File (VIAF) identifier corresponding to the entity, if present in Wikidata.
+VIAF links authority files from national and international libraries (LC, BNF, DNB, etc.) into a single shared entity.</p></blockquote>
+<blockquote class="is-warning"><p>Linked Data field: for the allowed terms, updated on <span class="dynamic-datetime"></span>, click the following link to run the query in real time: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20distinct%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fvalue%20%3Flang%20%3FViafLink%0AWHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cit%2Cen%22.%20%7D%0A%20%20%0A%20%20%3Fitem%20wdt%3AP214%20%3Fvalue%20.%20%0A%20%20SERVICE%20wikibase%3Amwapi%20%7B%0A%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Aendpoint%20%22www.wikidata.org%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20wikibase%3Aapi%20%22EntitySearch%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20mwapi%3Asearch%20%22%2A%2A%2APLACEHOLDER%2A%2A%2A%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20mwapi%3Alanguage%20%22it%22.%0A%20%20%20%20%20%20%3Fitem%20wikibase%3AapiOutputItem%20mwapi%3Aitem.%0A%20%20%20%20%20%20%3Fnum%20wikibase%3AapiOrdinal%20true.%0A%20%20%7D%0A%20%20%3Fitem%20%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22en%22%29%29%0A%20%20%20%7D%0A%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22en%22%29%29%0A%20%20%20%20%20%20FILTER%28LANG%28%3FitemLabel%29%20%3D%20LANG%28%3FitemDescription%29%29%0A%20%20%20%20BIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%20%20%20BIND%28%0A%20%20CONCAT%28%22VIAF%3A%20%22%2C%20%22https%3A//viaf.org/viaf/%22%2C%20%3Fvalue%29%20AS%20%3FViafLink%0A%29%0A%20%20%0A%20%7D%0Aorder%20by%20%3Fitem" target="_blank">Run Query</a> (for complex queries, wait several seconds before results are returned).</p></blockquote>
+<button class="query-toggle-button" data-target="VIAF_IS-query">Show Query</button>
+<blockquote id="VIAF_IS-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT distinct ?item ?itemLabel ?itemDescription ?value ?lang ?ViafLink
+WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],it,en". }
+  
+  ?item wdt:P214 ?value . 
+  SERVICE wikibase:mwapi {
+      bd:serviceParam wikibase:endpoint "www.wikidata.org";
+                      wikibase:api "EntitySearch";
+                      mwapi:search "***PLACEHOLDER***";
+                      mwapi:language "it".
+      ?item wikibase:apiOutputItem mwapi:item.
+      ?num wikibase:apiOrdinal true.
+  }
+  ?item (rdfs:label|skos:altLabel) ?itemLabel.
+  OPTIONAL {
+     ?item schema:description ?itemDescription.
+      FILTER(LANGMATCHES(LANG(?itemDescription), "it") || LANGMATCHES(LANG(?itemDescription), "en"))
+   }
+  FILTER(LANGMATCHES(LANG(?itemLabel), "it") || LANGMATCHES(LANG(?itemLabel), "en"))
+      FILTER(LANG(?itemLabel) = LANG(?itemDescription))
+    BIND(LANG(?itemLabel) AS ?lang)
+   BIND(
+  CONCAT("VIAF: ", "https://viaf.org/viaf/", ?value) AS ?ViafLink
+)
+  
+ }
+order by ?item</code></pre></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="LcshNamesAuth">1.5.4 Library of Congress Names Authority</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> LCSH</p> <p><strong>CA element code:</strong> LcshNamesAuth</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Linked Data field. Library of Congress name authority (includes names of agents and organizations).</p></blockquote>
+<blockquote class="is-warning"><p><strong>LoC vocabulary (Library of Congress):</strong> For vocabulary terms updated on <span class="dynamic-datetime"></span>, click the following link: <a class="is-external-link" href="http://id.loc.gov/authorities/names" target="_blank">Vocabulary</a>.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="discogs_artist_ME">1.5.5 Discogs Artist ID (URL)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Url</p> <p><strong>CA element code:</strong> discogs_artist_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Enter the unique URL identifying the artist in the Discogs platform, if available.
+The link facilitates interoperability with digital discography repositories and commercial metadata.
+Example: https://www.discogs.com/artist/85775-Miles-Davis</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="discogs_label_ME">1.5.6 Discogs Label ID (URL)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Url</p> <p><strong>CA element code:</strong> discogs_label_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Enter the URL of the record company or phonographic label in the Discogs database.
+Allows the entity to be linked to a label active in phonographic distribution, facilitating editorial analysis and production chains.
+Example: https://www.discogs.com/label/174-CBS</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="codice_ISNI">1.5.7 ISNI Code (URL)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Url</p> <p><strong>CA element code:</strong> codice_ISNI</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Enter the International Standard Name Identifier (ISNI), preferably in URL form.
+ISNI is an ISO standard for unique identification of creators and organizations involved in media content.
+Esempio: https://isni.org/isni/0000000121433805</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="description_body_ME">1.6 Description</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> description_body_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Free text field for a concise but informative description of the institution. It can include information about the history, function, scope of activity, structure, cultural significance, and period of operation.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="logo_ME">1.7 Logo</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Media</p> <p><strong>CA element code:</strong> logo_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Image of the institution's official logo (if any). The file should be relevant and identifying, preferably in good resolution.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="pres_image_ME">1.8 Presentation image</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Media</p> <p><strong>CA element code:</strong> pres_image_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Significant image used as the visual cover of the entity (e.g., headquarters, historic building, heraldic portrait, emblematic event).
+It need not coincide with the logo.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+</body>
+</html>

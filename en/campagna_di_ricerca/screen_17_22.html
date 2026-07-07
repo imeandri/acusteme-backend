@@ -1,0 +1,170 @@
+<html>
+<head>
+<title>N/A</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+</head>
+<body>
+<h3 class="toc-header" id="lchs_sub">1.1 Library of Congress Subject Headings</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> LCSH</p> <p><strong>CA element code:</strong> lchs_sub</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Linked Data field. Library of congress subjects. Refer to the documentation for the correct use of this Subjects.</p></blockquote>
+<blockquote class="is-warning"><p><strong>LoC vocabulary (Library of Congress):</strong> For vocabulary terms updated on <span class="dynamic-datetime"></span>, click the following link: <a class="is-external-link" href="cs:http://id.loc.gov/authorities/subjects" target="_blank">Vocabulary</a>.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="ethno_thesaurus_IS">1.2 AFS ethnographic thesaurus</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> ethno_thesaurus_IS</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Linked Data field. The AFS (American Folklore Society) Ethnographic Thesaurus is a searchable online vocabulary with information on ethnomusicology, cultural anthropology, and related fields. Refer to the documentation for correct usage of terms.</p></blockquote>
+<blockquote class="is-warning"><p>Linked Data field: for the allowed terms, updated on <span class="dynamic-datetime"></span>, click the following link to run the query in real time: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3FLOCLink%20%3Flang%0AWHERE%20%7B%0A%20%20%0A%20%20%20%20%3Fitem%20wdt%3AP8540%20%3Fid.%0A%20%20%20%20%3Fitem%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%23%20%20%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22en%22%29%29%0A%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22en%22%29%29%0A%20%20%20%20FILTER%28LANG%28%3FitemLabel%29%20%3D%20LANG%28%3FitemDescription%29%29%0A%20%20%20%0A%20%20BIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2C%20en%2C%20it%22.%20%7D%20%0A%20%20%20BIND%28%0A%20%20CONCAT%28%0A%20%20%20%20%22LOC%20Vocabulary%3A%20%22%2C%20%20%0A%20%20%20%20IF%28BOUND%28%3Fid%29%2C%20%22%20%22%2C%20%22%22%29%2C%20%0A%20%20%20%20CONCAT%28%22https%3A//id.loc.gov/vocabulary/ethnographicTerms/%22%2C%20%3Fid%29%0A%20%20%29%20AS%20%3FLOCLink%0A%29%0A%7D%20%0Aorder%20by%20%3Fitem" target="_blank">Run Query</a> (for complex queries, wait several seconds before results are returned).</p></blockquote>
+<button class="query-toggle-button" data-target="ethno_thesaurus_IS-query">Show Query</button>
+<blockquote id="ethno_thesaurus_IS-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT ?item ?itemLabel ?itemDescription ?LOCLink ?lang
+WHERE {
+  
+    ?item wdt:P8540 ?id.
+    ?item(rdfs:label|skos:altLabel) ?itemLabel.
+    FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+    FILTER(LANGMATCHES(LANG(?itemLabel), "it") || LANGMATCHES(LANG(?itemLabel), "en"))
+    ?item schema:description ?itemDescription.
+    FILTER(LANGMATCHES(LANG(?itemDescription), "it") || LANGMATCHES(LANG(?itemDescription), "en"))
+    FILTER(LANG(?itemLabel) = LANG(?itemDescription))
+   
+  BIND(LANG(?itemLabel) AS ?lang)
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE], en, it". } 
+   BIND(
+  CONCAT(
+    "LOC Vocabulary: ",  
+    IF(BOUND(?id), " ", ""), 
+    CONCAT("https://id.loc.gov/vocabulary/ethnographicTerms/", ?id)
+  ) AS ?LOCLink
+)
+} 
+order by ?item</code></pre></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="unesco_thesaurus_IS">1.3 UNESCO Thesaurus</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> unesco_thesaurus_IS</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Linked Data field. The UNESCO Thesaurus is a controlled and structured list of terms used for the analysis and retrieval of documents and publications in the fields of education, culture, natural sciences, social sciences and humanities, communication and information.</p></blockquote>
+<blockquote class="is-warning"><p>Linked Data field: for the allowed terms, updated on <span class="dynamic-datetime"></span>, click the following link to run the query in real time: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Flang%20%3Fid%20%3FUnesco_id%20%0AWHERE%20%7B%0A%20%20%0A%20%20%3Fitem%20wdt%3AP3916%20%3Fid.%0A%0A%20%20%3Fitem%20%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%0A%20%20FILTER%28CONTAINS%28LCASE%28%3FitemLabel%29%2C%20%22%2A%2A%2APLACEHOLDER%2A%2A%2A%22%29%29%0A%0A%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22en%22%29%29%0A%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22en%22%29%29%0A%20%20%7D%0A%0A%20%20BIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%2Cit%22.%20%7D%0A%0A%20%20BIND%28CONCAT%28%22Unesco%20Thesaurus%3A%20%22%2C%20%22https%3A//vocabularies.unesco.org/thesaurus/%22%2C%20%3Fid%29%20AS%20%3FUnesco_id%29%0A%0A%7D%20%0AORDER%20BY%20%3Fitem%0ALIMIT%2050" target="_blank">Run Query</a> (for complex queries, wait several seconds before results are returned).</p></blockquote>
+<button class="query-toggle-button" data-target="unesco_thesaurus_IS-query">Show Query</button>
+<blockquote id="unesco_thesaurus_IS-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT ?item ?itemLabel ?itemDescription ?lang ?id ?Unesco_id 
+WHERE {
+  
+  ?item wdt:P3916 ?id.
+
+  ?item (rdfs:label|skos:altLabel) ?itemLabel.
+
+  FILTER(CONTAINS(LCASE(?itemLabel), "***PLACEHOLDER***"))
+
+  FILTER(LANGMATCHES(LANG(?itemLabel), "it") || LANGMATCHES(LANG(?itemLabel), "en"))
+
+  OPTIONAL {
+    ?item schema:description ?itemDescription.
+    FILTER(LANGMATCHES(LANG(?itemDescription), "it") || LANGMATCHES(LANG(?itemDescription), "en"))
+  }
+
+  BIND(LANG(?itemLabel) AS ?lang)
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,it". }
+
+  BIND(CONCAT("Unesco Thesaurus: ", "https://vocabularies.unesco.org/thesaurus/", ?id) AS ?Unesco_id)
+
+} 
+ORDER BY ?item
+LIMIT 50</code></pre></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="unesco_ICHD_IS">1.4 UNESCO Intangible Cultural Heritage Lists</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> unesco_ICHD_IS</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> "Linked Data" field.
+Allows the cataloged entity (e.g., practice, event, object, research campaign) to be linked to an official entry in UNESCO's Intangible Cultural Heritage Lists, as defined by the 2003 Convention.
+Includes items included in the Representative List of the Intangible Cultural Heritage of Humanity, the List of Intangible Heritage in Need of Urgent Safeguarding, or Good Practice Programs, Projects and Activities.
+Uses URIs or standard codes to ensure semantic interoperability and alignment with international databases."</p></blockquote>
+<blockquote class="is-warning"><p>Linked Data field: for the allowed terms, updated on <span class="dynamic-datetime"></span>, click the following link to run the query in real time: <a class="is-external-link" href="https://query.wikidata.org/embed.html#%0A%20%20%20%20%20%20%20%20%20%20%20%20SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fid%20%3Flang%20%3FICH%20%20%0AWHERE%20%7B%0A%20%20%0A%20%20%20%3Fitem%20wdt%3AP10221%20%3Fid.%0A%20%20%20%20%20%3Fitem%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%23%20%20%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22en%22%29%29%0A%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22en%22%29%29%0A%20%20%20%20FILTER%28LANG%28%3FitemLabel%29%20%3D%20LANG%28%3FitemDescription%29%29%0A%20%20BIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22it%2C%20en%22.%20%7D%0A%20%20BIND%28%0A%20%20CONCAT%28%22ICH%20UNESCO%3A%20%22%2C%20%22https%3A//ich.unesco.org/en/%22%2C%20%3Fid%29%20AS%20%3FICH%29%0A%0A%20%7D" target="_blank">Run Query</a> (for complex queries, wait several seconds before results are returned).</p></blockquote>
+<button class="query-toggle-button" data-target="unesco_ICHD_IS-query">Show Query</button>
+<blockquote id="unesco_ICHD_IS-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">
+            SELECT DISTINCT ?item ?itemLabel ?itemDescription ?id ?lang ?ICH  
+WHERE {
+  
+   ?item wdt:P10221 ?id.
+     ?item(rdfs:label|skos:altLabel) ?itemLabel.
+    FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+    FILTER(LANGMATCHES(LANG(?itemLabel), "it") || LANGMATCHES(LANG(?itemLabel), "en"))
+    ?item schema:description ?itemDescription.
+    FILTER(LANGMATCHES(LANG(?itemDescription), "it") || LANGMATCHES(LANG(?itemDescription), "en"))
+    FILTER(LANG(?itemLabel) = LANG(?itemDescription))
+  BIND(LANG(?itemLabel) AS ?lang)
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "it, en". }
+  BIND(
+  CONCAT("ICH UNESCO: ", "https://ich.unesco.org/en/", ?id) AS ?ICH)
+
+ }</code></pre></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="LcshNames">1.5 Library of Congress Names</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> LCSH</p> <p><strong>CA element code:</strong> LcshNames</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Library of Congress Subject headings describing this object. To add a new heading simply type the first few letters of the heading and choose the desired one from the displayed list of possible matches.</p></blockquote>
+<blockquote class="is-warning"><p><strong>LoC vocabulary (Library of Congress):</strong> For vocabulary terms updated on <span class="dynamic-datetime"></span>, click the following link: <a class="is-external-link" href="cs:http://id.loc.gov/authorities/names" target="_blank">Vocabulary</a>.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="keyword_MIMO_all_languages_ME">1.6 Mimo Keywords All Languages</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> keyword_MIMO_all_languages_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Multilingual MIMO keywords. Keyword-related menus are populated in real time by querying a LOD version of the controlled vocabularies generated by MIMO.</p></blockquote>
+<blockquote class="is-warning"><p>Linked Data field: for the allowed terms, updated on <span class="dynamic-datetime"></span>, click the following link to run the query in real time: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20%3Fitem%20%3FitemLabel%20%7B%0A%3Fitem%20%3Chttp%3A//www.w3.org/2004/02/skos/core%23inScheme%3E%20%3Chttp%3A//www.mimo-db.eu/InstrumentsKeywords%23%3E%20.%0A%3Fitem%20%3Chttp%3A//www.w3.org/2004/02/skos/core%23prefLabel%3E%20%3FitemLabel%0A%23%20FILTER%20%28REGEX%28%3FitemLabel%2C%20%22%2A%2A%2APLACEHOLDER%2A%2A%2A%22%2C%20%22i%22%29%29%0A%23FILTER%20%28LANG%28%3FitemLabel%29%20%3D%20%22it%22%29%0A%7D%0AORDER%20BY%20%3FitemLabel" target="_blank">Run Query</a> (for complex queries, wait several seconds before results are returned).</p></blockquote>
+<button class="query-toggle-button" data-target="keyword_MIMO_all_languages_ME-query">Show Query</button>
+<blockquote id="keyword_MIMO_all_languages_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT ?item ?itemLabel {
+?item <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.mimo-db.eu/InstrumentsKeywords#> .
+?item <http://www.w3.org/2004/02/skos/core#prefLabel> ?itemLabel
+FILTER (REGEX(?itemLabel, "***PLACEHOLDER***", "i"))
+#FILTER (LANG(?itemLabel) = "it")
+}
+ORDER BY ?itemLabel</code></pre></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="keyword_ME">1.7 Free Keyword</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> keyword_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> In the absence of a subject relevant by the previous fields, or in addition to the identified subjects, insert one or more free keyword.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="bibliography_sources_CN">1.8 Bibliography and Sources – Bibliographic Reference</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> bibliography_sources_CN</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> "List of publications and documentary sources used or produced as part of the research campaign.
+May include monographs, scientific articles, technical reports, theses, archival sources, or published ethnographic materials.
+Use in conjunction with the fields below for a structured description."</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="riferimento_bibliografico">1.8.1 Bibliographic reference</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> riferimento_bibliografico</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> "Full citation of the source in a consistent bibliographic style (e.g., author, title, publisher, year).
+It is the main user-readable field and may be accompanied by identification codes and persistent links in subsequent fields."</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="code_type_ME">1.8.1 Type of code</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> code_type_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> "Specifies the type of identification code associated with the source.
+Examples:
+
+ISBN (for monographs),
+
+VIAF (for authorities),
+
+DOI (for articles and digital publications),
+
+ISRC (for sound recordings),
+
+ARK, Handle, URN (for digital resources in archives or repositories).
+The choice of type determines the validity and interoperability of the ""Code"" field. "</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="codice">1.8.2 Code</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> codice</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> "Value of the identification code (ISBN, DOI, VIAF, etc.) associated with the source.
+It must be consistent with the type given in the previous field.
+Do not enter the entire URL here if it is a permalink: use the dedicated ""URI/permalink"" field instead."</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="URI_permalink">1.8.3 Uri/Permalink</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> URI_permalink</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> "Persistent address (URL, URI or handle) pointing to the bibliographic resource, if available on the network (e.g., digital repositories, open access archives, digital libraries).
+The link should be stable and ideally resolve to a searchable version of the publication or descriptive record."</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="ca_objects">1.9 Related Resources</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Relationship</p> <p><strong>CA element code:</strong> ca_objects</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>DATI PRINCIPALI</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+</head>
+<body>
+<h3 class="toc-header" id="idno">1.1 Identificativo</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Identificativo</p> <p><strong>CA element code:</strong> idno</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="preferred_labels">1.2 Nome dell'indice consolidato</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> N/A</p> <p><strong>CA element code:</strong> preferred_labels</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="index_acronim_ME">1.3 Acronimo</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> index_acronim_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Acronimo</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="consolidated_index_date_ME">1.4 Data dell'indice consolidato</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> DateRange</p> <p><strong>CA element code:</strong> consolidated_index_date_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Sigla o abbreviazione standard di un sistema di classificazione utilizzato per l’indicizzazione della risorsa orale o testuale. Può riferirsi a repertori internazionali o sistemi di riferimento adottati in ambito etnografico, linguistico o narratologico.
+Es: ATU (Aarne-Thompson-Uther) per fiabe e racconti popolari.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="bibliography_sources_CN">1.5 Bibliografia e fonti</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> bibliography_sources_CN</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> "Elenco delle pubblicazioni e fonti documentarie utilizzate o prodotte nell’ambito della campagna di ricerca.
+Può includere monografie, articoli scientifici, rapporti tecnici, tesi, fonti d’archivio o materiali etnografici pubblicati.
+Usare in combinazione con i campi sottostanti per una descrizione strutturata."</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="riferimento_bibliografico">1.5.1 Riferimento bibliografico</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> riferimento_bibliografico</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> "Citazione completa della fonte secondo uno stile bibliografico coerente (es. autore, titolo, editore, anno).
+È il campo principale leggibile per l’utente e può essere accompagnato da codici identificativi e link persistenti nei campi successivi."</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="code_type_ME">1.5.1 Tipologia di codice</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> code_type_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> "Specifica la tipologia del codice identificativo associato alla fonte.
+Esempi:
+
+ISBN (per monografie),
+
+VIAF (per autorità),
+
+DOI (per articoli e pubblicazioni digitali),
+
+ISRC (per registrazioni sonore),
+
+ARK, Handle, URN (per risorse digitali in archivi o repository).
+La scelta del tipo determina la validità e l’interoperabilità del campo ""Codice"". "</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="codice">1.5.2 Codice</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> codice</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> "Valore del codice identificativo (ISBN, DOI, VIAF ecc.) associato alla fonte.
+Deve essere coerente con la tipologia indicata nel campo precedente.
+Non inserire qui l’intero URL se si tratta di un permalink: utilizzare invece il campo dedicato ""URI/permalink""."</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="URI_permalink">1.5.3 URI/permalink</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> URI_permalink</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> "Indirizzo persistente (URL, URI o handle) che punta alla risorsa bibliografica, se disponibile in rete (es. repository digitali, archivi open access, biblioteche digitali).
+Il link dovrebbe essere stabile e idealmente risolversi in una versione consultabile della pubblicazione o del record descrittivo."</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="ca_objects">1.6 Relazioni a Risorse</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Relazione</p> <p><strong>CA element code:</strong> ca_objects</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="status">1.7 Informazioni sullo status della scheda</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Informazione</p> <p><strong>CA element code:</strong> status</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="access">1.8 Informazioni di accesso sui dati della scheda</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Informazione</p> <p><strong>CA element code:</strong> access</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+</body>
+</html>

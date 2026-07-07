@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>Identity</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+</head>
+<body>
+<h3 class="toc-header" id="idno">1.1 Identifier</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Identifier</p> <p><strong>CA element code:</strong> idno</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="nature_CN">1.2 Nature</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> nature_CN</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Closed Vocabulary. Specify whether it is a monograph (M), a unit without a significant title (W), a serial or periodical (S), or, for analytical or perusal descriptions, a component (N).</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="nature_ME">1.2.1 Nature of resource</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> nature_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Enter the code of bibliographic nature according to SBN standards: M → Monograph,
+S → Serial publication, W → Unit without significant title, N → Analytical title (contents/sheet)</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="plan_and_production_process_CN">1.3 Plan and production process</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> plan_and_production_process_CN</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Closed Vocabulary. Specify whether this is a published or unpublished resource.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="plan_and_production_process_ME">1.3.1 Plan and production process</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> plan_and_production_process_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Closed vocabulary distinguishing between:
+
+Published resource: has a finished production plan, intended for distribution (e.g., monograph, article, catalog)
+
+Unpublished resource: material in process, draft, internal preparation, memos not intended for official distribution</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="preparatorymaterial_ME">1.3.2 Preparatory material</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> preparatorymaterial_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Checkbox to select if the resource, while part of the production process (published or not), represents final preparatory material (e.g., gapfiles, drafts, final scripts, unpublished but complete storyboards).
+Ideal for distinguishing between a product resource and a resource functional to the preparation of the product itself.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="form_of_content_ME">1.4 Main content</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> form_of_content_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes (max 3 times)</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Closed vocabulary. Indicate the main and prevailing content of the resource. If none is prevalent indicate "Multiple content." If none is relevant indicate "Other form of content."</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="typeOfEthnoFMRes_ME">1.5 Resource type (ethnomusicology, film music)</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> typeOfEthnoFMRes_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Linked Data field. Indicate the type of resource (e.g., "Cue Sheet," "Field recording"). Enter at least three letters for Linked Data search and choose from the proposed alternatives. See documentation (i) for the list of allowed terms.</p></blockquote>
+<blockquote class="is-warning"><p>Linked Data field: for the allowed terms, updated on <span class="dynamic-datetime"></span>, click the following link to run the query in real time: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Flang%0AWHERE%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP5008%20wd%3AQ120325256.%0A%20%20%20%20%3Fitem%20wdt%3AP2579%20%3Fdiscipline%20.%0A%20%20%20%20VALUES%20%3Fdiscipline%20%7Bwd%3AQ208365%20wd%3AQ164204%7D%0A%20%20%20%20%3Fitem%20wdt%3AP279%20wd%3AQ49848%20.%0A%20%20%20%20%3Fitem%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%23%20%20%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%2A%2A%2APLACEHOLDER%2A%2A%2A%20%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22en%22%29%29%0A%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22en%22%29%29%0A%20%20%20%20FILTER%28LANG%28%3FitemLabel%29%20%3D%20LANG%28%3FitemDescription%29%29%0A%20%20%20%0A%20%20BIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2C%20en%2C%20it%22.%20%7D%20%20%0A%0A%7D%20%0Aorder%20by%20%3Fitem" target="_blank">Run Query</a> (for complex queries, wait several seconds before results are returned).</p></blockquote>
+<button class="query-toggle-button" data-target="typeOfEthnoFMRes_ME-query">Show Query</button>
+<blockquote id="typeOfEthnoFMRes_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT ?item ?itemLabel ?itemDescription ?lang
+WHERE {
+    ?item wdt:P5008 wd:Q120325256.
+    ?item wdt:P2579 ?discipline .
+    VALUES ?discipline {wd:Q208365 wd:Q164204}
+    ?item wdt:P279 wd:Q49848 .
+    ?item(rdfs:label|skos:altLabel) ?itemLabel.
+    FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|***PLACEHOLDER*** |[^ ]+ ***PLACEHOLDER***)", "i"))
+    FILTER(LANGMATCHES(LANG(?itemLabel), "it") || LANGMATCHES(LANG(?itemLabel), "en"))
+    ?item schema:description ?itemDescription.
+    FILTER(LANGMATCHES(LANG(?itemDescription), "it") || LANGMATCHES(LANG(?itemDescription), "en"))
+    FILTER(LANG(?itemLabel) = LANG(?itemDescription))
+   
+  BIND(LANG(?itemLabel) AS ?lang)
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE], en, it". }  
+
+} 
+order by ?item</code></pre></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="sensorialityspecification_ME">1.6 Sensoriality specification</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> sensorialityspecification_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes (max 3 times)</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Closed vocabulary. Indicate the main sensory through which the resource can be enjoyed. Repeatable field (MAX 3 repetitions).</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="cont_lang_ME">1.7 Content language (ISO 639-3)</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> cont_lang_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Linked Data field.Indicate the main language or languages ​​of the content.Start the Linked Research given by entering at least three letters using the ISO language code (e.g. 'kmr' for the northern Kurdish) or the name language ('Ital' for 'Italian' or 'language of Italian signs').Register all the languages ​​of the content, or record at least the main language and indicate that the resource is multilingual in the next field.Repeatable element.</p></blockquote>
+<blockquote class="is-warning"><p>Linked Data field: for the allowed terms, updated on <span class="dynamic-datetime"></span>, click the following link to run the query in real time: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fvalue%20%3Flang%0AWHERE%20%7B%0A%20%20%7B%0A%20%20%20%3Fitem%20wdt%3AP220%20%3Fvalue%3B%0A%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22it%22%29%20%0A%23%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%7D%0AUNION%0A%20%7B%0A%20%20%20%3Fitem%20wdt%3AP220%20%3Fvalue%3B%0A%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22en%22%29%20%0A%23%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP220%20%3Fvalue%20.%0A%23%20%20%20FILTER%20%28REGEX%28%3Fvalue%2C%20%22%2A%2A%2APLACEHOLDER%2A%2A%2A%22%2C%20%22i%22%29%29%20%20%0A%20%20%20%20%7D%20%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22it%2C%20en%22.%20%7D%0ABIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%20%7D" target="_blank">Run Query</a> (for complex queries, wait several seconds before results are returned).</p></blockquote>
+<button class="query-toggle-button" data-target="cont_lang_ME-query">Show Query</button>
+<blockquote id="cont_lang_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT ?item ?itemLabel ?itemDescription ?value ?lang
+WHERE {
+  {
+   ?item wdt:P220 ?value;
+     rdfs:label ?itemLabel.
+ FILTER((LANG(?itemLabel)) = "it") 
+  FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+  }
+UNION
+ {
+   ?item wdt:P220 ?value;
+     rdfs:label ?itemLabel.
+ FILTER((LANG(?itemLabel)) = "en") 
+  FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+  }
+  UNION
+  {
+    ?item wdt:P220 ?value .
+  FILTER (REGEX(?value, "***PLACEHOLDER***", "i"))  
+    }  
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "it, en". }
+BIND(LANG(?itemLabel) AS ?lang)
+ }</code></pre></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="code_lang_ME">1.8 Additional language code</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> code_lang_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Closed Vocabulary. Code to be used, if applicable, in addition to the language indications in the previous field.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+</body>
+</html>

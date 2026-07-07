@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>MAIN DATA</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+</head>
+<body>
+<h3 class="toc-header" id="idno">1.1 Identifier</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Identifier</p> <p><strong>CA element code:</strong> idno</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="worktype_ME">1.2 Work Type</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> worktype_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Select a Work Type</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="preferred_labels">1.3 Uniform title</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> N/A</p> <p><strong>CA element code:</strong> preferred_labels</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="ord_tit_CN">1.4 Sorting</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> ord_tit_CN</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Section dedicated to the management of the work's sorting title, useful for alphabetical placement, indexing and normalization of titles, especially in the presence of initial articles or insignificant titles.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="ord_tit_ME">1.4.1 Sorting Title</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> ord_tit_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Enter the normalized title of the work according to SBN conventions for alphabetical sorting.
+
+The sorting title:
+
+excludes initial articles and non-significant expressions (e.g., "The," "The," "An")
+
+maintains the natural order of significant words
+
+does not contain punctuation marks that are not necessary for identification
+
+It is used for alphabetical sorting in catalogs and for generating uniform titles.
+
+🔗 For complete criteria, refer to the official guide:
+Guide to Cataloging in SBN - Sorting</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="nonsignificanttitle_ME">1.4.2 Non-significant title</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> nonsignificanttitle_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Check to be enabled if the work does not have a meaningful title (e.g., "Concerto No. 2," "Sonata," "Etude").
+
+In this case, the title has no independent identifying function and must be supplemented by other elements (author, numbering, tonality, etc.) to ensure uniqueness.
+
+This option guides the construction of a uniform or conventional title for cataloguing purposes.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="qualifier1_ME">1.4.3 Do not use qualifier 1 (work type)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> qualifier1_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Check to exclude Qualifier 1 from the uniform title</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="qualifier2_ME">1.4.4 Do not use qualifier 2 (agent)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> qualifier2_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Check to exclude Qualifier 2 from the uniform title</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="cont_lang_ME">1.5 Content language (ISO 639-3)</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> cont_lang_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Linked Data field.Indicate the main language or languages ​​of the content.Start the Linked Research given by entering at least three letters using the ISO language code (e.g. 'kmr' for the northern Kurdish) or the name language ('Ital' for 'Italian' or 'language of Italian signs').Register all the languages ​​of the content, or record at least the main language and indicate that the resource is multilingual in the next field.Repeatable element.</p></blockquote>
+<blockquote class="is-warning"><p>Linked Data field: for the allowed terms, updated on <span class="dynamic-datetime"></span>, click the following link to run the query in real time: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fvalue%20%3Flang%0AWHERE%20%7B%0A%20%20%7B%0A%20%20%20%3Fitem%20wdt%3AP220%20%3Fvalue%3B%0A%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22it%22%29%20%0A%23%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%7D%0AUNION%0A%20%7B%0A%20%20%20%3Fitem%20wdt%3AP220%20%3Fvalue%3B%0A%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22en%22%29%20%0A%23%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP220%20%3Fvalue%20.%0A%23%20%20%20FILTER%20%28REGEX%28%3Fvalue%2C%20%22%2A%2A%2APLACEHOLDER%2A%2A%2A%22%2C%20%22i%22%29%29%20%20%0A%20%20%20%20%7D%20%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22it%2C%20en%22.%20%7D%0ABIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%20%7D" target="_blank">Run Query</a> (for complex queries, wait several seconds before results are returned).</p></blockquote>
+<button class="query-toggle-button" data-target="cont_lang_ME-query">Show Query</button>
+<blockquote id="cont_lang_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT ?item ?itemLabel ?itemDescription ?value ?lang
+WHERE {
+  {
+   ?item wdt:P220 ?value;
+     rdfs:label ?itemLabel.
+ FILTER((LANG(?itemLabel)) = "it") 
+  FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+  }
+UNION
+ {
+   ?item wdt:P220 ?value;
+     rdfs:label ?itemLabel.
+ FILTER((LANG(?itemLabel)) = "en") 
+  FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+  }
+  UNION
+  {
+    ?item wdt:P220 ?value .
+  FILTER (REGEX(?value, "***PLACEHOLDER***", "i"))  
+    }  
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "it, en". }
+BIND(LANG(?itemLabel) AS ?lang)
+ }</code></pre></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="code_lang_ME">1.6 Additional language code</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> code_lang_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Closed Vocabulary. Code to be used, if applicable, in addition to the language indications in the previous field.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="other_title_work_CN">1.7 Other title</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> other_title_work_CN</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Section devoted to the inclusion of one or more alternative titles of the work.
+These may include:
+
+parallel titles (in another language)
+
+formal variants
+
+abbreviated or expanded titles
+
+alternate historical or editorial titles
+
+The presence of multiple titles should be handled carefully to ensure the uniqueness and proper placement of the work in the catalographic and informational context.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="othertitle_labework_ME">1.7.1 Other title</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> othertitle_labework_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Text field to enter the alternate title of the work, in the form exactly as attested on the source or in publishing tradition.
+Use a form consistent with documented or recorded usage.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="nature_of_the_title_work2_ME">1.7.1 Nature</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> nature_of_the_title_work2_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Value selectable from controlled vocabulary to define the nature of the title entered, consistent with SBN and REICAT standards.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="tit_langwork_ME">1.7.2 Title language</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> tit_langwork_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Linked Data field. Indicate the main language(s) of the content. Start the Linked Data search by entering at least three letters using the ISO language code (e.g., 'kmr' for North Kurdish) or language name ('ital' for 'Italian' or 'Italian sign language'). Record all languages in the content, or record at least the primary language and indicate that the resource is multilingual in the next field. Repeatable element.</p></blockquote>
+<blockquote class="is-warning"><p>Linked Data field: for the allowed terms, updated on <span class="dynamic-datetime"></span>, click the following link to run the query in real time: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fvalue%20%3Flang%0AWHERE%20%7B%0A%20%20%7B%0A%20%20%20%3Fitem%20wdt%3AP220%20%3Fvalue%3B%0A%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22it%22%29%20%0A%23%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%7D%0AUNION%0A%20%7B%0A%20%20%20%3Fitem%20wdt%3AP220%20%3Fvalue%3B%0A%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22en%22%29%20%0A%23%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP220%20%3Fvalue%20.%0A%23%20%20%20FILTER%20%28REGEX%28%3Fvalue%2C%20%22%2A%2A%2APLACEHOLDER%2A%2A%2A%22%2C%20%22i%22%29%29%20%20%0A%20%20%20%20%7D%20%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22it%2C%20en%22.%20%7D%0ABIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%20%7D" target="_blank">Run Query</a> (for complex queries, wait several seconds before results are returned).</p></blockquote>
+<button class="query-toggle-button" data-target="tit_langwork_ME-query">Show Query</button>
+<blockquote id="tit_langwork_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT ?item ?itemLabel ?itemDescription ?value ?lang
+WHERE {
+  {
+   ?item wdt:P220 ?value;
+     rdfs:label ?itemLabel.
+ FILTER((LANG(?itemLabel)) = "it") 
+  FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+  }
+UNION
+ {
+   ?item wdt:P220 ?value;
+     rdfs:label ?itemLabel.
+ FILTER((LANG(?itemLabel)) = "en") 
+  FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+  }
+  UNION
+  {
+    ?item wdt:P220 ?value .
+  FILTER (REGEX(?value, "***PLACEHOLDER***", "i"))  
+    }  
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "it, en". }
+BIND(LANG(?itemLabel) AS ?lang)
+ }</code></pre></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="record_res_add_lang_work_ME">1.7.3 Additional language code</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> record_res_add_lang_work_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Closed Vocabulary. Code to be used, if applicable, in addition to the language indications in the previous field.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>Access and Use</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+</head>
+<body>
+<h3 class="toc-header" id="accessrestrict">1.1 Access Conditions</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> accessrestrict</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Specify the law or legal status, contract, regulation or policy that affects access to the unit
+            of description. Indicate the extent of the period of closure and the date at which the
+            material will open when appropriate.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="physaccessrestrict">1.2 Physical Access</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> physaccessrestrict</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indicate any important physical conditions, such as preservation requirements, that affect
+            the use of the unit of description. Note any software and/or hardware required to access
+            the unit of description.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="techaccessrestrict">1.3 Technical Access</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> techaccessrestrict</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indicate any important physical conditions, such as preservation requirements, that affect
+            the use of the unit of description. Note any software and/or hardware required to access
+            the unit of description.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="reproduction">1.4 Reproduction Conditions</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> reproduction</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Give information about conditions, such as copyright, governing  the reproduction of the
+            unit of description after access has been provided.  If the existence of such conditions is
+            unknown, record this. If there are no conditions, no statement is necessary.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="langmaterial">1.5 Languages and Scripts of Material</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> langmaterial</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Record the language(s) and/or script(s) of the materials comprising the unit of description.
+            Note any distinctive alphabets, scripts, symbol systems or abbreviations employed.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="material">1.5.1 Material</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> material</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indicates the material whose language is specified.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="RR_language_ME">1.5.1 Language (ISO 639-3)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> RR_language_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Linked data field. Specifies the primary language of the archival resource, according to ISO 639-2 or ISO 639-3 standard codes. Search by language label (e.g., "ital" for Italian, or by ISO code,) is possible.</p></blockquote>
+<blockquote class="is-warning"><p>Linked Data field: for the allowed terms, updated on <span class="dynamic-datetime"></span>, click the following link to run the query in real time: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fvalue%20%20%0AWHERE%20%7B%0A%20%20%7B%0A%20%20%20%3Fitem%20wdt%3AP220%20%3Fvalue%3B%0A%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22it%22%29%20%0A%23%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%7D%0AUNION%0A%20%7B%0A%20%20%20%3Fitem%20wdt%3AP220%20%3Fvalue%3B%0A%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22en%22%29%20%0A%23%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP220%20%3Fvalue%20.%0A%23%20%20%20FILTER%20%28REGEX%28%3Fvalue%2C%20%22%2A%2A%2APLACEHOLDER%2A%2A%2A%22%2C%20%22i%22%29%29%20%20%0A%20%20%20%20%7D%20%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22it%2C%20en%22.%20%7D%0A%0A%20%7D" target="_blank">Run Query</a> (for complex queries, wait several seconds before results are returned).</p></blockquote>
+<button class="query-toggle-button" data-target="RR_language_ME-query">Show Query</button>
+<blockquote id="RR_language_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT ?item ?itemLabel ?itemDescription ?value  
+WHERE {
+  {
+   ?item wdt:P220 ?value;
+     rdfs:label ?itemLabel.
+ FILTER((LANG(?itemLabel)) = "it") 
+  FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+  }
+UNION
+ {
+   ?item wdt:P220 ?value;
+     rdfs:label ?itemLabel.
+ FILTER((LANG(?itemLabel)) = "en") 
+  FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+  }
+  UNION
+  {
+    ?item wdt:P220 ?value .
+  FILTER (REGEX(?value, "***PLACEHOLDER***", "i"))  
+    }  
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "it, en". }
+
+ }</code></pre></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="record_res_add_lang_code_ME">1.6 Additional language code</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> record_res_add_lang_code_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> "Enter here the additional language codes provided by the SBN standard. These codes (three-letter alphanumeric, integrated ISO 639-2) allow you to specify up to three languages present in the resource, in order of predominance.
+If more than three languages are present, enter the predominant language code followed by MUL (multilingual).
+
+Also use conventional SBN codes for:
+
+MIS (uncoded languages),
+
+UND (unidentifiable language),
+
+ABS (resource without language content)."</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="otherfindingaid">1.7 Finding Aids</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> otherfindingaid</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Give information about any finding aids that the repository or records creator may have
+            that provide information relating to the context and contents of the unit of description.
+            If appropriate, include information on where to obtain a copy.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+</body>
+</html>

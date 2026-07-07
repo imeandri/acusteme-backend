@@ -1,0 +1,525 @@
+<html>
+<head>
+<title>DATI PRINCIPALI</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+</head>
+<body>
+<h3 class="toc-header" id="idno">1.1 Identificativo</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Identificativo</p> <p><strong>CA element code:</strong> idno</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="preferred_labels">1.2 Titolo dell'Espressione</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> N/A</p> <p><strong>CA element code:</strong> preferred_labels</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="expression_ME">1.3 Tipologia di espressione</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> expression_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Selezionare una tipologia di Espressione tra i termini del vocabolario controllato presenti nel menù a discesa.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="instr_elab_CN">1.4 Tipo di elaborazione e mezzo di esecuzione</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> instr_elab_CN</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Sezione strutturata per l’inserimento della tipologia di elaborazione musicale dell'Espressione e dell’organico codificato in formato codificato.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="type_of_elaboration_ME">1.4.1 Tipo di elaborazione musicale</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> type_of_elaboration_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Inserire nei campi dedicati la tipologia di elaborazione musicale dell'Espressione scegliendo uno dei termini del vocabolario controllato presenti nel menù a discesa</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="organico_sintetico_elab">1.4.2 Organico sintetico</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> organico_sintetico_elab</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Descrizione sintetica dell’organico elaborato, secondo le convenzioni SBN MARC (U9B.2 – M8B2).
+Contiene soltanto il numero di voci/strumenti solisti (seguite da "V" o "str") e/o il nome del complesso (es. "2str", "Coro(4V)").
+Usare le abbreviazioni codificate, separate da virgola, senza spazi, in accordo con la guida SBN Musica (U9B.2 – M8B2)</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="organico_analitico_elab">1.4.3 Organico analitico (SBN MARC)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> organico_analitico_elab</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Dettaglio analitico dell’organico elaborato, secondo le convenzioni SBN MARC (U9B.3 – M8B3).
+Include ogni singola voce o strumento con abbreviazioni codificate (es. "pf-solo,2fl,2ob"), separate da virgola, senza spazi.
+Consultare la guida SBN Musica (U9B.3 – M8B3) per schema e codici ammessi</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="analyticinstrum_CN">1.5 Elaborazione: organico analitico (codificato UNIMARC/IFLA)</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> analyticinstrum_CN</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Sezione strutturata per l’inserimento dell’organico codificato secondo i vocabolari UNIMARC/IFLA per strumenti e voci.
+Idealmente utilizzata quando serve interoperabilità semantica o funzionalità di ricerca avanzata.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="numitem_ME">1.5.1 Numero item</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Integer</p> <p><strong>CA element code:</strong> numitem_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo tecnico obbligatorio per la strutturazione accurata dei dati. Inserire un numero progressivo per ciascun elemento dell'organico.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="numitemalt_ME">1.5.2 Alternativo a item:</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Integer</p> <p><strong>CA element code:</strong> numitemalt_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Inserire il numero di item al quale è alternativo. Esempio: per tradurre la stringa fl/ob si dovrà inserire per il flauto "Numero item: 1; Alternativo a item: -", per l'oboe "Numero item: 2; Alternativo a item: 1"</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="numplayers_ME">1.5.1 Num esecutori (≥ 2)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Integer</p> <p><strong>CA element code:</strong> numplayers_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Inserire il numero degli esecutori previsti per lo strumento indicato, se specificato nella risorsa. Ad esempio per i gruppi di percussioni possono essere previsti più esecutori.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="group_ME">1.5.2 Gruppo/Ensemble</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> group_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo Linked Data per la selezione di specifiche tipologie di gruppi strumentali. Ad esempio "orchestra", "gruppo di percussioni", "banda" ecc.</p></blockquote>
+<blockquote class="is-warning"><p>Campo Linked Data: Per i termini ammissibili, aggiornati al <span class="dynamic-datetime"></span>, clicca sul seguente link per eseguire la query in tempo reale: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fvalue%20%3Flang%0AWHERE%20%7B%0A%0A%7B%0A%3Fitem%20wdt%3AP31%20wd%3AQ105756498%20.%0A%3Fitem%20%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%23%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%3Fitem%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%7D%0AUNION%0A%7B%0A%3Fitem%20wdt%3AP279%20wd%3AQ2088357%20.%0A%3Fitem%20%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%23%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%3Fitem%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%7D%0AFILTER%28LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22en%22%29%29%0A%3Fitem%20schema%3Adescription%20%3FitemDescription.%0AFILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22en%22%29%29%0AFILTER%28LANG%28%3FitemLabel%29%20%3D%20LANG%28%3FitemDescription%29%29%0A%0A%20%20BIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0ASERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%2C%20en%2C%20it%22.%20%7D%0A%7D%0Aorder%20by%20%3Fitem%0A%0A" target="_blank">Esegui Query</a> (attenzione: per query complesse occorre attendere diversi secondi prima della restituzione dei risultati).</p></blockquote>
+<button class="query-toggle-button" data-target="group_ME-query">Mostra Query</button>
+<blockquote id="group_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT ?item ?itemLabel ?itemDescription ?value ?lang
+WHERE {
+
+{
+?item wdt:P31 wd:Q105756498 .
+?item (rdfs:label|skos:altLabel) ?itemLabel.
+FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+?item(rdfs:label|skos:altLabel) ?itemLabel.
+}
+UNION
+{
+?item wdt:P279 wd:Q2088357 .
+?item (rdfs:label|skos:altLabel) ?itemLabel.
+FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+?item(rdfs:label|skos:altLabel) ?itemLabel.
+}
+FILTER(LANGMATCHES(LANG(?itemLabel), "it") || LANGMATCHES(LANG(?itemLabel), "en"))
+?item schema:description ?itemDescription.
+FILTER(LANGMATCHES(LANG(?itemDescription), "it") || LANGMATCHES(LANG(?itemDescription), "en"))
+FILTER(LANG(?itemLabel) = LANG(?itemDescription))
+
+  BIND(LANG(?itemLabel) AS ?lang)
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE, en, it". }
+}
+order by ?item
+
+</code></pre></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="groupnumber_ME">1.5.3 Numero gruppo</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> groupnumber_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Inserire un numero relativo al gruppo interno all'organico. Ad esempio nel caso di doppio coro si compilernno i campi come segue: "Gruppo: Coro; Numero gruppo: 1; Gruppo: Coro; Numero gruppo: 2"</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="numberofinstruments_ME">1.5.1 Num elementi (≥ 2)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Integer</p> <p><strong>CA element code:</strong> numberofinstruments_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Inserire il numero di elementi previsto se specificato nella risorsa. Ad esempio 12 violini</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="mediumofperf_ME">1.5.2 Mezzo di esecuzione</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> mediumofperf_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo Linked Data per la selezione del mezzo di esecuzione associato all’opera o alla sua elaborazione.
+
+Utilizzare voci controllate che rappresentano strumenti, voci e gruppi esecutivi codificati secondo i termini UNIMARC/IFLA o i thesauri interoperabili (es. MARC Code List for Medium of Performance oppure RISM Instrumentation Terms).</p></blockquote>
+<blockquote class="is-warning"><p>Campo Linked Data: Per i termini ammissibili, aggiornati al <span class="dynamic-datetime"></span>, clicca sul seguente link per eseguire la query in tempo reale: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20distinct%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fvalue%20%20%0AWHERE%20%7B%0A%20%20%7B%3Fitem%20wdt%3AP8516%20%3Fvalue%3B%0A%20%20%20%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20%20%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22it%22%29%20%0A%23%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20LANG%28%3FitemLabel%29%29%29%0A%20%20%7D%0A%20%20%7D%0AUNION%0A%20%7B%0A%20%20%20%3Fitem%20wdt%3AP8516%20%3Fvalue%3B%0A%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20%20%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22en%22%29%20%0A%23%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20LANG%28%3FitemLabel%29%29%29%0A%20%20%7D%0A%20%20%7D%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22it%2C%20en%22.%20%7D%0A%0A%20%7D%0A%0AORDER%20BY%20%3Fitem" target="_blank">Esegui Query</a> (attenzione: per query complesse occorre attendere diversi secondi prima della restituzione dei risultati).</p></blockquote>
+<button class="query-toggle-button" data-target="mediumofperf_ME-query">Mostra Query</button>
+<blockquote id="mediumofperf_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT distinct ?item ?itemLabel ?itemDescription ?value  
+WHERE {
+  {?item wdt:P8516 ?value;
+        rdfs:label ?itemLabel.
+  
+ FILTER((LANG(?itemLabel)) = "it") 
+ FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+ OPTIONAL {
+    ?item schema:description ?itemDescription.
+    FILTER(LANGMATCHES(LANG(?itemDescription), LANG(?itemLabel)))
+  }
+  }
+UNION
+ {
+   ?item wdt:P8516 ?value;
+     rdfs:label ?itemLabel.
+  
+ FILTER((LANG(?itemLabel)) = "en") 
+ FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+ OPTIONAL {
+    ?item schema:description ?itemDescription.
+    FILTER(LANGMATCHES(LANG(?itemDescription), LANG(?itemLabel)))
+  }
+  }
+        SERVICE wikibase:label { bd:serviceParam wikibase:language "it, en". }
+
+ }
+
+ORDER BY ?item</code></pre></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="suffix_ME">1.5.4 suffisso</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> suffix_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo opzionale per l’aggiunta di qualificatori o suffissi che specificano ulteriormente le modalità esecutive del medium of performance.
+
+I suffissi servono a raffinare la descrizione dell’organico o dell’esecuzione, indicando caratteristiche particolari della performance come:
+
+Esecuzioni a una sola mano (one hand)
+
+Esecuzioni condivise da più musicisti su un unico strumento (two players on one instrument)
+
+Composizioni per più mani (three hands, four hands, six hands, eight hands)
+
+Strumento preparato (prepared)
+
+Registrato (recorded)
+
+Amplificato (amplified)
+
+Questi suffissi sono utilizzati per arricchire semanticamente il campo “medium of performance”, senza alterarne la struttura principale, ma aggiungendo informazioni esecutive specifiche, fondamentali per l’indicizzazione e la catalogazione analitica della musica contemporanea o sperimentale.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="solo_ME">1.5.5 -solo</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> solo_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Selezionare se la parte indicata è eseguita da un solista, ossia un esecutore principale, distinto dal resto dell’ensemble o accompagnamento.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="voices_ME">1.5.6 Sezione / parte / voci</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> voices_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo usato per indicare una sottoparte dell'organico, come ad esempio:
+
+Sezioni orchestrali (es. "Violini I", "Violini II"): in questo caso indicare la parte con numeri romani.
+
+Voci corali (es. "Soprano", "Alto", "Tenore", "Basso" – SATB)
+
+Serve a dettagliare il ruolo interno del medium of performance nella composizione.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="adlib_ME">1.5.7 -ad libitum</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> adlib_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indica che la parte può essere eseguita a discrezione dell’interprete, cioè non obbligatoria o con libertà d'esecuzione, tipico in alcuni contesti improvvisativi o barocchi.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="overdub_ME">1.5.8 -overdub</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> overdub_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Spunta da selezionare quando la parte è destinata ad essere sovraincisa rispetto a una registrazione preesistente. Utile nel contesto di produzioni multitraccia, home recording o musica elettronica o musica per film.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="elab_ME">1.5.9 -elaborazione digitale</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> elab_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indica che la parte o lo strumento è sottoposto a elaborazione elettronica o digitale, come processi di filtraggio, sintesi, spazializzazione, o altri trattamenti che modificano digitalmente il suono originale.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="analyticinstrum_CN2">1.6 Elaborazione: organico alternativo (/$)</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> analyticinstrum_CN2</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Sezione strutturata per l’inserimento dell’organico codificato secondo i vocabolari UNIMARC/IFLA per strumenti e voci.
+Idealmente utilizzata quando serve interoperabilità semantica o funzionalità di ricerca avanzata.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="numitem_ME2">1.6.1 Numero item</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Integer</p> <p><strong>CA element code:</strong> numitem_ME2</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo tecnico obbligatorio per la strutturazione accurata dei dati. Inserire un numero progressivo per ciascun elemento dell'organico.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="numitemalt_ME2">1.6.2 Alternativo a item:</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Integer</p> <p><strong>CA element code:</strong> numitemalt_ME2</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Inserire il numero di item al quale è alternativo. Esempio: per tradurre la stringa fl/ob si dovrà inserire per il flauto "Numero item: 1; Alternativo a item: -", per l'oboe "Numero item: 2; Alternativo a item: 1"</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="numplayers_ME2">1.6.1 Num esecutori (≥ 2)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Integer</p> <p><strong>CA element code:</strong> numplayers_ME2</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Inserire il numero degli esecutori previsti per lo strumento indicato, se specificato nella risorsa. Ad esempio per i gruppi di percussioni possono essere previsti più esecutori.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="group_ME2">1.6.2 Gruppo/Ensemble</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> group_ME2</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo Linked Data per la selezione di specifiche tipologie di gruppi strumentali. Ad esempio "orchestra", "gruppo di percussioni", "banda" ecc.</p></blockquote>
+<blockquote class="is-warning"><p>Campo Linked Data: Per i termini ammissibili, aggiornati al <span class="dynamic-datetime"></span>, clicca sul seguente link per eseguire la query in tempo reale: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fvalue%20%3Flang%0AWHERE%20%7B%0A%0A%7B%0A%3Fitem%20wdt%3AP31%20wd%3AQ105756498%20.%0A%3Fitem%20%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%23%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%3Fitem%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%7D%0AUNION%0A%7B%0A%3Fitem%20wdt%3AP279%20wd%3AQ2088357%20.%0A%3Fitem%20%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%23%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%3Fitem%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%7D%0AFILTER%28LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22en%22%29%29%0A%3Fitem%20schema%3Adescription%20%3FitemDescription.%0AFILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22it%22%29%20%7C%7C%20LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22en%22%29%29%0AFILTER%28LANG%28%3FitemLabel%29%20%3D%20LANG%28%3FitemDescription%29%29%0A%0A%20%20BIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0ASERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%2C%20en%2C%20it%22.%20%7D%0A%7D%0Aorder%20by%20%3Fitem%0A" target="_blank">Esegui Query</a> (attenzione: per query complesse occorre attendere diversi secondi prima della restituzione dei risultati).</p></blockquote>
+<button class="query-toggle-button" data-target="group_ME2-query">Mostra Query</button>
+<blockquote id="group_ME2-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT ?item ?itemLabel ?itemDescription ?value ?lang
+WHERE {
+
+{
+?item wdt:P31 wd:Q105756498 .
+?item (rdfs:label|skos:altLabel) ?itemLabel.
+FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+?item(rdfs:label|skos:altLabel) ?itemLabel.
+}
+UNION
+{
+?item wdt:P279 wd:Q2088357 .
+?item (rdfs:label|skos:altLabel) ?itemLabel.
+FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+?item(rdfs:label|skos:altLabel) ?itemLabel.
+}
+FILTER(LANGMATCHES(LANG(?itemLabel), "it") || LANGMATCHES(LANG(?itemLabel), "en"))
+?item schema:description ?itemDescription.
+FILTER(LANGMATCHES(LANG(?itemDescription), "it") || LANGMATCHES(LANG(?itemDescription), "en"))
+FILTER(LANG(?itemLabel) = LANG(?itemDescription))
+
+  BIND(LANG(?itemLabel) AS ?lang)
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE, en, it". }
+}
+order by ?item
+</code></pre></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="groupnumber_ME2">1.6.3 Numero gruppo</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> groupnumber_ME2</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Inserire un numero relativo al gruppo interno all'organico. Ad esempio nel caso di doppio coro si compilernno i campi come segue: "Gruppo: Coro; Numero gruppo: 1; Gruppo: Coro; Numero gruppo: 2"</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="numberofinstruments_ME2">1.6.1 Num elementi (≥ 2)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Integer</p> <p><strong>CA element code:</strong> numberofinstruments_ME2</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Inserire il numero di elementi previsto se specificato nella risorsa. Ad esempio 12 violini</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="mediumofperf_ME2">1.6.2 Mezzo di esecuzione</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> mediumofperf_ME2</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo Linked Data per la selezione del mezzo di esecuzione associato all’opera o alla sua elaborazione.
+
+Utilizzare voci controllate che rappresentano strumenti, voci e gruppi esecutivi codificati secondo i termini UNIMARC/IFLA o i thesauri interoperabili (es. MARC Code List for Medium of Performance oppure RISM Instrumentation Terms).</p></blockquote>
+<blockquote class="is-warning"><p>Campo Linked Data: Per i termini ammissibili, aggiornati al <span class="dynamic-datetime"></span>, clicca sul seguente link per eseguire la query in tempo reale: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20distinct%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fvalue%20%20%0AWHERE%20%7B%0A%20%20%7B%3Fitem%20wdt%3AP8516%20%3Fvalue%3B%0A%20%20%20%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20%20%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22it%22%29%20%0A%23%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20LANG%28%3FitemLabel%29%29%29%0A%20%20%7D%0A%20%20%7D%0AUNION%0A%20%7B%0A%20%20%20%3Fitem%20wdt%3AP8516%20%3Fvalue%3B%0A%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20%20%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22en%22%29%20%0A%23%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20LANG%28%3FitemLabel%29%29%29%0A%20%20%7D%0A%20%20%7D%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22it%2C%20en%22.%20%7D%0A%0A%20%7D%0A%0AORDER%20BY%20%3Fitem" target="_blank">Esegui Query</a> (attenzione: per query complesse occorre attendere diversi secondi prima della restituzione dei risultati).</p></blockquote>
+<button class="query-toggle-button" data-target="mediumofperf_ME2-query">Mostra Query</button>
+<blockquote id="mediumofperf_ME2-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT distinct ?item ?itemLabel ?itemDescription ?value  
+WHERE {
+  {?item wdt:P8516 ?value;
+        rdfs:label ?itemLabel.
+  
+ FILTER((LANG(?itemLabel)) = "it") 
+ FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+ OPTIONAL {
+    ?item schema:description ?itemDescription.
+    FILTER(LANGMATCHES(LANG(?itemDescription), LANG(?itemLabel)))
+  }
+  }
+UNION
+ {
+   ?item wdt:P8516 ?value;
+     rdfs:label ?itemLabel.
+  
+ FILTER((LANG(?itemLabel)) = "en") 
+ FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+ OPTIONAL {
+    ?item schema:description ?itemDescription.
+    FILTER(LANGMATCHES(LANG(?itemDescription), LANG(?itemLabel)))
+  }
+  }
+        SERVICE wikibase:label { bd:serviceParam wikibase:language "it, en". }
+
+ }
+
+ORDER BY ?item</code></pre></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="suffix_ME2">1.6.4 suffisso</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> suffix_ME2</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo opzionale per l’aggiunta di qualificatori o suffissi che specificano ulteriormente le modalità esecutive del medium of performance.
+
+I suffissi servono a raffinare la descrizione dell’organico o dell’esecuzione, indicando caratteristiche particolari della performance come:
+
+Esecuzioni a una sola mano (one hand)
+
+Esecuzioni condivise da più musicisti su un unico strumento (two players on one instrument)
+
+Composizioni per più mani (three hands, four hands, six hands, eight hands)
+
+Strumento preparato (prepared)
+
+Registrato (recorded)
+
+Amplificato (amplified)
+
+Questi suffissi sono utilizzati per arricchire semanticamente il campo “medium of performance”, senza alterarne la struttura principale, ma aggiungendo informazioni esecutive specifiche, fondamentali per l’indicizzazione e la catalogazione analitica della musica contemporanea o sperimentale.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="solo_ME2">1.6.5 -solo</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> solo_ME2</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Selezionare se la parte indicata è eseguita da un solista, ossia un esecutore principale, distinto dal resto dell’ensemble o accompagnamento.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="voices_ME2">1.6.6 Sezione / parte / voci</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> voices_ME2</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo usato per indicare una sottoparte dell'organico, come ad esempio:
+
+Sezioni orchestrali (es. "Violini I", "Violini II"): in questo caso indicare la parte con numeri romani.
+
+Voci corali (es. "Soprano", "Alto", "Tenore", "Basso" – SATB)
+
+Serve a dettagliare il ruolo interno del medium of performance nella composizione.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="adlib_ME1">1.6.7 -ad libitum</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> adlib_ME1</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indica che la parte può essere eseguita a discrezione dell’interprete, cioè non obbligatoria o con libertà d'esecuzione, tipico in alcuni contesti improvvisativi o barocchi.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="overdub_ME2">1.6.8 -overdub</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> overdub_ME2</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Spunta da selezionare quando la parte è destinata ad essere sovraincisa rispetto a una registrazione preesistente. Utile nel contesto di produzioni multitraccia, home recording o musica elettronica o musica per film.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="elab_ME2">1.6.9 - elaborazione digitale</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> elab_ME2</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indica che la parte o lo strumento è sottoposto a elaborazione elettronica o digitale, come processi di filtraggio, sintesi, spazializzazione, o altri trattamenti che modificano digitalmente il suono originale.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="tonality_ME">1.7 Tonalità (trasposizioni)</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> tonality_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo Linked Data che identifica la tonalità principale dell’opera musicale secondo il thesaurus IFLA (UNIMARC/21 144 $a) con riferimento alle entità corrispondenti in Wikidata.
+
+✔️ Inserire la tonalità in forma standard (es. Do maggiore, La minore). Il sistema propone i valori codificati validi (es. https://www.iflastandards.info/unimarc/terms/key#c per Do maggiore).
+
+Esempi:
+
+Do maggiore → https://www.wikidata.org/entity/Q83486
+
+Fa diesis minore → https://www.wikidata.org/entity/Q187317</p></blockquote>
+<blockquote class="is-warning"><p>Campo Linked Data: Per i termini ammissibili, aggiornati al <span class="dynamic-datetime"></span>, clicca sul seguente link per eseguire la query in tempo reale: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20distinct%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fvalue%20%3Flang%20%3FiflaLink%0AWHERE%20%7B%0A%20%20%7B%3Fitem%20wdt%3AP9112%20%3Fvalue%3B%0A%20%20%20%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20%20%20FILTER%20%28REGEX%28%3Fvalue%2C%20%22key%23%22%2C%20%22i%22%29%29%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22it%22%29%0A%23%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20LANG%28%3FitemLabel%29%29%29%0A%20%20%7D%0A%20%20%7D%0AUNION%0A%20%7B%0A%20%20%20%3Fitem%20wdt%3AP9112%20%3Fvalue%3B%0A%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20%20%20FILTER%20%28REGEX%28%3Fvalue%2C%20%22key%23%22%2C%20%22i%22%29%29%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22en%22%29%0A%23%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20LANG%28%3FitemLabel%29%29%29%0A%20%20%7D%0A%20%20%7D%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22it%2C%20en%22.%20%7D%0ABIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%20%20%0A%20%20%20%20BIND%28%0A%20%20CONCAT%28%22IFLA%20TERM%3A%20%22%2C%20%22https%3A//www.iflastandards.info/unimarc/terms/%22%2C%20%3Fvalue%29%20AS%20%3FiflaLink%0A%29%0A%0A%0A%20%7D%0A%0AORDER%20BY%20%3Fitem" target="_blank">Esegui Query</a> (attenzione: per query complesse occorre attendere diversi secondi prima della restituzione dei risultati).</p></blockquote>
+<button class="query-toggle-button" data-target="tonality_ME-query">Mostra Query</button>
+<blockquote id="tonality_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT distinct ?item ?itemLabel ?itemDescription ?value ?lang ?iflaLink
+WHERE {
+  {?item wdt:P9112 ?value;
+        rdfs:label ?itemLabel.
+   FILTER (REGEX(?value, "key#", "i"))
+ FILTER((LANG(?itemLabel)) = "it")
+ FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+ OPTIONAL {
+    ?item schema:description ?itemDescription.
+    FILTER(LANGMATCHES(LANG(?itemDescription), LANG(?itemLabel)))
+  }
+  }
+UNION
+ {
+   ?item wdt:P9112 ?value;
+     rdfs:label ?itemLabel.
+   FILTER (REGEX(?value, "key#", "i"))
+ FILTER((LANG(?itemLabel)) = "en")
+ FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+ OPTIONAL {
+    ?item schema:description ?itemDescription.
+    FILTER(LANGMATCHES(LANG(?itemDescription), LANG(?itemLabel)))
+  }
+  }
+        SERVICE wikibase:label { bd:serviceParam wikibase:language "it, en". }
+BIND(LANG(?itemLabel) AS ?lang)
+  
+    BIND(
+  CONCAT("IFLA TERM: ", "https://www.iflastandards.info/unimarc/terms/", ?value) AS ?iflaLink
+)
+
+
+ }
+
+ORDER BY ?item</code></pre></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="modality_ME">1.8 Modo (trasposizioni)</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> modality_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo Linked Data per indicare il modo musicale (modale, tonale, ecc.) secondo la codifica IFLA UNIMARC (21 144 $b).
+
+✔️ Selezionare il modo musicale tra quelli previsti: maggiore, minore, dorico, frigio, misolidio, ecc.
+
+Il collegamento può essere effettuato a risorse controllate come:
+
+Wikidata: modo frigio → https://www.wikidata.org/entity/Q197155
+
+o, in alternativa, a voci controllate interne al sistema.</p></blockquote>
+<blockquote class="is-warning"><p>Campo Linked Data: Per i termini ammissibili, aggiornati al <span class="dynamic-datetime"></span>, clicca sul seguente link per eseguire la query in tempo reale: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20distinct%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fvalue%20%3Flang%20%3FiflaLink%0AWHERE%20%7B%0A%20%20%7B%3Fitem%20wdt%3AP9112%20%3Fvalue%3B%0A%20%20%20%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20%20%20FILTER%20%28REGEX%28%3Fvalue%2C%20%22chm%23%22%2C%20%22i%22%29%29%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22it%22%29%20%0A%23%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20LANG%28%3FitemLabel%29%29%29%0A%20%20%7D%0A%20%20%7D%0AUNION%0A%20%7B%0A%20%20%20%3Fitem%20wdt%3AP9112%20%3Fvalue%3B%0A%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20%20%20FILTER%20%28REGEX%28%3Fvalue%2C%20%22chm%23%22%2C%20%22i%22%29%29%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22en%22%29%20%0A%23%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20LANG%28%3FitemLabel%29%29%29%0A%20%20%7D%0A%20%20%7D%0A%20%20%20%20%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22it%2C%20en%22.%20%7D%0ABIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%20%20%0A%20%20%20%20BIND%28%0A%20%20CONCAT%28%22IFLA%20TERM%3A%20%22%2C%20%22https%3A//www.iflastandards.info/unimarc/terms/%22%2C%20%3Fvalue%29%20AS%20%3FiflaLink%0A%29%0A%20%20%0A%20%7D%0A%0AORDER%20BY%20%3Fitem" target="_blank">Esegui Query</a> (attenzione: per query complesse occorre attendere diversi secondi prima della restituzione dei risultati).</p></blockquote>
+<button class="query-toggle-button" data-target="modality_ME-query">Mostra Query</button>
+<blockquote id="modality_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT distinct ?item ?itemLabel ?itemDescription ?value ?lang ?iflaLink
+WHERE {
+  {?item wdt:P9112 ?value;
+        rdfs:label ?itemLabel.
+   FILTER (REGEX(?value, "chm#", "i"))
+ FILTER((LANG(?itemLabel)) = "it") 
+ FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+ OPTIONAL {
+    ?item schema:description ?itemDescription.
+    FILTER(LANGMATCHES(LANG(?itemDescription), LANG(?itemLabel)))
+  }
+  }
+UNION
+ {
+   ?item wdt:P9112 ?value;
+     rdfs:label ?itemLabel.
+   FILTER (REGEX(?value, "chm#", "i"))
+ FILTER((LANG(?itemLabel)) = "en") 
+ FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+ OPTIONAL {
+    ?item schema:description ?itemDescription.
+    FILTER(LANGMATCHES(LANG(?itemDescription), LANG(?itemLabel)))
+  }
+  }
+        SERVICE wikibase:label { bd:serviceParam wikibase:language "it, en". }
+BIND(LANG(?itemLabel) AS ?lang)
+  
+    BIND(
+  CONCAT("IFLA TERM: ", "https://www.iflastandards.info/unimarc/terms/", ?value) AS ?iflaLink
+)
+  
+ }
+
+ORDER BY ?item</code></pre></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="representation_recording_CN">1.9 Rappresentazione o registrazione</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> representation_recording_CN</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Sezione strutturata dedicata alla descrizione di rappresentazioni, esecuzioni pubbliche o registrazioni audio/video legate all’opera o alla risorsa documentata. Consente di specificare le informazioni relative alla natura dell’evento (es. rappresentazione scenica, registrazione dal vivo, rimasterizzazione), alla sua collocazione temporale, geografica e istituzionale.
+
+Include dati su genere di rappresentazione, data, periodo, località, sede, occasione e altre informazioni rilevanti.
+
+Se pertinente, incrociare con altri campi come Data di rappresentazione, Luogo, Sede, Occasione, Tipo di evento.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="genre_of_representation_ME">1.9.1 Tipo di rappresentazione</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> genre_of_representation_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Indicare il genere di rappresentazione della risorsa, scegliendo tra i valori predefiniti. Questo campo consente di distinguere la natura dell’evento o del documento sonoro/visivo associato all’opera. I valori disponibili sono:
+
+Rappresentazione: esecuzione scenica o performativa generica (teatro, musica, danza, ecc.);
+
+Prima rappresentazione: prima esecuzione pubblica documentata di un’opera;
+
+Registrazione sonora musicale: registrazione audio in studio o in contesto controllato;
+
+Registrazione dal vivo: registrazione effettuata durante un’esibizione pubblica;
+
+Rimasterizzazione: rielaborazione tecnica di una registrazione preesistente (es. miglioramento audio);
+
+Non specificato: da usare solo quando non è possibile determinare il genere di rappresentazione.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="anno_rappr">1.9.2 Anno</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> DateRange</p> <p><strong>CA element code:</strong> anno_rappr</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo 'daterange': inserire una data singola formattata secondo le normative SBN:
+
+Esempi: 30 Agosto 1746, 1900, 7 Giugno 2007, Giugno 2016.
+
+Per intervalli incerti: utilizzare il formato DATA1-DATA2 (es. 1810-1812), includendo trattino e nessuna data aperta prima o dopo.
+Il sistema supporta date-range e forme incerte (es. 1821?, 085.-089.) secondo le regole SBN e ISBD</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="periodo">1.9.3 Periodo</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> DateRange</p> <p><strong>CA element code:</strong> periodo</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Inserire il periodo storico-culturale o amministrativo correlato alla rappresentazione (es. Seconda guerra mondiale, Fine XVIII secolo).
+Da utilizzare quando non è disponibile una data singola precisa; favorire comunque l'uso di date se reperibili.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="localita">1.9.4 Località</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> localita</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> GeoNames: inserire il nome di una città in qualsiasi lingua (es. Riva presso Chieri, Sulaymaniyah o سلێمانی, Pechino o 北京市, Teheran o تهران) e scegliere tra le proposte.
+Per precisione, è possibile selezionare codici GeoNames:
+
+ADM1 (prima divisione amministrativa, es. Regione),
+
+ADM2 (seconda divisione, es. Provincia),
+
+ADM3 (città),
+
+PCLH (entità politiche storiche, es. Repubblica Democratica Tedesca),
+
+STNB, TERR, GYSR ecc.
+Le coordinate si riferiscono al centro geografico dell’area individuata.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="luogo_rappr">1.9.5 Località (coordinate/areale)</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Geocode</p> <p><strong>CA element code:</strong> luogo_rappr</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo geografico per la rappresentazione della localizzazione della rappresentazione o registrazione sotto forma di coordinate o areale.
+
+In presenza di un riferimento standardizzato, si raccomanda l’uso del campo GeoNames.
+In alternativa, se il luogo non è codificabile tramite GeoNames o se si desidera maggiore precisione, è possibile utilizzare questo campo geocodificato per disegnare aree o areali direttamente sulla mappa all'interno di CollectiveAccess, sfruttando il supporto al disegno vettoriale di poligoni o punti di interesse.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="sede">1.9.6 Sede</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> sede</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Inserire il nome dell’istituzione, edificio, o struttura specifica in cui si è svolta la rappresentazione (es. Teatro Regio Torino, Parco archeologico di Ostia).</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="occasione">1.9.7 Occasione</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> occasione</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Specificare l’evento, festa, cerimonia o contesto celebrativo legato alla rappresentazione (es. Carnevale di Ivrea, Festa del Raccolto, Biennale di Venezia).</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="cont_lang_ME">1.10 Lingua (traduzioni)</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> cont_lang_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo Linked Data. Indicare la lingua o le lingue principali del contenuto. Avviare la ricerca Linked Data inserendo almeno tre lettere utilizzando il codice lingua ISO (ad es. 'kmr' per il curdo settentrionale) o il nome lingua ('ital' per 'italiano' o 'lingua dei segni italiana'). Registrare tutte le lingue del contenuto, o registrare almeno la lingua principale e indicare che la risorsa è multilingue nel campo successivo. Elemento ripetibile.</p></blockquote>
+<blockquote class="is-warning"><p>Campo Linked Data: Per i termini ammissibili, aggiornati al <span class="dynamic-datetime"></span>, clicca sul seguente link per eseguire la query in tempo reale: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fvalue%20%3Flang%0AWHERE%20%7B%0A%20%20%7B%0A%20%20%20%3Fitem%20wdt%3AP220%20%3Fvalue%3B%0A%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22it%22%29%20%0A%23%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%7D%0AUNION%0A%20%7B%0A%20%20%20%3Fitem%20wdt%3AP220%20%3Fvalue%3B%0A%20%20%20%20%20rdfs%3Alabel%20%3FitemLabel.%0A%20FILTER%28%28LANG%28%3FitemLabel%29%29%20%3D%20%22en%22%29%20%0A%23%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP220%20%3Fvalue%20.%0A%23%20%20%20FILTER%20%28REGEX%28%3Fvalue%2C%20%22%2A%2A%2APLACEHOLDER%2A%2A%2A%22%2C%20%22i%22%29%29%20%20%0A%20%20%20%20%7D%20%20%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22it%2C%20en%22.%20%7D%0ABIND%28LANG%28%3FitemLabel%29%20AS%20%3Flang%29%0A%20%7D" target="_blank">Esegui Query</a> (attenzione: per query complesse occorre attendere diversi secondi prima della restituzione dei risultati).</p></blockquote>
+<button class="query-toggle-button" data-target="cont_lang_ME-query">Mostra Query</button>
+<blockquote id="cont_lang_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT ?item ?itemLabel ?itemDescription ?value ?lang
+WHERE {
+  {
+   ?item wdt:P220 ?value;
+     rdfs:label ?itemLabel.
+ FILTER((LANG(?itemLabel)) = "it") 
+  FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+  }
+UNION
+ {
+   ?item wdt:P220 ?value;
+     rdfs:label ?itemLabel.
+ FILTER((LANG(?itemLabel)) = "en") 
+  FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+  }
+  UNION
+  {
+    ?item wdt:P220 ?value .
+  FILTER (REGEX(?value, "***PLACEHOLDER***", "i"))  
+    }  
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "it, en". }
+BIND(LANG(?itemLabel) AS ?lang)
+ }</code></pre></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="code_lang_ME">1.11 Codice aggiuntivo lingua</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> List</p> <p><strong>CA element code:</strong> code_lang_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Vocabolario chiuso. Codice da utilizzare, se pertinente, in aggiunta alle indicazioni di lingua del campo precedente.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+</body>
+</html>

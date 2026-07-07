@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>Materiali/Tecniche</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+</head>
+<body>
+<h3 class="toc-header" id="description_mat_tech_ME">1.1 Descrizione materiali/tecniche</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> description_mat_tech_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Il campo di testo libero consente di precisare informazioni sui materiali e/o di descrivere le tecniche impiegate per la costruzione.</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="materials_ME">1.2 Materiali</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> InformationService</p> <p><strong>CA element code:</strong> materials_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo Linked Data. Si indicano qui i materiali di cui è costituito lo strumento, attraverso un collegamento alla terminologia disponibile su Wikidata. Per un elenco dei termini disponsibili consultare la documentazione.</p></blockquote>
+<blockquote class="is-warning"><p>Campo Linked Data: Per i termini ammissibili, aggiornati al <span class="dynamic-datetime"></span>, clicca sul seguente link per eseguire la query in tempo reale: <a class="is-external-link" href="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3FitemDescription%20%3Fvalue%20%3Furl%20%3Flang%0AWHERE%20%7B%0A%20%20%7B%0A%20%20%20%20%3Fitem%20%3Fp%20%3Fvalue%20.%0A%20%20%20%20VALUES%20%3Fp%20%7Bwdt%3AP4801%20wdt%3AP9112%7D%0A%20%20%20%20%3Fitem%20%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%20%20%20%20FILTER%20%28REGEX%28%3Fvalue%2C%20%22mmaterial%7C3dmat%7Cgraphicspsm%22%2C%20%22i%22%29%29%0A%23%20%20%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22it%22%29%29%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22it%22%29%29%0A%20%20%20%20%7D%0A%20%20%20%20BIND%28%22it%22%20AS%20%3Flang%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20%3Fitem%20%3Fp%20%3Fvalue%20.%0A%20%20%20%20VALUES%20%3Fp%20%7Bwdt%3AP4801%20wdt%3AP9112%20wdt%3AP9236%7D%0A%20%20%20%20%3Fitem%20%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%20%20%20%20FILTER%20%28REGEX%28%3Fvalue%2C%20%22mmaterial%7C3dmat%7Cgraphicsspsm%22%2C%20%22i%22%29%29%0A%23%20%20%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22en%22%29%29%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22en%22%29%29%0A%20%20%20%20%7D%0A%20%20%20%20BIND%28%22en%22%20AS%20%3Flang%29%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%20%0A%20%20%20%20%23%3Fitem%20%3Fp%20%3Fvalue%20.%0A%20%20%20%20%3Fitem%20wdt%3AP1014%20%3Fvalue%20.%0A%20%20%20%20%23VALUES%20%3Fp%20%7Bwdt%3AP4801%20wdt%3AP9112%20wdt%3AP1014%7D%0A%20%20%20%20VALUES%20%3Fitem%20%7Bwd%3AQ226697%20wd%3AQ11472%20wd%3AQ1143474%7D%0A%20%20%20%20VALUES%20%3Fvalue%20%7B%22300014161%22%20%22300014109%22%20%22300011851%22%7D%0A%20%20%20%20%3Fitem%20%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%20%20%20%20%23FILTER%20%28REGEX%28%3Fvalue%2C%20%22mmaterial%7C3dmat%7Cgraphicspsm%22%2C%20%22i%22%29%29%0A%23%20%20%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22it%22%29%29%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22it%22%29%29%0A%20%20%20%20%7D%0A%20%20%20%20BIND%28%22it%22%20AS%20%3Flang%29%0A%20%20%7D%0AUNION%0A%20%20%7B%20%0A%20%20%20%20%23%3Fitem%20%3Fp%20%3Fvalue%20.%0A%20%20%20%20%3Fitem%20wdt%3AP1014%20%3Fvalue%20.%0A%20%20%20%20%23VALUES%20%3Fp%20%7Bwdt%3AP4801%20wdt%3AP9112%20wdt%3AP1014%7D%0A%20%20%20%20VALUES%20%3Fitem%20%7Bwd%3AQ226697%20wd%3AQ11472%20wd%3AQ1143474%7D%0A%20%20%20%20VALUES%20%3Fvalue%20%7B%22300014161%22%20%22300014109%22%20%22300011851%22%7D%0A%20%20%20%20%3Fitem%20%28rdfs%3Alabel%7Cskos%3AaltLabel%29%20%3FitemLabel.%0A%20%20%20%20%23FILTER%20%28REGEX%28%3Fvalue%2C%20%22mmaterial%7C3dmat%7Cgraphicspsm%22%2C%20%22i%22%29%29%0A%23%20%20%20%20%20FILTER%28REGEX%28%3FitemLabel%2C%20%22%5E%28%2A%2A%2APLACEHOLDER%2A%2A%2A%7C%5B%5E%20%5D%2B%20%2A%2A%2APLACEHOLDER%2A%2A%2A%29%22%2C%20%22i%22%29%29%0A%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemLabel%29%2C%20%22en%22%29%29%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%3Fitem%20schema%3Adescription%20%3FitemDescription.%0A%20%20%20%20%20%20FILTER%28LANGMATCHES%28LANG%28%3FitemDescription%29%2C%20%22en%22%29%29%0A%20%20%20%20%7D%0A%20%20%20%20BIND%28%22it%22%20AS%20%3Flang%29%0A%20%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2C%20en%2C%20it%22.%20%7D%0A%20BIND%28%0A%20%20%20%20IF%28REGEX%28%3Fvalue%2C%20%22mmaterial%22%2C%20%22i%22%29%2C%20%0A%20%20%20%20%20%20CONCAT%28%22https%3A//id.loc.gov/vocabulary/%22%2C%20%3Fvalue%29%2C%0A%20%20%20%20%20%20IF%28REGEX%28%3Fvalue%2C%20%223dmat%7Cgraphicspsm%22%2C%20%22i%22%29%2C%0A%20%20%20%20%20%20%20%20CONCAT%28%22https%3A//www.iflastandards.info/unimarc/terms/%22%2C%20%3Fvalue%29%2C%0A%20%20%20%20%20%20%20%20%22-%22%0A%20%20%20%20%20%20%29%0A%20%20%20%20%29%20AS%20%3Furl%0A%20%20%29.%0A%7D%20%0Aorder%20by%20%3Fitem%20%0A" target="_blank">Esegui Query</a> (attenzione: per query complesse occorre attendere diversi secondi prima della restituzione dei risultati).</p></blockquote>
+<button class="query-toggle-button" data-target="materials_ME-query">Mostra Query</button>
+<blockquote id="materials_ME-query" style="display:none;"><pre v-pre="true" class="prismjs line-numbers"><code class="language-sparql">SELECT DISTINCT ?item ?itemLabel ?itemDescription ?value ?url ?lang
+WHERE {
+  {
+    ?item ?p ?value .
+    VALUES ?p {wdt:P4801 wdt:P9112}
+    ?item (rdfs:label|skos:altLabel) ?itemLabel.
+    FILTER (REGEX(?value, "mmaterial|3dmat|graphicspsm", "i"))
+    FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+    FILTER(LANGMATCHES(LANG(?itemLabel), "it"))
+    OPTIONAL {
+      ?item schema:description ?itemDescription.
+      FILTER(LANGMATCHES(LANG(?itemDescription), "it"))
+    }
+    BIND("it" AS ?lang)
+  }
+  UNION
+  {
+    ?item ?p ?value .
+    VALUES ?p {wdt:P4801 wdt:P9112 wdt:P9236}
+    ?item (rdfs:label|skos:altLabel) ?itemLabel.
+    FILTER (REGEX(?value, "mmaterial|3dmat|graphicsspsm", "i"))
+    FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+    FILTER(LANGMATCHES(LANG(?itemLabel), "en"))
+    OPTIONAL {
+      ?item schema:description ?itemDescription.
+     FILTER(LANGMATCHES(LANG(?itemDescription), "en"))
+    }
+    BIND("en" AS ?lang)
+  }
+  UNION
+  { 
+    #?item ?p ?value .
+    ?item wdt:P1014 ?value .
+    #VALUES ?p {wdt:P4801 wdt:P9112 wdt:P1014}
+    VALUES ?item {wd:Q226697 wd:Q11472 wd:Q1143474}
+    VALUES ?value {"300014161" "300014109" "300011851"}
+    ?item (rdfs:label|skos:altLabel) ?itemLabel.
+    #FILTER (REGEX(?value, "mmaterial|3dmat|graphicspsm", "i"))
+    FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+    FILTER(LANGMATCHES(LANG(?itemLabel), "it"))
+    OPTIONAL {
+      ?item schema:description ?itemDescription.
+      FILTER(LANGMATCHES(LANG(?itemDescription), "it"))
+    }
+    BIND("it" AS ?lang)
+  }
+UNION
+  { 
+    #?item ?p ?value .
+    ?item wdt:P1014 ?value .
+    #VALUES ?p {wdt:P4801 wdt:P9112 wdt:P1014}
+    VALUES ?item {wd:Q226697 wd:Q11472 wd:Q1143474}
+    VALUES ?value {"300014161" "300014109" "300011851"}
+    ?item (rdfs:label|skos:altLabel) ?itemLabel.
+    #FILTER (REGEX(?value, "mmaterial|3dmat|graphicspsm", "i"))
+    FILTER(REGEX(?itemLabel, "^(***PLACEHOLDER***|[^ ]+ ***PLACEHOLDER***)", "i"))
+    FILTER(LANGMATCHES(LANG(?itemLabel), "en"))
+    OPTIONAL {
+      ?item schema:description ?itemDescription.
+      FILTER(LANGMATCHES(LANG(?itemDescription), "en"))
+    }
+    BIND("it" AS ?lang)
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE], en, it". }
+ BIND(
+    IF(REGEX(?value, "mmaterial", "i"), 
+      CONCAT("https://id.loc.gov/vocabulary/", ?value),
+      IF(REGEX(?value, "3dmat|graphicspsm", "i"),
+        CONCAT("https://www.iflastandards.info/unimarc/terms/", ?value),
+        "-"
+      )
+    ) AS ?url
+  ).
+} 
+order by ?item 
+</code></pre></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="INSTR_materials_LEGACY_ME">1.3 Materiali (legacy item)</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> INSTR_materials_LEGACY_ME</p></blockquote>
+<blockquote class="is-info"><p><strong>Ripetibilità:</strong> Sì</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Campo legacy (non più utilizzato per la catalogazione di nuovi strumenti).</p></blockquote>
+<p>Esempi d'uso: <span class="placeholder">{to be completed}</span></p>
+</body>
+</html>

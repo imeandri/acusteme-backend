@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>History/Biography</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css">
+</head>
+<body>
+<h3 class="toc-header" id="date_single_foundation_ME">1.1 Foundation date</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> DateRange</p> <p><strong>CA element code:</strong> date_single_foundation_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Date on which the entity or institution was founded.
+'daterange' field: enter single dates. Examples: August 30, 1746, 1900, June 7, 2007, June 2016.
+CollectiveAccess also supports ranges (DATE 1-DATE 2) and uncertainties, but the use of expressions in accordance with bibliographic standards is recommended.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="single_birth_date_ME">1.2 Date of birth</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> DateRange</p> <p><strong>CA element code:</strong> single_birth_date_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Date of birth of the agent (natural person).
+'daterange' field: enter single dates according to bibliographic standards. Intervals and uncertain dates with DATE 1-DATE 2 syntax are also accepted.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="birth_place_CN">1.3 Place of Birth</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> birth_place_CN</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Container for the agent's birthplace. May include a GeoNames field or coordinates.
+
+GeoNames: use city names in any language (e.g., Turin, Tehran, تهران), choosing from the database. Advanced codes supported: ADM1, ADM2, ADM3, PCLH.
+If GeoNames is not sufficient, manual coordinates (areal or point geocodes) can be entered.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="geonames_nascita">1.3.1 GeoNames</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> GeoNames</p> <p><strong>CA element code:</strong> geonames_nascita</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Linked data field (GeoNames database). Enter the name of a city, in any language (e.g., Riva presso Chieri, Sulaymaniyah or سلێمانی , Beijing or 北京市, Tehran or تهران, ) and choose from the suggestions in the database. For more precise searches the Geonames codes can be used: ADM1 (first-order administrative division (for Italy, Region - the ADM1 Italy search returns all Italian regions - for the United States: the States - the search ); ADM2 (second-order administrative division, e.g. ADM2 Turin the province of Turin), ADM3 Turin (the city of Turin). The coordinates point to the geographic center of the identified area. For historical places the suffix h can be used, e.g.: ADM2H, Carbonia-Iglesias (former Italian province); PCLH (historical political entity, e.g., PCLH, German Democratic Republic; The use of location codes allows the definition of multiple areas (of physical geography and informal territories, e.g., STNB, scientific research base (STNB McMurdo Station, Antarctica), TERR, territory (TERR Western Sahara); GYSR, geyser, GYSR Géiser del Tatio, Chile, SA. For other codes conultare the documentation.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="geo_note_nascita">1.3.2 Notes</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> geo_note_nascita</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Optional notes related to location of birth (for individuals) or founding (for entities), e.g., clarifications on historical place names, name variations, uncertainties ("perhaps near..."), or additional comments that cannot be coded.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="date_single_disbandment_ME">1.4 Date of dissolution</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> DateRange</p> <p><strong>CA element code:</strong> date_single_disbandment_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Date on which a body or institution was dissolved or formally ceased operations.
+'daterange' field: enter individual dates according to bibliographic regulations (May 27, 2004, ca. 1980, 1995-1998, etc.).</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="single_date_death_ME">1.5 Death date</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> DateRange</p> <p><strong>CA element code:</strong> single_date_death_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Date of death of the agent (natural person).
+'daterange' field: use of the standard bibliographic form is recommended for certain, uncertain, or interspersed dates. Examples: January 1, 1967, ca. 1500, 1880-1890.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="death_place_CN">1.6 Place of Death</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> death_place_CN</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Container for the location of death of an individual (agent). Can be encoded by GeoNames or manual georeferencing.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="geonames_morte">1.6.1 GeoNames</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> GeoNames</p> <p><strong>CA element code:</strong> geonames_morte</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Linked data field (GeoNames database). Enter the name of a city, in any language (e.g., Riva presso Chieri, Sulaymaniyah or سلێمانی , Beijing or 北京市, Tehran or تهران, ) and choose from the suggestions in the database. For more precise searches the Geonames codes can be used: ADM1 (first-order administrative division (for Italy, Region - the ADM1 Italy search returns all Italian regions - for the United States: the States - the search ); ADM2 (second-order administrative division, e.g. ADM2 Turin the province of Turin), ADM3 Turin (the city of Turin). The coordinates point to the geographic center of the identified area. For historical places the suffix h can be used, e.g.: ADM2H, Carbonia-Iglesias (former Italian province); PCLH (historical political entity, e.g., PCLH, German Democratic Republic; The use of location codes allows the definition of multiple areas (of physical geography and informal territories, e.g., STNB, scientific research base (STNB McMurdo Station, Antarctica), TERR, territory (TERR Western Sahara); GYSR, geyser, GYSR Géiser del Tatio, Chile, SA. For other codes conultare the documentation.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="geo_note_morte">1.6.2 Notes</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> geo_note_morte</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Additional notes on location of death, used for uncertain indications, historical toponyms, administrative changes, or comments that do not fit the automatic coding (e.g., died while crossing, near..., place unspecified but probably in Provence).</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="biography_ME">1.7 Biography/History</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> biography_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Brief biographical profile of the agent (natural person). May include information on birth, activities, memberships, recognitions, transformations, structural evolutions, etc.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h3 class="toc-header" id="attachments_ent_CN">1.8 Attachments</h3>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Container</p> <p><strong>CA element code:</strong> attachments_ent_CN</p></blockquote>
+<blockquote class="is-info"><p><strong>Repeatability:</strong> Yes</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Structured container for adding multimedia files or attachments related to the person or entity. May include photographs, identification documents, scans, articles, or explanatory materials.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="file">1.8.1 File</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> File</p> <p><strong>CA element code:</strong> file</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Field for direct upload of the media file or document attached to the agent (person or entity). Supports images, PDF, audio, etc.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+<h4 class="toc-header" id="attachments_ent_notes_ME">1.8.2 Notes</h4>
+<blockquote class="is-info"><p><strong>Datatype:</strong> Text</p> <p><strong>CA element code:</strong> attachments_ent_notes_ME</p></blockquote>
+<blockquote class="is-success"><p><strong>Quicktip:</strong> Descriptive or contextual notes related to the uploaded attachment, e.g. photograph taken in 1933, founding document, official logo of the institution updated in 2019, etc.</p></blockquote>
+<p>Usage examples: <span class="placeholder">{to be completed}</span></p>
+</body>
+</html>
