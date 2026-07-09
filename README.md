@@ -51,7 +51,7 @@ Unless otherwise noted, the ACUSTEME profile and documentation in this repositor
 
 Suggested attribution:
 
-> ACUSTEME CollectiveAccess Backend Profile, Museo del Paesaggio Sonoro / ACUSTEME project.
+> ACUSTEME CollectiveAccess Backend Profile, Università di Torino - Dipartimento di Studi Umanistici / ACUSTEME project.
 
 If executable scripts or software components are added in future releases, they may be distributed under a software license such as MIT; this will be stated explicitly in the relevant files.
 
@@ -110,6 +110,6 @@ Salvo diversa indicazione, il profilo ACUSTEME e la documentazione di questo rep
 
 Attribuzione suggerita:
 
-> ACUSTEME CollectiveAccess Backend Profile, Museo del Paesaggio Sonoro / progetto ACUSTEME.
+> ACUSTEME CollectiveAccess Backend Profile, Università di Torino - Dipartimento di Studi Umanistici / progetto ACUSTEME.
 
 Se in futuro verranno aggiunti script eseguibili o componenti software, potranno essere distribuiti con una licenza software come MIT; in quel caso la licenza sarà indicata esplicitamente nei file interessati.
