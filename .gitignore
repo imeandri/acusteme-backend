@@ -1,13 +1,52 @@
 .DS_Store
-__pycache__/
-*.py[cod]
+.AppleDouble
+.LSOverride
 
-venv/
-.venv/
+.idea/
+.vscode/
+.project
+.settings/
 
-wikijs_debug/
-wikijs_live_check_*.tsv
-wikijs_upload_config.json
+*.bak
+*.backup
+*.tmp
+*.swp
+*~
 
-ACUSTEME_profile_before_cleanup.xml
-READ ME.rtf
+private/
+local/
+data/
+exports/
+backups/
+dumps/
+
+.env
+.env.*
+*.local.php
+*.local.json
+login.json
+config.local.php
+
+*.sql
+*.sqlite
+*.db
+
+# Generated documentation and local Wiki.js export/upload material
+en/
+*_ui/
+object_ui/
+record_resource/
+biblio_resource/
+entity_ui/
+esemplare/
+expression/
+process/
+storage_locations_ui/
+wk_clusterunit/
+*.html
+cleanup_documentation_urls.py
+extractor*.py
+generate_english_profile.py
+wikijs_*.py
+wikijs_upload_config*.json
+requirements.txt
