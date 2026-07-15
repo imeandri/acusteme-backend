@@ -24,6 +24,7 @@ mapping CollectiveAccess.
 | `2_xmlpostprocess2.py` | Normalizzazione relator, collane, GeoNames, Wikidata, MIMO, materiali e media. |
 | `3_discogs3.py` | Download non distruttivo delle cover e manifest CSV; non riscrive Excel. |
 | `4_discogs_enrich.py` | Arricchimento XML live con release/master, tracce e identificatori Discogs. |
+| `5_technical_audit.py` | Audit read-only dei dati tecnici XML rispetto al parser, al profilo CA e alle release Discogs; produce HTML e JSON. |
 | `xmlrel_extractor.py` | Documentazione HTML delle relationship table del profilo CA. |
 | `ACUSTEME_profile.xml` | Profilo CollectiveAccess usato per validare i relator. |
 | `RAW_DATA/` | Workbook sorgente e mapping d'importazione. |
@@ -75,20 +76,43 @@ DISCOGS_TOKEN=...
    python 2_xmlpostprocess2.py output.xml output_post.xml
    ```
 
+   Per compatibilita con la pipeline originale, il parser genera sempre il
+   blocco tecnico `spessore_solco`, `tecnica2`, `segnale` prima di `velocita`.
+   Il post-processore converte le coppie Wikidata `label`/`url` nei valori
+   `CA_WD_string` richiesti dal mapping CollectiveAccess.
+
 4. Arricchire con Discogs, dopo avere configurato `DISCOGS_TOKEN` in `.env`:
 
    ```bash
    python 4_discogs_enrich.py
    ```
 
-5. Scaricare le cover senza modificare Excel:
+5. Controllare i dati tecnici senza modificare l'XML:
+
+   ```bash
+   python 5_technical_audit.py output_post.xml \
+     --json technical_report.json --html technical_report.html
+   ```
+
+   Lo script non salva alcun XML. Segnala l'assenza di una fonte Discogs, i link
+   che puntano soltanto a un master, i conflitti con una release esatta, i campi
+   mancanti e le codifiche incoerenti prodotte dal parser. Le correzioni restano
+   intenzionalmente manuali. Ogni record anomalo espone nel JSON
+   `requires_human_review: true` ed è marcato chiaramente nell'HTML; il riepilogo
+   conta separatamente tutti i record che richiedono controllo umano.
+
+   I campi linked-data sono serializzati nel formato richiesto da
+   CollectiveAccess `etichetta|QID|URL`. `segnale`, `tipo_supporto` e `tecnica1`
+   sono invece liste chiuse del profilo e non usano `CA_WD_string`.
+
+6. Scaricare le cover senza modificare Excel:
 
    ```bash
    python 3_discogs3.py RAW_DATA/TAB\ MANCANTI.xlsx \
      --sheet "OK PSI e dintorni" --output-dir covers --manifest covers_manifest.csv
    ```
 
-6. Generare la documentazione delle relationship table:
+7. Generare la documentazione delle relationship table:
 
    ```bash
    python xmlrel_extractor.py ACUSTEME_profile.xml relationships.html
@@ -107,7 +131,7 @@ errori bloccanti e vengono riportati nel JSON di validazione.
 ## Test
 
 ```bash
-python -m unittest -v tests/test_pipeline.py
+python -m unittest discover -s tests -v
 ```
 
 I test includono due fogli Excel reali, pseudonimi, confronto con il profilo,

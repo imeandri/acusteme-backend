@@ -38,6 +38,16 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(first["records"], 10)
             self.assertEqual(second["records"], 21)
             root = ET.parse(lame).getroot()
+            first_record = root.find("record")
+            self.assertEqual(
+                first_record.findtext("dati_specifici/spessore_solco/url"),
+                "http://www.wikidata.org/entity/Q86816874",
+            )
+            self.assertEqual(
+                first_record.findtext("dati_specifici/tecnica2/url"),
+                "http://www.wikidata.org/entity/Q123556092",
+            )
+            self.assertEqual(first_record.findtext("dati_specifici/segnale"), "monofonico")
             aliases = root.findall(".//pseudonym")
             self.assertEqual(len(aliases), 3)
             self.assertEqual(aliases[0].text, "Vitavisia")
@@ -64,6 +74,24 @@ class PipelineTests(unittest.TestCase):
             root = ET.parse(output).getroot()
             self.assertEqual(root.findtext(".//geonames_id"), "123")
             self.assertEqual(root.findtext(".//geonames_url"), "u")
+
+    def test_postprocessor_converts_original_technical_nodes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            parsed = Path(directory) / "parsed.xml"
+            processed = Path(directory) / "processed.xml"
+            parser.excel_to_xml(WORKBOOK, parsed, ["OK PSI e dintorni"])
+            post.process_file(parsed, processed)
+            root = ET.parse(processed).getroot()
+            record = root.find("record")
+            self.assertEqual(
+                record.findtext("dati_specifici/spessore_solco/CA_WD_string"),
+                "microgroove record|Q86816874|http://www.wikidata.org/entity/Q86816874",
+            )
+            self.assertEqual(
+                record.findtext("dati_specifici/tecnica2/CA_WD_string"),
+                "Electrical recording - en|Q123556092|http://www.wikidata.org/entity/Q123556092",
+            )
+            self.assertEqual(record.findtext("dati_specifici/segnale"), "monofonico")
 
     def test_cover_workflow_does_not_change_excel(self):
         before = hashlib.sha256(WORKBOOK.read_bytes()).hexdigest()

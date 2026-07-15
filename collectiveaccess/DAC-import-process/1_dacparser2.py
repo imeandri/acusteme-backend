@@ -142,6 +142,24 @@ def dataframe_to_records(root, sheet_name: str, df, geonames_username: str, used
         specifics = ET.SubElement(rec, "dati_specifici")
         append_text(specifics, "tipo_supporto", "disco sonoro")
         append_text(specifics, "tecnica1", "analogico")
+        groove = ET.SubElement(specifics, "spessore_solco")
+        append_text(
+            groove,
+            "label",
+            "microgroove record [http://www.wikidata.org/entity/Q86816874]  "
+            "(mechanical sound recording with narrow grooves (around 100 grooves per centimeter, "
+            "three times higher than in shellac records), usually stamped in 'vinyl' (PVC composite))",
+        )
+        append_text(groove, "url", "http://www.wikidata.org/entity/Q86816874")
+        recording = ET.SubElement(specifics, "tecnica2")
+        append_text(
+            recording,
+            "label",
+            "Electrical recording - en [A recording process in which a microphone is used to convert "
+            "the sound into an electrical signal that is amplified and used to actuate the recording stylus]",
+        )
+        append_text(recording, "url", "http://www.wikidata.org/entity/Q123556092")
+        append_text(specifics, "segnale", "monofonico")
         speed = re.match(r"^(33|45|78)\s*rpm\b", formato, re.IGNORECASE)
         if speed:
             key = f"{speed.group(1)} rpm"
