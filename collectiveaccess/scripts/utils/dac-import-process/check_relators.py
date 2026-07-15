@@ -10,6 +10,8 @@ from pathlib import Path
 
 from dac_common import extract_profile_relators, normalize_legacy_code, parse_responsibility, read_excel_sheets, split_responsibilities, validate_sheet, write_validation_reports
 
+DEFAULT_PROFILE = Path(__file__).resolve().parents[3] / "install-profiles" / "acusteme" / "ACUSTEME_profile.xml"
+
 
 def audit(excel_path: str, profile_path: str, selected_sheets: list[str] | None = None):
     profile_records = extract_profile_relators(profile_path)
@@ -56,8 +58,8 @@ def audit(excel_path: str, profile_path: str, selected_sheets: list[str] | None 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("excel", nargs="?", default="RAW_DATA/ada1.xlsx")
-    parser.add_argument("profile", nargs="?", default="ACUSTEME_profile.xml")
+    parser.add_argument("excel", help="Workbook Excel locale (non versionato)")
+    parser.add_argument("profile", nargs="?", default=DEFAULT_PROFILE)
     parser.add_argument("--sheet", action="append", dest="sheets")
     parser.add_argument("--output", default="report_relators_check.json")
     parser.add_argument("--html", help="Percorso report HTML; default: stesso nome del JSON")

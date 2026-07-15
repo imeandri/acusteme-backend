@@ -169,7 +169,7 @@ def process_file(input_path: str, output_path: str) -> None:
 
     # 0b) Normalizzazione collana + numerazione interna tra quadre
     normalize_collana_numerazione(root)
-    
+
     # 1) Trasforma tag GeoName, geonameurl e geoname_id
     for elem in root.iter():
         tag_l = elem.tag.lower()

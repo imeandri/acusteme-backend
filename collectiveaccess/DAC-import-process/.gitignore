@@ -1,6 +1,0 @@
-.env
-.DS_Store
-TEST_OUTPUTS/
-covers/
-__pycache__/
-*.pyc

@@ -10,6 +10,9 @@ ACUSTEME is a research and documentation environment developed around the needs 
   CollectiveAccess installation profile with Italian, English, and Romanian locales as present in the source profile. The current public review focuses primarily on the Italian and English content.
 - `collectiveaccess/install-profiles/acusteme/profile.xsd`  
   XML schema used to validate the profile structure.
+- `collectiveaccess/scripts/utils/dac-import-process/`
+  Import and quality-control utilities. Private workbooks, mappings, generated
+  XML, reports, tests based on real data, and API credentials are not published.
 
 ## Draft Status
 
@@ -66,6 +69,10 @@ ACUSTEME è un ambiente di ricerca e documentazione sviluppato a partire dalle e
   Profilo di installazione CollectiveAccess con localizzazioni in italiano, inglese e romeno come presenti nel profilo sorgente. La revisione pubblica attuale riguarda soprattutto i contenuti in italiano e inglese.
 - `collectiveaccess/install-profiles/acusteme/profile.xsd`  
   Schema XML usato per validare la struttura del profilo.
+- `collectiveaccess/scripts/utils/dac-import-process/`
+  Utility per importazione e controllo qualità. Workbook privati, mapping, XML
+  generati, report, test basati su dati reali e credenziali API non sono
+  pubblicati.
 
 ## Stato della bozza
 

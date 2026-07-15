@@ -30,3 +30,16 @@ config.local.php
 *.sql
 *.sqlite
 *.db
+
+# Private/raw import material and generated audit artifacts
+**/RAW_DATA/
+**/TEST_OUTPUTS/
+**/covers/
+**/__pycache__/
+**/*.pyc
+collectiveaccess/DAC-import-process/
+collectiveaccess/scripts/utils/dac-import-process/tests/
+collectiveaccess/scripts/utils/dac-import-process/*.xlsx
+collectiveaccess/scripts/utils/dac-import-process/*.xls
+collectiveaccess/scripts/utils/dac-import-process/*.csv
+collectiveaccess/scripts/utils/dac-import-process/*.tsv

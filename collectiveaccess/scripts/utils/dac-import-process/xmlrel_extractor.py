@@ -304,7 +304,8 @@ def build_html_page(xml_path, html_path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Estrae e documenta le relationship table del profilo CA")
-    parser.add_argument("profile", nargs="?", default="ACUSTEME_profile.xml")
+    default_profile = Path(__file__).resolve().parents[3] / "install-profiles" / "acusteme" / "ACUSTEME_profile.xml"
+    parser.add_argument("profile", nargs="?", default=default_profile)
     parser.add_argument("output", nargs="?", default="relationships.html")
     args = parser.parse_args()
     build_html_page(args.profile, args.output)

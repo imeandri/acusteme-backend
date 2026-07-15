@@ -1,4 +1,4 @@
-# DAC importer — pipeline revisionata
+# DAC importer — utility di importazione
 
 Pipeline per validare i fogli discografici DAC, generare XML destinato a
 CollectiveAccess, arricchirlo tramite GeoNames e Discogs e scaricare le cover.
@@ -26,9 +26,10 @@ mapping CollectiveAccess.
 | `4_discogs_enrich.py` | Arricchimento XML live con release/master, tracce e identificatori Discogs. |
 | `5_technical_audit.py` | Audit read-only dei dati tecnici XML rispetto al parser, al profilo CA e alle release Discogs; produce HTML e JSON. |
 | `xmlrel_extractor.py` | Documentazione HTML delle relationship table del profilo CA. |
-| `ACUSTEME_profile.xml` | Profilo CollectiveAccess usato per validare i relator. |
-| `RAW_DATA/` | Workbook sorgente e mapping d'importazione. |
-| `tests/test_pipeline.py` | Test automatici su due fogli reali, pseudonimi, profilo, GeoNames e cover. |
+
+Il profilo usato per i controlli è l'unica copia pubblica mantenuta in
+`../../../install-profiles/acusteme/ACUSTEME_profile.xml`. Workbook, mapping,
+output, cover e altri dati di lavoro devono restare fuori dal repository.
 
 Gli output XML e i report generati durante le esecuzioni non sono versionati:
 devono essere prodotti localmente usando i comandi descritti di seguito.
@@ -52,8 +53,8 @@ DISCOGS_TOKEN=...
 1. Validare relator, struttura e codifiche del foglio:
 
    ```bash
-   python check_relators.py RAW_DATA/TAB\ MANCANTI.xlsx ACUSTEME_profile.xml \
-     --sheet "OK PSI e dintorni" --output relators.json
+   python check_relators.py /percorso/privato/dati.xlsx \
+     --sheet "Nome foglio" --output relators.json
    ```
 
    Vengono creati `relators.json` e `relators.html`. Il report HTML contiene
@@ -63,8 +64,8 @@ DISCOGS_TOKEN=...
    ma salva comunque i report `.validation.json` e `.validation.html`:
 
    ```bash
-   python 1_dacparser2.py RAW_DATA/TAB\ MANCANTI.xlsx output.xml \
-     --sheet "OK PSI e dintorni"
+   python 1_dacparser2.py /percorso/privato/dati.xlsx output.xml \
+     --sheet "Nome foglio"
    ```
 
    `--sheet` può essere ripetuto. Senza `--sheet` vengono elaborati tutti i fogli.
@@ -108,14 +109,14 @@ DISCOGS_TOKEN=...
 6. Scaricare le cover senza modificare Excel:
 
    ```bash
-   python 3_discogs3.py RAW_DATA/TAB\ MANCANTI.xlsx \
-     --sheet "OK PSI e dintorni" --output-dir covers --manifest covers_manifest.csv
+   python 3_discogs3.py /percorso/privato/dati.xlsx \
+     --sheet "Nome foglio" --output-dir covers --manifest covers_manifest.csv
    ```
 
 7. Generare la documentazione delle relationship table:
 
    ```bash
-   python xmlrel_extractor.py ACUSTEME_profile.xml relationships.html
+   python xmlrel_extractor.py
    ```
 
 ## Pseudonimi
@@ -127,16 +128,6 @@ La forma ammessa è `*Pseudonimo* [Nome, Cognome] (Rxx codice)`. Nell'XML:
 
 Un solo asterisco, virgolette al posto dell'asterisco o parentesi sbilanciate sono
 errori bloccanti e vengono riportati nel JSON di validazione.
-
-## Test
-
-```bash
-python -m unittest discover -s tests -v
-```
-
-I test includono due fogli Excel reali, pseudonimi, confronto con il profilo,
-conservazione degli ID GeoNames in caso di errore e non alterazione del workbook
-durante il flusso cover.
 
 ## Errori bloccanti
 
