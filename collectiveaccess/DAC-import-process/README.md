@@ -3,6 +3,17 @@
 Pipeline per validare i fogli discografici DAC, generare XML destinato a
 CollectiveAccess, arricchirlo tramite GeoNames e Discogs e scaricare le cover.
 
+La documentazione estesa del caso di studio **Discografia antagonista**, con
+descrizione della pipeline, esempi XML e ulteriori dettagli sul mapping, è
+disponibile nella wiki ACUSTEME:
+
+<https://wiki.acusteme.org/it/acusteme_data_model/case_studies/discografia_antagonista>
+
+Gli esempi XML pubblicati nella wiki costituiscono il riferimento da verificare
+quando si interviene sulla struttura prodotta dagli script: modifiche a nomi,
+ordine, attributi o cardinalità dei nodi possono richiedere un aggiornamento del
+mapping CollectiveAccess.
+
 ## File e responsabilità
 
 | File | Funzione |
@@ -17,6 +28,9 @@ CollectiveAccess, arricchirlo tramite GeoNames e Discogs e scaricare le cover.
 | `ACUSTEME_profile.xml` | Profilo CollectiveAccess usato per validare i relator. |
 | `RAW_DATA/` | Workbook sorgente e mapping d'importazione. |
 | `tests/test_pipeline.py` | Test automatici su due fogli reali, pseudonimi, profilo, GeoNames e cover. |
+
+Gli output XML e i report generati durante le esecuzioni non sono versionati:
+devono essere prodotti localmente usando i comandi descritti di seguito.
 
 ## Installazione
 
