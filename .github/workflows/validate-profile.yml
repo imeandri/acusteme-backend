@@ -1,0 +1,39 @@
+name: Validate ACUSTEME profile
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Install XML tools
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+
+      - name: Validate canonical and generated profiles
+        run: tools/validate_profiles.sh
+
+      - name: Require changelog with canonical profile changes
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE_SHA: ${{ github.event.before }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          if [[ "$EVENT_NAME" == "pull_request" ]]; then
+            base="$BASE_SHA"
+          elif [[ -n "${BEFORE_SHA:-}" && "$BEFORE_SHA" != "0000000000000000000000000000000000000000" ]]; then
+            base="$BEFORE_SHA"
+          else
+            base="HEAD^"
+          fi
+
+          changed="$(git diff --name-only "$base" HEAD)"
+          if grep -qx 'ACUSTEME_profile.xml' <<<"$changed" && ! grep -qx 'CHANGELOG.md' <<<"$changed"; then
+            echo "ACUSTEME_profile.xml changed without a CHANGELOG.md update" >&2
+            exit 1
+          fi

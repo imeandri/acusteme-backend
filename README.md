@@ -2,18 +2,31 @@
 
 First public-draft package of the ACUSTEME CollectiveAccess installation profile.
 
-This repository is currently kept private while the release package is reviewed. It is intended to publish only backend/profile materials, not the Wiki.js generated HTML pages, local documentation exports, CSS, upload scripts, frontend code, credentials, or production data.
+This public repository contains only backend/profile materials, not Wiki.js generated HTML pages, local documentation exports, CSS, upload scripts, frontend code, credentials, or production data.
 
 ## Contents
 
 - `ACUSTEME_profile.xml`  
   Italian-oriented CollectiveAccess installation profile. Its `documentation_url` settings point to the Italian ACUSTEME Wiki.js documentation branch.
 - `ACUSTEME_profile_EN.xml`  
-  English documentation-link variant of the same profile. It points to the English ACUSTEME Wiki.js documentation branch.
+  Generated English documentation-link variant of the canonical profile. It points to the English ACUSTEME Wiki.js documentation branch and must not be edited directly.
 - `profile.xsd`  
   XML schema used to validate the profile files.
 - `CHANGELOG.md`  
   Release notes for the profile package.
+
+## Authoritative source and editing workflow
+
+`ACUSTEME_profile.xml` is the only editable profile source. Every commit that
+changes it must also add a concise entry to `CHANGELOG.md`.
+
+Regenerate the English documentation-link variant and validate both profiles
+before committing:
+
+```sh
+python3 tools/build_en_profile.py
+tools/validate_profiles.sh
+```
 
 ## Backend Documentation
 
@@ -61,18 +74,31 @@ If executable scripts or software components are added in future releases, they 
 
 Prima draft del pacchetto backend del profilo di installazione CollectiveAccess di ACUSTEME.
 
-Questo repository resta per ora privato mentre il pacchetto di rilascio viene revisionato. È destinato a pubblicare solo materiali backend/profilo, non le pagine HTML generate per Wiki.js, gli export locali della documentazione, CSS, script di upload, frontend, credenziali o dati di produzione.
+Questo repository pubblico contiene esclusivamente materiali backend/profilo, non le pagine HTML generate per Wiki.js, gli export locali della documentazione, CSS, script di upload, frontend, credenziali o dati di produzione.
 
 ## Contenuto
 
 - `ACUSTEME_profile.xml`  
   Profilo di installazione CollectiveAccess orientato alla documentazione italiana. Le impostazioni `documentation_url` puntano alla branch italiana della documentazione ACUSTEME su Wiki.js.
 - `ACUSTEME_profile_EN.xml`  
-  Variante dello stesso profilo con link di documentazione localizzati in inglese. Le impostazioni `documentation_url` puntano alla branch inglese della documentazione ACUSTEME su Wiki.js.
+  Variante generata automaticamente dal profilo canonico, con link alla documentazione inglese. Non deve essere modificata direttamente.
 - `profile.xsd`  
   Schema XML usato per validare i file del profilo.
 - `CHANGELOG.md`  
   Note di rilascio del pacchetto profilo.
+
+## Fonte autorevole e flusso di modifica
+
+`ACUSTEME_profile.xml` è l'unica fonte modificabile. Ogni commit che lo cambia
+deve aggiungere anche una voce sintetica a `CHANGELOG.md`.
+
+Prima del commit, rigenerare la variante con link inglesi e validare entrambi i
+profili:
+
+```sh
+python3 tools/build_en_profile.py
+tools/validate_profiles.sh
+```
 
 ## Documentazione backend
 
