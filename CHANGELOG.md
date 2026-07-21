@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.1.7-draft - 2026-07-21
+
+- Corrected the relationships screen type restriction for bibliographic resource records (`biblio_resource_record`).
+- Kept the canonical and English profile variants synchronized and XSD-valid.
+
+---
+
+## 0.1.7-draft - 2026-07-21
+
+- Corretta la restrizione tipologica dello screen relazioni per le risorse bibliografiche (`biblio_resource_record`).
+- Mantenute sincronizzate e valide rispetto all'XSD le varianti canonica e inglese del profilo.
+
+---
+
 ## 0.1.6-draft - 2026-07-18
 
 - Consolidated the reviewed Italian and English labels and backend help texts.

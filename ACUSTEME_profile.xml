@@ -52467,7 +52467,7 @@ order by ?item</setting>
             </placement>
           </bundlePlacements>
         </screen>
-        <screen idno="screen_RELATIONSHIPS" default="0" typeRestrictions="biblio_resource" includeSubtypes="0">
+        <screen idno="screen_RELATIONSHIPS" default="0" typeRestrictions="biblio_resource_record" includeSubtypes="0">
           <labels>
             <label locale="it_IT">
               <name>Relazioni</name>
