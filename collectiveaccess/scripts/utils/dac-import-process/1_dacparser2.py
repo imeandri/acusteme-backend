@@ -172,6 +172,12 @@ def dataframe_to_records(root, sheet_name: str, df, geonames_username: str, used
 
         relations = ET.SubElement(rec, "relazioni")
         for raw in split_responsibilities(row.get("Responsabilità", "")):
+            if parse_responsibility(raw).pseudonym:
+                logger.warning(
+                    "Pseudonimo escluso dall'XML per revisione manuale (%s riga %d): %s",
+                    sheet_name, int(idx) + 2, raw,
+                )
+                continue
             append_responsibility(relations, raw)
         label = str(row.get("Etichetta", "")).strip()
         if label:

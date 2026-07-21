@@ -121,10 +121,14 @@ DISCOGS_TOKEN=...
 
 ## Pseudonimi
 
-La forma ammessa è `*Pseudonimo* [Nome, Cognome] (Rxx codice)`. Nell'XML:
+Le forme riconosciute sono `*Pseudonimo* [Nome, Cognome] (Rxx codice)` quando il
+nome reale è noto e `*Pseudonimo* (Rxx codice)` quando non è risolvibile. Tutte
+le responsabilità marcate con asterischi vengono segnalate dal controllo ma
+escluse dall'XML: saranno create manualmente dopo l'importazione massiva.
 
-- `label` e `pseudonym` contengono lo pseudonimo;
-- `first_name`, `last_name` e `real_name` contengono il nome reale.
+Il caso limite `*Ignoto Siciliano*` viene mantenuto nel foglio di revisione con
+l'indicazione di usare manualmente `Ignoto` come nome e `Siciliano` come
+cognome, senza tentare di importarlo come pseudonimo.
 
 Un solo asterisco, virgolette al posto dell'asterisco o parentesi sbilanciate sono
 errori bloccanti e vengono riportati nel JSON di validazione.

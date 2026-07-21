@@ -8,7 +8,7 @@ from collections import Counter, defaultdict
 import json
 from pathlib import Path
 
-from dac_common import extract_profile_relators, normalize_legacy_code, parse_responsibility, read_excel_sheets, split_responsibilities, validate_sheet, write_validation_reports
+from dac_common import DISCOGS_RE, extract_profile_relators, normalize_legacy_code, parse_responsibility, read_excel_sheets, split_responsibilities, validate_sheet, write_validation_reports
 
 DEFAULT_PROFILE = Path(__file__).resolve().parents[3] / "install-profiles" / "acusteme" / "ACUSTEME_profile.xml"
 
@@ -22,8 +22,23 @@ def audit(excel_path: str, profile_path: str, selected_sheets: list[str] | None 
 
     issues = []
     used_codes = Counter()
+    seen_discogs_ids: dict[str, tuple[str, int]] = {}
     for sheet, df, duplicates in read_excel_sheets(excel_path, selected_sheets):
         issues.extend(validate_sheet(sheet, df, duplicates))
+        if "Link discogs" in df.columns:
+            for idx, value in df["Link discogs"].items():
+                match = DISCOGS_RE.search(str(value or "").strip())
+                if not match:
+                    continue
+                discogs_id = match.group(2)
+                previous = seen_discogs_ids.get(discogs_id)
+                if previous and previous[0] != sheet:
+                    issues.append({"sheet": sheet, "row": int(idx) + 2, "field": "Link discogs",
+                                   "severity": "error",
+                                   "message": f"ID Discogs duplicato tra fogli; prima occorrenza {previous[0]} riga {previous[1]}: {discogs_id}",
+                                   "value": str(value or "")})
+                elif not previous:
+                    seen_discogs_ids[discogs_id] = (sheet, int(idx) + 2)
         if "Responsabilità" not in df.columns:
             continue
         for idx, value in df["Responsabilità"].items():
@@ -37,7 +52,7 @@ def audit(excel_path: str, profile_path: str, selected_sheets: list[str] | None 
                     issues.append({"sheet": sheet, "row": int(idx) + 2, "field": "Responsabilità",
                                    "severity": "error", "message": f"codice assente dal profilo: {code}",
                                    "value": part})
-
+                    continue
     duplicates = {code: sorted(values) for code, values in legacy_map.items() if len(values) > 1}
     for code, values in duplicates.items():
         issues.append({"sheet": "<profile>", "row": 0, "field": "legacy_code", "severity": "error",

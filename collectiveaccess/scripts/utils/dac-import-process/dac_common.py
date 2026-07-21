@@ -44,7 +44,7 @@ REQUIRED_COLUMNS = {
 RELATOR_RE = re.compile(r"^R\d+(?:_\d+)+(?:\s+.+)?$", re.IGNORECASE)
 DISCOGS_RE = re.compile(r"/(master|release)/(\d+)", re.IGNORECASE)
 PSEUDONYM_RE = re.compile(
-    r"^\*(?P<alias>[^*]+)\*\s*\[(?P<real>[^]]+)\]\s*$"
+    r"^\*(?P<alias>[^*]+)\*(?:\s*\[(?P<real>[^]]+)\])?\s*$"
 )
 
 
@@ -139,7 +139,7 @@ def parse_responsibility(part: str) -> Responsibility:
     pseudo = PSEUDONYM_RE.fullmatch(name_part)
     if pseudo:
         pseudonym = pseudo.group("alias").strip()
-        real_name = pseudo.group("real").strip()
+        real_name = (pseudo.group("real") or "").strip()
         label = pseudonym
         first_name, last_name = split_name(real_name)
         entity_type = "persona"
@@ -200,6 +200,16 @@ def validate_sheet(sheet: str, df: pd.DataFrame, duplicate_columns: list[str] | 
             for message in parsed.errors:
                 issues.append({"sheet": sheet, "row": excel_row, "field": "Responsabilità",
                                "severity": "error", "message": message, "value": part})
+            if parsed.pseudonym:
+                message = (
+                    "pseudonimo senza nome reale; escluso dall'XML e da trattare manualmente"
+                    if not parsed.real_name else
+                    "pseudonimo rilevato; escluso dall'XML e da trattare manualmente"
+                )
+                issues.append({"sheet": sheet, "row": excel_row, "field": "Responsabilità",
+                               "severity": "warning",
+                               "message": message,
+                               "value": part})
     return issues
 
 
@@ -214,7 +224,7 @@ def issue_suggestion(issue: dict) -> str:
     if "parentesi quadre" in message:
         return "Bilanciare le parentesi quadre usate per valori inferiti o nomi reali."
     if "pseudonimo" in message or "asterisch" in message:
-        return "Usare la forma esatta *Pseudonimo* [Nome, Cognome] (Rxx_yyy Ruolo)."
+        return "Usare *Pseudonimo* (Rxx_yyy Ruolo), oppure *Pseudonimo* [Nome, Cognome] quando il nome reale è noto."
     if "ruolo mancante" in message:
         return "Aggiungere un relator tra parentesi, per esempio Nome, Cognome (R56_179 Performer)."
     if "ruolo non codificato" in message:
