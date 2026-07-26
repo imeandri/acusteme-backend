@@ -47779,6 +47779,23 @@ order by ?item</setting>
             <setting name="displayTemplate" />
           </settings>
         </metadataElement>
+        <metadataElement code="process_loc_den" datatype="Text">
+          <labels>
+            <label locale="it_IT">
+              <name>Denominazione locale del processo</name>
+              <description>Denominazione locale o non normalizzata del processo, da utilizzare quando il termine non è disponibile nei vocabolari controllati o quando occorre registrare una variante locale.</description>
+            </label>
+            <label locale="en_US">
+              <name>Local process name</name>
+              <description>Local or non-standardized name of the process, used when the term is not available in controlled vocabularies or when a local variant needs to be recorded.</description>
+            </label>
+          </labels>
+          <settings>
+            <setting name="fieldWidth">60</setting>
+            <setting name="fieldHeight">1</setting>
+            <setting name="doesNotTakeLocale">1</setting>
+          </settings>
+        </metadataElement>
         <metadataElement code="process_description" datatype="Text">
           <labels>
             <label locale="it_IT">
@@ -50754,7 +50771,7 @@ order by ?item</setting>
             <placement code="idno">
               <bundle>idno</bundle>
               <settings>
-                <setting name="label" locale="en_US">Identificativo univoco del processo</setting>
+                <setting name="label" locale="it_IT">Identificativo univoco del processo</setting>
                 <setting name="label" locale="en_US">Unique process identifier</setting>
                 <setting name="readonly">0</setting>
                 <setting name="expand_collapse_value">bubbles</setting>

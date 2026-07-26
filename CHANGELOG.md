@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.1.8-draft - 2026-07-26
+
+- Added the local process denomination metadata element with synchronized Italian and English documentation.
+- Corrected the Italian locale assignment for the process identifier placement label.
+
+---
+
+## 0.1.8-draft - 2026-07-26
+
+- Aggiunto il metadato per la denominazione locale del processo, con documentazione italiana e inglese sincronizzata.
+- Corretta l'assegnazione della lingua italiana per l'etichetta del placement dell'identificativo del processo.
+
+---
+
 ## 0.1.7-draft - 2026-07-21
 
 - Corrected the relationships screen type restriction for bibliographic resource records (`biblio_resource_record`).
