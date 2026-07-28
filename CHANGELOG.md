@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.8-draft - 2026-07-26
+
+- Corrected the Italian locale of the unique process identifier label.
+- Kept the canonical and English profile variants synchronized and XSD-valid.
+
+---
+
 ## 0.1.7-draft - 2026-07-21
 
 - Corrected the relationships screen type restriction for bibliographic resource records (`biblio_resource_record`).
