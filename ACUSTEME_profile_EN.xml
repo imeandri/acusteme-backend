@@ -24126,8 +24126,8 @@ order by ?item</setting>
     <metadataElement code="esemplarenotes_ME" datatype="Text">
       <labels>
         <label locale="it_IT">
-          <name>Precisazione inventario e note all’esemplare</name>
-          <description>Campo libero per informazioni aggiuntive sull’esemplare.</description>
+          <name>Precisazione inventario e note all’Item</name>
+          <description>Campo libero per informazioni aggiuntive sull’Item.</description>
         </label>
         <label locale="en_US">
           <name>Inventory data and item notes</name>
@@ -24635,8 +24635,8 @@ order by ?item</setting>
     <metadataElement code="resource_url_ME" datatype="Url">
       <labels>
         <label locale="it_IT">
-          <name>URL o permalink (esemplare conservato esternamente)</name>
-          <description>Inserire l’URL permanente o il link diretto a una risorsa conservata esternamente rispetto al sistema. Può trattarsi di un esemplare digitale archiviato su repository istituzionali, collezioni digitali esterne, archivi sonori, audiovisivi o fotografici, banche dati, ecc. Assicurarsi che il link sia stabile e preferibilmente risolto tramite un sistema di identificatori persistenti (es. DOI, ARK, Handle).</description>
+          <name>URL o permalink (Item conservato esternamente)</name>
+          <description>Inserire l’URL permanente o il link diretto a una risorsa conservata esternamente rispetto al sistema. Può trattarsi di un Item digitale archiviato su repository istituzionali, collezioni digitali esterne, archivi sonori, audiovisivi o fotografici, banche dati, ecc. Assicurarsi che il link sia stabile e preferibilmente risolto tramite un sistema di identificatori persistenti (es. DOI, ARK, Handle).</description>
         </label>
         <label locale="en_US">
           <name>URL or permalink (item stored externally)</name>
@@ -27725,7 +27725,7 @@ order by ?item</setting>
       <labels>
         <label locale="it_IT">
           <name>Disponibilità del bene</name>
-          <description>Indica lo stato di disponibilità fisica o consultabilità dell’esemplare.</description>
+          <description>Indica lo stato di disponibilità fisica o consultabilità dell’Item.</description>
         </label>
         <label locale="en_US">
           <name>Availability of the item</name>
@@ -29022,7 +29022,7 @@ ATU 333 (for the fairy tale "Little Red Riding Hood" in the Aarne-Thompson-Uther
       <labels>
         <label locale="it_IT">
           <name>Fondo</name>
-          <description>Indica l’eventuale fondo o collezione speciale a cui l’esemplare appartiene.</description>
+          <description>Indica l’eventuale fondo o collezione speciale a cui l’Item appartiene.</description>
         </label>
         <label locale="en_US">
           <name>Fonds</name>
@@ -36207,7 +36207,7 @@ LIMIT 50
       <labels>
         <label locale="it_IT">
           <name>Caratteristiche fisiche</name>
-          <description>Campo descrittivo libero relativo alle caratteristiche fisiche dell’esemplare o unità documentaria secondo il modello Instantiation del RIC (Records in Contexts).
+          <description>Campo descrittivo libero relativo alle caratteristiche fisiche dell’Item o unità documentaria secondo il modello Instantiation del RIC (Records in Contexts).
 Può includere dettagli materiali e tecnici non specificamente strutturati in altri campi (es. peso, formato, stato di conservazione, tipo di carta, tecnica di stampa, supporto, presenza di filigrane, tipo di supporto audiovisivo, ecc.).
 
 Esempi:
@@ -39782,8 +39782,8 @@ LIMIT 100 </setting>
     <metadataElement code="instantiationmedium_ME" datatype="List" list="mediation_and_carrier_LS">
       <labels>
         <label locale="it_IT">
-          <name>Supporto principale dell'esemplare</name>
-          <description>Selezionare la designazione specifica del supporto principale dell'esemplare, utilizzando l’elenco controllato previsto dallo standard SBN (Appendice III). I valori includono, tra gli altri: cartella, fascicolo, libretto, foglio, volume. Per risorse audiovisive: audiocassetta, compact disc, DVD-Video, videocassetta, bobina di nastro sonoro. Per formati elettronici: file audio, file video, risorsa online, ecc. Per microforme: microfiche, bobina di microfilm, ecc. Utilizzare i termini standard per garantire coerenza e interoperabilità nella catalogazione delle risorse musicali e bibliografiche.</description>
+          <name>Supporto principale dell'Item</name>
+          <description>Selezionare la designazione specifica del supporto principale dell'Item, utilizzando l’elenco controllato previsto dallo standard SBN (Appendice III). I valori includono, tra gli altri: cartella, fascicolo, libretto, foglio, volume. Per risorse audiovisive: audiocassetta, compact disc, DVD-Video, videocassetta, bobina di nastro sonoro. Per formati elettronici: file audio, file video, risorsa online, ecc. Per microforme: microfiche, bobina di microfilm, ecc. Utilizzare i termini standard per garantire coerenza e interoperabilità nella catalogazione delle risorse musicali e bibliografiche.</description>
         </label>
         <label locale="en_US">
           <name>Main carrier for the item</name>
@@ -52608,9 +52608,9 @@ order by ?item</setting>
             <placement code="ca_objects3">
               <bundle>ca_objects</bundle>
               <settings>
-                <setting name="label" locale="it_IT">Relazioni a Esemplare</setting>
+                <setting name="label" locale="it_IT">Relazioni a Item</setting>
                 <setting name="label" locale="en_US">Item relationship</setting>
-                <setting name="description" locale="it_IT">Relazione a Esemplare (LRM model). Consultare la documentazione per una guida all'uso.</setting>
+                <setting name="description" locale="it_IT">Relazione a Item (LRM model). Consultare la documentazione per una guida all'uso.</setting>
                 <setting name="description" locale="en_US">Item relationship (LRM model). For guidance on use of this relationship, see the documentation.</setting>
                 <setting name="readonly">0</setting>
                 <setting name="expand_collapse_value">dont_force</setting>
@@ -54218,7 +54218,7 @@ order by ?item</setting>
     <userInterface code="esemplare" type="ca_objects" typeRestrictions="esemplare" includeSubtypes="0">
       <labels>
         <label locale="it_IT">
-          <name>Esemplare</name>
+          <name>Item</name>
         </label>
       </labels>
       <screens>
@@ -54438,7 +54438,7 @@ order by ?item</setting>
             <placement code="resource_url_ME">
               <bundle>ca_objects.resource_url_ME</bundle>
               <settings>
-                <setting name="label" locale="it_IT">Url o permalink (esemplare conservato esternamente)</setting>
+                <setting name="label" locale="it_IT">URL o permalink (Item conservato esternamente)</setting>
                 <setting name="label" locale="en_US">URL or permalink (externally held item)</setting>
                 <setting name="readonly">0</setting>
                 <setting name="expand_collapse_value">dont_force</setting>
@@ -54986,7 +54986,7 @@ order by ?item</setting>
             <placement code="ca_entitiesresp">
               <bundle>ca_entities</bundle>
               <settings>
-                <setting name="label" locale="it_IT">Responsabilità per l'esemplare</setting>
+                <setting name="label" locale="it_IT">Responsabilità per l'Item</setting>
                 <setting name="label" locale="en_US">Responsibility for the item</setting>
                 <setting name="readonly">0</setting>
                 <setting name="expand_collapse_value">dont_force</setting>
@@ -57206,7 +57206,7 @@ order by ?item</setting>
     <userInterface code="item_agent" type="ca_objects_x_entities" typeRestrictions="relator_code" includeSubtypes="1">
       <labels>
         <label locale="it_IT">
-          <name>Relazioni interstiziali esemplare-entità</name>
+          <name>Relazioni interstiziali Item-entità</name>
         </label>
       </labels>
       <screens>

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.9-draft - 2026-08-04
+
+- Standardized the user-facing terminology for the bibliographic Item entity in Italian and English labels and help texts.
+- Preserved the existing `esemplare` technical identifiers and type restrictions for backward compatibility.
+- Kept the canonical and English profile variants synchronized and XSD-valid.
+
+---
+
 ## 0.1.8-draft - 2026-07-26
 
 - Corrected the Italian locale of the unique process identifier label.
