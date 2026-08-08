@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.10-draft - 2026-08-09
+
+- Restricted the collection navigation browser to bibliographic resources, keeping collection-to-collection relationships in their dedicated placement.
+- Prevented duplicate collection relationships across the two frontend relationship families.
+- Kept the canonical and generated English profile variants synchronized and XSD-valid.
+
+---
+
 ## 0.1.9-draft - 2026-08-04
 
 - Standardized the user-facing terminology for the bibliographic Item entity in Italian and English labels and help texts.

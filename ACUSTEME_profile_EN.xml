@@ -51040,6 +51040,7 @@ order by ?item</setting>
                 <setting name="expand_collapse_value">expand</setting>
                 <setting name="expand_collapse_no_value">expand</setting>
                 <setting name="dontShowRelationshipTypes">0</setting>
+                <setting name="restrict_to_types">biblio_resource_record</setting>
                 <setting name="dont_include_subtypes_in_type_restriction">0</setting>
                 <setting name="list_format">bubbles</setting>
                 <setting name="dontShowDeleteButton">0</setting>
