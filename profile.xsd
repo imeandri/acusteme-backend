@@ -152,6 +152,7 @@
       <xs:enumeration value="FloorPlan"/>
       <xs:enumeration value="ExternalMedia"/>
       <xs:enumeration value="MusicScore"/>
+      <xs:enumeration value="Organico"/>
     </xs:restriction>
   </xs:simpleType>
 

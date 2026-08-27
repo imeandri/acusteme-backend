@@ -1,5 +1,35 @@
 # Changelog
 
+## 0.1.12-draft - 2026-08-27
+
+- Fixed a duplicate relationship-type code: `cnd` was assigned to two distinct types ("R56_042 Choral conductor" and "R56_061 Conductor"). Renamed the choral-conductor type to `dac_choral_conductor`; the other keeps `cnd`.
+
+---
+
+## 0.1.12-draft - 2026-08-27
+
+- Corretto un codice di relationship-type duplicato: `cnd` era assegnato a due type distinti ("R56_042 Choral conductor" e "R56_061 Conductor"). Rinominato il type "choral conductor" in `dac_choral_conductor`; l'altro mantiene `cnd`.
+
+---
+
+## 0.1.11-draft - 2026-08-26
+
+- Added the `Organico` datatype to the schema and introduced `organico_CN`, an interactive icon-based instrumentation editor (orchestral fan chart or ensemble rows) built on the IFLA UNIMARC Medium of Performance vocabulary. Its "Create alternative" feature handles alternation between individual instruments within the same instrumentation (e.g. flute/oboe).
+- Added `organico_alt_CN`, a second independent field using the same editor, for an instrumentation entirely alternative to the main one (e.g. a full-orchestra version vs. a reduced chamber-ensemble version) — distinct from the item-level alternation already supported inside `organico_CN`.
+- Removed `analyticinstrum_CN` and `analyticinstrum_CN2` (the granular UNIMARC/IFLA "Organico analitico" and "Organico alternativo (/$)" containers) and their screen placements, replaced by `organico_CN` and `organico_alt_CN`. Existing catalogued data in these fields is unaffected; they are simply no longer part of the installable schema.
+- Kept the canonical and generated English profile variants synchronized and XSD-valid.
+
+---
+
+## 0.1.11-draft - 2026-08-26
+
+- Aggiunto il datatype `Organico` allo schema e introdotto `organico_CN`, un editor interattivo dell'organico a icone (ventaglio orchestrale o righe per ensemble) basato sul vocabolario IFLA UNIMARC Medium of Performance. La sua funzione "Crea alternativa" gestisce l'alternanza tra singoli strumenti all'interno dello stesso organico (es. flauto/oboe).
+- Aggiunto `organico_alt_CN`, un secondo campo indipendente con lo stesso editor, per un organico interamente alternativo a quello principale (es. versione per grande orchestra vs. versione per organico da camera ridotto) — distinto dall'alternanza a livello di singolo strumento già supportata dentro `organico_CN`.
+- Rimossi `analyticinstrum_CN` e `analyticinstrum_CN2` (i container granulari UNIMARC/IFLA "Organico analitico" e "Organico alternativo (/$)") e i relativi placement nelle schermate, sostituiti da `organico_CN` e `organico_alt_CN`. I dati già catalogati in questi campi non vengono toccati: semplicemente non fanno più parte dello schema installabile.
+- Mantenute sincronizzate e valide rispetto all'XSD le varianti canonica e inglese del profilo.
+
+---
+
 ## 0.1.10-draft - 2026-08-09
 
 - Restricted the collection navigation browser to bibliographic resources, keeping collection-to-collection relationships in their dedicated placement.
