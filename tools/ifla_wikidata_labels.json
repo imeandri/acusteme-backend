@@ -1,0 +1,1389 @@
+{
+  "entries": {
+    "altos:c": {
+      "it": "spazio",
+      "wikidata": "http://www.wikidata.org/entity/Q4169"
+    },
+    "cartcha:b": {
+      "it": "fotografia",
+      "wikidata": "http://www.wikidata.org/entity/Q11633"
+    },
+    "cartcol:a": {
+      "it": "monocromo",
+      "wikidata": "http://www.wikidata.org/entity/Q10770146"
+    },
+    "cartcol:b": {
+      "it": "multicolore",
+      "wikidata": "http://www.wikidata.org/entity/Q29572385"
+    },
+    "cartfor:a": {
+      "it": "atlante",
+      "wikidata": "http://www.wikidata.org/entity/Q162827"
+    },
+    "cartfor:c": {
+      "it": "globo",
+      "wikidata": "http://www.wikidata.org/entity/Q133792"
+    },
+    "cartfor:d": {
+      "it": "mappa",
+      "wikidata": "http://www.wikidata.org/entity/Q4006"
+    },
+    "cartpro:ab": {
+      "it": "proiezione gnomonica",
+      "wikidata": "http://www.wikidata.org/entity/Q246599"
+    },
+    "cartpro:bd": {
+      "it": "proiezione cilindrica centrografica modificata di Mercatore",
+      "wikidata": "http://www.wikidata.org/entity/Q309372"
+    },
+    "cartprt:ah": {
+      "it": "mappa coropleta",
+      "wikidata": "http://www.wikidata.org/entity/Q261468"
+    },
+    "cartret:gb": {
+      "it": "radar ad apertura sintetica",
+      "wikidata": "http://www.wikidata.org/entity/Q740686"
+    },
+    "carttos:a": {
+      "it": "scala lineare",
+      "wikidata": "http://www.wikidata.org/entity/Q1914828"
+    },
+    "fom:acl": {
+      "en": "acclamatio",
+      "wikidata": "http://www.wikidata.org/entity/Q83390"
+    },
+    "fom:ain": {
+      "en": "instrumental air",
+      "wikidata": "http://www.wikidata.org/entity/Q106103954"
+    },
+    "fom:ar": {
+      "en": "aria",
+      "wikidata": "http://www.wikidata.org/entity/Q178122"
+    },
+    "fom:ara": {
+      "it": "arabesque",
+      "wikidata": "http://www.wikidata.org/entity/Q623823"
+    },
+    "fom:ari": {
+      "en": "arietta",
+      "wikidata": "http://www.wikidata.org/entity/Q383904"
+    },
+    "fom:ars": {
+      "en": "arioso",
+      "wikidata": "http://www.wikidata.org/entity/Q662791"
+    },
+    "fom:aub": {
+      "en": "aubade",
+      "it": "aubade",
+      "wikidata": "http://www.wikidata.org/entity/Q758422"
+    },
+    "fom:azt": {
+      "en": "azione teatrale",
+      "wikidata": "http://www.wikidata.org/entity/Q1528908"
+    },
+    "fom:bcs": {
+      "it": "ninna nanna",
+      "wikidata": "http://www.wikidata.org/entity/Q193605"
+    },
+    "fom:bd": {
+      "it": "ballata",
+      "wikidata": "http://www.wikidata.org/entity/Q805130"
+    },
+    "fom:bde": {
+      "en": "vocal ballade",
+      "it": "Ballata vocale",
+      "wikidata": "http://www.wikidata.org/entity/Q105825453"
+    },
+    "fom:bdi": {
+      "en": "instrumental ballade",
+      "it": "ballata strumentale",
+      "wikidata": "http://www.wikidata.org/entity/Q105825301"
+    },
+    "fom:beg": {
+      "en": "biguine",
+      "it": "Beguine",
+      "wikidata": "http://www.wikidata.org/entity/Q814402"
+    },
+    "fom:bg": {
+      "it": "bluegrass",
+      "wikidata": "http://www.wikidata.org/entity/Q213714"
+    },
+    "fom:bgk": {
+      "en": "bugaku",
+      "it": "Bugaku",
+      "wikidata": "http://www.wikidata.org/entity/Q282337"
+    },
+    "fom:blo": {
+      "it": "ballad opera",
+      "wikidata": "http://www.wikidata.org/entity/Q119272"
+    },
+    "fom:bol": {
+      "it": "bolero",
+      "wikidata": "http://www.wikidata.org/entity/Q489913"
+    },
+    "fom:brt": {
+      "en": "bergerette",
+      "it": "bergerette",
+      "wikidata": "http://www.wikidata.org/entity/Q2897092"
+    },
+    "fom:bru": {
+      "en": "brunette",
+      "it": "brunette",
+      "wikidata": "http://www.wikidata.org/entity/Q85749252"
+    },
+    "fom:bsd": {
+      "en": "basse danse",
+      "wikidata": "http://www.wikidata.org/entity/Q810479"
+    },
+    "fom:bur": {
+      "en": "burlesque",
+      "it": "burlesque",
+      "wikidata": "http://www.wikidata.org/entity/Q217117"
+    },
+    "fom:bwg": {
+      "it": "boogie-woogie",
+      "wikidata": "http://www.wikidata.org/entity/Q212952"
+    },
+    "fom:cab": {
+      "en": "cabaletta",
+      "wikidata": "http://www.wikidata.org/entity/Q370142"
+    },
+    "fom:cac": {
+      "en": "caccia",
+      "wikidata": "http://www.wikidata.org/entity/Q1024999"
+    },
+    "fom:can": {
+      "it": "can-can",
+      "wikidata": "http://www.wikidata.org/entity/Q333009"
+    },
+    "fom:cav": {
+      "en": "cavatina",
+      "wikidata": "http://www.wikidata.org/entity/Q41270"
+    },
+    "fom:cc": {
+      "it": "inno cristiano",
+      "wikidata": "http://www.wikidata.org/entity/Q856713"
+    },
+    "fom:cch": {
+      "it": "catch",
+      "wikidata": "http://www.wikidata.org/entity/Q2941721"
+    },
+    "fom:ccl": {
+      "it": "cantico",
+      "wikidata": "http://www.wikidata.org/entity/Q1033831"
+    },
+    "fom:cdg": {
+      "en": "chanson de geste",
+      "it": "canzone di gesta",
+      "wikidata": "http://www.wikidata.org/entity/Q651019"
+    },
+    "fom:cg": {
+      "en": "concerto grosso",
+      "wikidata": "http://www.wikidata.org/entity/Q210216"
+    },
+    "fom:cga": {
+      "it": "Conga",
+      "wikidata": "http://www.wikidata.org/entity/Q1125657"
+    },
+    "fom:chc": {
+      "en": "chaconne",
+      "it": "ciaccona",
+      "wikidata": "http://www.wikidata.org/entity/Q841238"
+    },
+    "fom:cho": {
+      "it": "opera da camera",
+      "wikidata": "http://www.wikidata.org/entity/Q915591"
+    },
+    "fom:cl": {
+      "it": "preludio corale",
+      "wikidata": "http://www.wikidata.org/entity/Q302987"
+    },
+    "fom:clu": {
+      "en": "clausula",
+      "it": "clausula",
+      "wikidata": "http://www.wikidata.org/entity/Q867914"
+    },
+    "fom:cmm": {
+      "it": "communio",
+      "wikidata": "http://www.wikidata.org/entity/Q1120530"
+    },
+    "fom:cnd": {
+      "en": "conductus",
+      "it": "conductus",
+      "wikidata": "http://www.wikidata.org/entity/Q846748"
+    },
+    "fom:cop": {
+      "it": "brano da concerto",
+      "wikidata": "http://www.wikidata.org/entity/Q1783700"
+    },
+    "fom:cpm": {
+      "en": "commedia per musica",
+      "wikidata": "http://www.wikidata.org/entity/Q3684599"
+    },
+    "fom:cpr": {
+      "en": "capriccio",
+      "wikidata": "http://www.wikidata.org/entity/Q876812"
+    },
+    "fom:cr": {
+      "it": "carola",
+      "wikidata": "http://www.wikidata.org/entity/Q21653344"
+    },
+    "fom:crr": {
+      "en": "corrido",
+      "it": "corrido",
+      "wikidata": "http://www.wikidata.org/entity/Q869210"
+    },
+    "fom:cs": {
+      "it": "musica aleatoria",
+      "wikidata": "http://www.wikidata.org/entity/Q623715"
+    },
+    "fom:csa": {
+      "en": "csárdás",
+      "wikidata": "http://www.wikidata.org/entity/Q11691916"
+    },
+    "fom:csg": {
+      "it": "canti carnascialeschi",
+      "wikidata": "http://www.wikidata.org/entity/Q3655716"
+    },
+    "fom:csy": {
+      "it": "sinfonia da camera",
+      "wikidata": "http://www.wikidata.org/entity/Q1723191"
+    },
+    "fom:ctl": {
+      "en": "cotillion",
+      "it": "cotillon",
+      "wikidata": "http://www.wikidata.org/entity/Q2998594"
+    },
+    "fom:cy": {
+      "it": "country",
+      "wikidata": "http://www.wikidata.org/entity/Q83440"
+    },
+    "fom:cyd": {
+      "it": "country dance",
+      "wikidata": "http://www.wikidata.org/entity/Q4763331"
+    },
+    "fom:czt": {
+      "en": "canzonetta",
+      "wikidata": "http://www.wikidata.org/entity/Q1034045"
+    },
+    "fom:dec": {
+      "en": "decet",
+      "wikidata": "http://www.wikidata.org/entity/Q29598000"
+    },
+    "fom:dim": {
+      "it": "disco music",
+      "wikidata": "http://www.wikidata.org/entity/Q58339"
+    },
+    "fom:dix": {
+      "it": "Dixieland",
+      "wikidata": "http://www.wikidata.org/entity/Q906647"
+    },
+    "fom:drs": {
+      "it": "canzone conviviale",
+      "wikidata": "http://www.wikidata.org/entity/Q2165184"
+    },
+    "fom:eco": {
+      "en": "écossaise",
+      "wikidata": "http://www.wikidata.org/entity/Q1202801"
+    },
+    "fom:ely": {
+      "it": "elegia",
+      "wikidata": "http://www.wikidata.org/entity/Q106286879"
+    },
+    "fom:ept": {
+      "en": "epithalamium",
+      "it": "epitalamio",
+      "wikidata": "http://www.wikidata.org/entity/Q686027"
+    },
+    "fom:est": {
+      "en": "estampie",
+      "it": "estampie",
+      "wikidata": "http://www.wikidata.org/entity/Q1369726"
+    },
+    "fom:fad": {
+      "en": "fado",
+      "it": "fado",
+      "wikidata": "http://www.wikidata.org/entity/Q185676"
+    },
+    "fom:faf": {
+      "it": "fanfara",
+      "wikidata": "http://www.wikidata.org/entity/Q638569"
+    },
+    "fom:fg": {
+      "it": "fuga",
+      "wikidata": "http://www.wikidata.org/entity/Q181014"
+    },
+    "fom:fin": {
+      "en": "finale",
+      "wikidata": "http://www.wikidata.org/entity/Q1346054"
+    },
+    "fom:fla": {
+      "en": "flamenco",
+      "it": "flamenco",
+      "wikidata": "http://www.wikidata.org/entity/Q9764"
+    },
+    "fom:fm": {
+      "it": "musica tradizionale",
+      "wikidata": "http://www.wikidata.org/entity/Q235858"
+    },
+    "fom:fnd": {
+      "en": "fandango",
+      "wikidata": "http://www.wikidata.org/entity/Q1130969"
+    },
+    "fom:fol": {
+      "it": "follia",
+      "wikidata": "http://www.wikidata.org/entity/Q1164087"
+    },
+    "fom:fox": {
+      "it": "foxtrot",
+      "wikidata": "http://www.wikidata.org/entity/Q245418"
+    },
+    "fom:frj": {
+      "it": "free jazz",
+      "wikidata": "http://www.wikidata.org/entity/Q211781"
+    },
+    "fom:frs": {
+      "it": "medley",
+      "wikidata": "http://www.wikidata.org/entity/Q13582719"
+    },
+    "fom:fso": {
+      "it": "canto popolare",
+      "wikidata": "http://www.wikidata.org/entity/Q943929"
+    },
+    "fom:fur": {
+      "en": "furiant",
+      "wikidata": "http://www.wikidata.org/entity/Q1432836"
+    },
+    "fom:gai": {
+      "it": "gagliarda",
+      "wikidata": "http://www.wikidata.org/entity/Q288824"
+    },
+    "fom:gal": {
+      "it": "galop",
+      "wikidata": "http://www.wikidata.org/entity/Q698092"
+    },
+    "fom:gav": {
+      "it": "gavotta",
+      "wikidata": "http://www.wikidata.org/entity/Q215742"
+    },
+    "fom:gch": {
+      "en": "género chico",
+      "it": "género chico",
+      "wikidata": "http://www.wikidata.org/entity/Q583236"
+    },
+    "fom:gig": {
+      "en": "gigue",
+      "it": "giga",
+      "wikidata": "http://www.wikidata.org/entity/Q567915"
+    },
+    "fom:gm": {
+      "it": "gospel",
+      "wikidata": "http://www.wikidata.org/entity/Q180268"
+    },
+    "fom:gra": {
+      "it": "graduale",
+      "wikidata": "http://www.wikidata.org/entity/Q849305"
+    },
+    "fom:gro": {
+      "en": "grand opera",
+      "it": "grand opéra",
+      "wikidata": "http://www.wikidata.org/entity/Q599099"
+    },
+    "fom:hab": {
+      "en": "habanera",
+      "it": "habanera",
+      "wikidata": "http://www.wikidata.org/entity/Q835562"
+    },
+    "fom:hem": {
+      "it": "heavy metal",
+      "wikidata": "http://www.wikidata.org/entity/Q38848"
+    },
+    "fom:hip": {
+      "it": "hip hop",
+      "wikidata": "http://www.wikidata.org/entity/Q11401"
+    },
+    "fom:hpp": {
+      "it": "hornpipe",
+      "wikidata": "http://www.wikidata.org/entity/Q1547484"
+    },
+    "fom:hum": {
+      "en": "humoresque",
+      "it": "humoresque",
+      "wikidata": "http://www.wikidata.org/entity/Q1370720"
+    },
+    "fom:hy": {
+      "it": "inno",
+      "wikidata": "http://www.wikidata.org/entity/Q484692"
+    },
+    "fom:in": {
+      "en": "intermezzo",
+      "wikidata": "http://www.wikidata.org/entity/Q781470"
+    },
+    "fom:inm": {
+      "it": "musiche di scena",
+      "wikidata": "http://www.wikidata.org/entity/Q1147752"
+    },
+    "fom:ipp": {
+      "en": "improperia",
+      "it": "improperia",
+      "wikidata": "http://www.wikidata.org/entity/Q283912"
+    },
+    "fom:iru": {
+      "it": "interludio",
+      "wikidata": "http://www.wikidata.org/entity/Q1413319"
+    },
+    "fom:itt": {
+      "it": "introito",
+      "wikidata": "http://www.wikidata.org/entity/Q224377"
+    },
+    "fom:jep": {
+      "en": "jeu-parti",
+      "wikidata": "http://www.wikidata.org/entity/Q96384423"
+    },
+    "fom:jig": {
+      "it": "giga",
+      "wikidata": "http://www.wikidata.org/entity/Q1079270"
+    },
+    "fom:jot": {
+      "en": "jota",
+      "it": "jota",
+      "wikidata": "http://www.wikidata.org/entity/Q252626"
+    },
+    "fom:jus": {
+      "it": "giustiniana",
+      "wikidata": "http://www.wikidata.org/entity/Q106207413"
+    },
+    "fom:kra": {
+      "en": "krakowiak",
+      "it": "krakowiak",
+      "wikidata": "http://www.wikidata.org/entity/Q648283"
+    },
+    "fom:lai": {
+      "en": "lay",
+      "it": "lai",
+      "wikidata": "http://www.wikidata.org/entity/Q951215"
+    },
+    "fom:lam": {
+      "it": "lamentazione",
+      "wikidata": "http://www.wikidata.org/entity/Q1229479"
+    },
+    "fom:lau": {
+      "en": "lauda",
+      "wikidata": "http://www.wikidata.org/entity/Q574784"
+    },
+    "fom:lid": {
+      "it": "dramma liturgico",
+      "wikidata": "http://www.wikidata.org/entity/Q1253136"
+    },
+    "fom:lmz": {
+      "it": "lamentazione",
+      "wikidata": "http://www.wikidata.org/entity/Q1229479"
+    },
+    "fom:lnd": {
+      "en": "tyrolienne",
+      "it": "tyrolienne",
+      "wikidata": "http://www.wikidata.org/entity/Q16874159"
+    },
+    "fom:lod": {
+      "it": "lodi mattutine",
+      "wikidata": "http://www.wikidata.org/entity/Q1506425"
+    },
+    "fom:lty": {
+      "it": "litania",
+      "wikidata": "http://www.wikidata.org/entity/Q240709"
+    },
+    "fom:lyh": {
+      "it": "Liturgia delle ore",
+      "wikidata": "http://www.wikidata.org/entity/Q45774"
+    },
+    "fom:md": {
+      "it": "madrigale",
+      "wikidata": "http://www.wikidata.org/entity/Q193217"
+    },
+    "fom:mda": {
+      "en": "melodrama",
+      "it": "melodramma",
+      "wikidata": "http://www.wikidata.org/entity/Q191489"
+    },
+    "fom:mi": {
+      "it": "minuetto",
+      "wikidata": "http://www.wikidata.org/entity/Q205734"
+    },
+    "fom:mim": {
+      "it": "marcia militare",
+      "wikidata": "http://www.wikidata.org/entity/Q3845811"
+    },
+    "fom:mng": {
+      "en": "milonga",
+      "it": "milonga",
+      "wikidata": "http://www.wikidata.org/entity/Q942955"
+    },
+    "fom:mnh": {
+      "en": "modinha",
+      "it": "modinha",
+      "wikidata": "http://www.wikidata.org/entity/Q1692318"
+    },
+    "fom:mo": {
+      "it": "mottetto",
+      "wikidata": "http://www.wikidata.org/entity/Q188285"
+    },
+    "fom:mon": {
+      "en": "monferrina",
+      "wikidata": "http://www.wikidata.org/entity/Q3320628"
+    },
+    "fom:mor": {
+      "it": "morality play",
+      "wikidata": "http://www.wikidata.org/entity/Q929047"
+    },
+    "fom:mp": {
+      "it": "musica per film",
+      "wikidata": "http://www.wikidata.org/entity/Q492264"
+    },
+    "fom:mqu": {
+      "it": "masque",
+      "wikidata": "http://www.wikidata.org/entity/Q2207959"
+    },
+    "fom:mr": {
+      "it": "marcia",
+      "wikidata": "http://www.wikidata.org/entity/Q211025"
+    },
+    "fom:ms": {
+      "it": "messa",
+      "wikidata": "http://www.wikidata.org/entity/Q217295"
+    },
+    "fom:mth": {
+      "it": "metodo",
+      "wikidata": "http://www.wikidata.org/entity/Q2250960"
+    },
+    "fom:mym": {
+      "it": "musica militare",
+      "wikidata": "http://www.wikidata.org/entity/Q6774721"
+    },
+    "fom:nat": {
+      "it": "inno nazionale",
+      "wikidata": "http://www.wikidata.org/entity/Q23691"
+    },
+    "fom:nc": {
+      "en": "nocturne",
+      "it": "notturno",
+      "wikidata": "http://www.wikidata.org/entity/Q194172"
+    },
+    "fom:noe": {
+      "it": "musica natalizia",
+      "wikidata": "http://www.wikidata.org/entity/Q1443316"
+    },
+    "fom:nov": {
+      "it": "novelette",
+      "wikidata": "http://www.wikidata.org/entity/Q7064554"
+    },
+    "fom:nry": {
+      "it": "filastrocca",
+      "wikidata": "http://www.wikidata.org/entity/Q1123037"
+    },
+    "fom:nwa": {
+      "it": "new age",
+      "wikidata": "http://www.wikidata.org/entity/Q213121"
+    },
+    "fom:nww": {
+      "it": "new wave",
+      "wikidata": "http://www.wikidata.org/entity/Q187760"
+    },
+    "fom:ode": {
+      "it": "ode",
+      "wikidata": "http://www.wikidata.org/entity/Q178985"
+    },
+    "fom:off": {
+      "it": "offertorio",
+      "wikidata": "http://www.wikidata.org/entity/Q1424911"
+    },
+    "fom:ogm": {
+      "en": "organum",
+      "it": "organum",
+      "wikidata": "http://www.wikidata.org/entity/Q599877"
+    },
+    "fom:ons": {
+      "it": "One-Step",
+      "wikidata": "http://www.wikidata.org/entity/Q1968059"
+    },
+    "fom:opb": {
+      "en": "opéra-ballet",
+      "it": "opéra-ballet",
+      "wikidata": "http://www.wikidata.org/entity/Q1084127"
+    },
+    "fom:opc": {
+      "en": "opéra comique",
+      "it": "opéra-comique",
+      "wikidata": "http://www.wikidata.org/entity/Q785479"
+    },
+    "fom:opf": {
+      "en": "opéra bouffe",
+      "it": "opéra bouffe",
+      "wikidata": "http://www.wikidata.org/entity/Q3084465"
+    },
+    "fom:opm": {
+      "en": "opera semiseria",
+      "wikidata": "http://www.wikidata.org/entity/Q1190662"
+    },
+    "fom:opt": {
+      "en": "operetta",
+      "wikidata": "http://www.wikidata.org/entity/Q170384"
+    },
+    "fom:orm": {
+      "it": "messa d'organo",
+      "wikidata": "http://www.wikidata.org/entity/Q3307010"
+    },
+    "fom:ov": {
+      "it": "ouverture",
+      "wikidata": "http://www.wikidata.org/entity/Q202287"
+    },
+    "fom:pad": {
+      "it": "opera patorale",
+      "wikidata": "http://www.wikidata.org/entity/Q105906205"
+    },
+    "fom:pbr": {
+      "it": "pibroch",
+      "wikidata": "http://www.wikidata.org/entity/Q1457753"
+    },
+    "fom:pdy": {
+      "it": "Parodia (musica)",
+      "wikidata": "http://www.wikidata.org/entity/Q2746731"
+    },
+    "fom:pg": {
+      "it": "musica a programma",
+      "wikidata": "http://www.wikidata.org/entity/Q209741"
+    },
+    "fom:phy": {
+      "it": "canto patriottico",
+      "wikidata": "http://www.wikidata.org/entity/Q7148059"
+    },
+    "fom:plk": {
+      "it": "polka",
+      "wikidata": "http://www.wikidata.org/entity/Q153071"
+    },
+    "fom:pm": {
+      "it": "passione",
+      "wikidata": "http://www.wikidata.org/entity/Q781815"
+    },
+    "fom:pmk": {
+      "it": "polka-mazurka",
+      "wikidata": "http://www.wikidata.org/entity/Q2745989"
+    },
+    "fom:pmm": {
+      "it": "dumbshow",
+      "wikidata": "http://www.wikidata.org/entity/Q1354550"
+    },
+    "fom:po": {
+      "it": "polacca",
+      "wikidata": "http://www.wikidata.org/entity/Q11821942"
+    },
+    "fom:pot": {
+      "it": "potpourri",
+      "wikidata": "http://www.wikidata.org/entity/Q1200012"
+    },
+    "fom:pp": {
+      "it": "musica popolare",
+      "wikidata": "http://www.wikidata.org/entity/Q373342"
+    },
+    "fom:pph": {
+      "it": "parafrasi",
+      "wikidata": "http://www.wikidata.org/entity/Q20825904"
+    },
+    "fom:prd": {
+      "it": "preludio",
+      "wikidata": "http://www.wikidata.org/entity/Q212148"
+    },
+    "fom:prl": {
+      "it": "prologo",
+      "wikidata": "http://www.wikidata.org/entity/Q920285"
+    },
+    "fom:prt": {
+      "en": "partimento",
+      "wikidata": "http://www.wikidata.org/entity/Q2054960"
+    },
+    "fom:ps": {
+      "en": "passacaglia",
+      "wikidata": "http://www.wikidata.org/entity/Q752329"
+    },
+    "fom:psd": {
+      "en": "pasodoble",
+      "it": "paso doble",
+      "wikidata": "http://www.wikidata.org/entity/Q208341"
+    },
+    "fom:psl": {
+      "en": "pastourelle",
+      "it": "pastorella",
+      "wikidata": "http://www.wikidata.org/entity/Q2634688"
+    },
+    "fom:pst": {
+      "it": "pastorale",
+      "wikidata": "http://www.wikidata.org/entity/Q1472271"
+    },
+    "fom:pv": {
+      "it": "pavana",
+      "wikidata": "http://www.wikidata.org/entity/Q180853"
+    },
+    "fom:pzz": {
+      "en": "passamezzo",
+      "wikidata": "http://www.wikidata.org/entity/Q1294481"
+    },
+    "fom:qdl": {
+      "it": "quadriglia",
+      "wikidata": "http://www.wikidata.org/entity/Q394084"
+    },
+    "fom:qua": {
+      "it": "quartetto",
+      "wikidata": "http://www.wikidata.org/entity/Q12367929"
+    },
+    "fom:quo": {
+      "en": "quodlibet",
+      "it": "quodlibet",
+      "wikidata": "http://www.wikidata.org/entity/Q1243912"
+    },
+    "fom:ram": {
+      "it": "radio music",
+      "wikidata": "http://www.wikidata.org/entity/Q105993236"
+    },
+    "fom:rao": {
+      "it": "radio opera",
+      "wikidata": "http://www.wikidata.org/entity/Q1474463"
+    },
+    "fom:rap": {
+      "it": "rap",
+      "wikidata": "http://www.wikidata.org/entity/Q6010"
+    },
+    "fom:rc": {
+      "it": "rock",
+      "wikidata": "http://www.wikidata.org/entity/Q11399"
+    },
+    "fom:rd": {
+      "en": "rondo",
+      "wikidata": "http://www.wikidata.org/entity/Q13323"
+    },
+    "fom:rde": {
+      "en": "rondeau",
+      "it": "Rondò",
+      "wikidata": "http://www.wikidata.org/entity/Q1417272"
+    },
+    "fom:rdw": {
+      "en": "redowa",
+      "it": "redova",
+      "wikidata": "http://www.wikidata.org/entity/Q3422966"
+    },
+    "fom:rec": {
+      "it": "recitativo",
+      "wikidata": "http://www.wikidata.org/entity/Q202534"
+    },
+    "fom:ree": {
+      "it": "reel",
+      "wikidata": "http://www.wikidata.org/entity/Q118120"
+    },
+    "fom:res": {
+      "it": "responsorio",
+      "wikidata": "http://www.wikidata.org/entity/Q604748"
+    },
+    "fom:rev": {
+      "it": "teatro di rivista",
+      "wikidata": "http://www.wikidata.org/entity/Q918727"
+    },
+    "fom:rg": {
+      "it": "ragtime",
+      "wikidata": "http://www.wikidata.org/entity/Q185652"
+    },
+    "fom:rgg": {
+      "it": "reggae",
+      "wikidata": "http://www.wikidata.org/entity/Q9794"
+    },
+    "fom:rhb": {
+      "it": "rhythm and blues",
+      "wikidata": "http://www.wikidata.org/entity/Q45981"
+    },
+    "fom:rig": {
+      "it": "rigaudon",
+      "wikidata": "http://www.wikidata.org/entity/Q383845"
+    },
+    "fom:ris": {
+      "en": "rispet",
+      "wikidata": "http://www.wikidata.org/entity/Q25470"
+    },
+    "fom:rmc": {
+      "it": "romanza strumentale",
+      "wikidata": "http://www.wikidata.org/entity/Q106013767"
+    },
+    "fom:rmy": {
+      "it": "musica sacra",
+      "wikidata": "http://www.wikidata.org/entity/Q1065742"
+    },
+    "fom:rp": {
+      "it": "rapsodia",
+      "wikidata": "http://www.wikidata.org/entity/Q464769"
+    },
+    "fom:rq": {
+      "it": "requiem",
+      "wikidata": "http://www.wikidata.org/entity/Q6941842"
+    },
+    "fom:rum": {
+      "it": "rumba",
+      "wikidata": "http://www.wikidata.org/entity/Q21684437"
+    },
+    "fom:sae": {
+      "en": "saeta",
+      "it": "saeta",
+      "wikidata": "http://www.wikidata.org/entity/Q958982"
+    },
+    "fom:sai": {
+      "en": "sainete",
+      "it": "sainete",
+      "wikidata": "http://www.wikidata.org/entity/Q835067"
+    },
+    "fom:sch": {
+      "en": "scherzo",
+      "wikidata": "http://www.wikidata.org/entity/Q209534"
+    },
+    "fom:sct": {
+      "it": "scat",
+      "wikidata": "http://www.wikidata.org/entity/Q623202"
+    },
+    "fom:seq": {
+      "it": "sequenza",
+      "wikidata": "http://www.wikidata.org/entity/Q1147354"
+    },
+    "fom:sev": {
+      "en": "sevillanas",
+      "it": "sevillana",
+      "wikidata": "http://www.wikidata.org/entity/Q976634"
+    },
+    "fom:sft": {
+      "en": "sinfonietta",
+      "wikidata": "http://www.wikidata.org/entity/Q15077165"
+    },
+    "fom:sg": {
+      "it": "canzone",
+      "wikidata": "http://www.wikidata.org/entity/Q7366"
+    },
+    "fom:sgl": {
+      "en": "seguidilla",
+      "it": "seguidilla",
+      "wikidata": "http://www.wikidata.org/entity/Q1973457"
+    },
+    "fom:sha": {
+      "it": "canto marinaresco",
+      "wikidata": "http://www.wikidata.org/entity/Q1195253"
+    },
+    "fom:si": {
+      "it": "sinfonia",
+      "wikidata": "http://www.wikidata.org/entity/Q377141"
+    },
+    "fom:sic": {
+      "en": "siciliana",
+      "wikidata": "http://www.wikidata.org/entity/Q637696"
+    },
+    "fom:ska": {
+      "it": "ska",
+      "wikidata": "http://www.wikidata.org/entity/Q54365"
+    },
+    "fom:slq": {
+      "it": "soliloquio",
+      "wikidata": "http://www.wikidata.org/entity/Q184528"
+    },
+    "fom:sls": {
+      "it": "salsa",
+      "wikidata": "http://www.wikidata.org/entity/Q208239"
+    },
+    "fom:slt": {
+      "en": "saltarello",
+      "wikidata": "http://www.wikidata.org/entity/Q657047"
+    },
+    "fom:smb": {
+      "it": "samba",
+      "wikidata": "http://www.wikidata.org/entity/Q11403"
+    },
+    "fom:snd": {
+      "it": "serenata",
+      "wikidata": "http://www.wikidata.org/entity/Q215911"
+    },
+    "fom:snt": {
+      "en": "serenata",
+      "wikidata": "http://www.wikidata.org/entity/Q18071186"
+    },
+    "fom:sou": {
+      "it": "soul",
+      "wikidata": "http://www.wikidata.org/entity/Q131272"
+    },
+    "fom:sp": {
+      "it": "poema sinfonico",
+      "wikidata": "http://www.wikidata.org/entity/Q271802"
+    },
+    "fom:spi": {
+      "it": "spiritual",
+      "wikidata": "http://www.wikidata.org/entity/Q212024"
+    },
+    "fom:sps": {
+      "it": "canzoni di protesta",
+      "wikidata": "http://www.wikidata.org/entity/Q829147"
+    },
+    "fom:srb": {
+      "en": "sarabande",
+      "it": "sarabanda",
+      "wikidata": "http://www.wikidata.org/entity/Q208593"
+    },
+    "fom:srd": {
+      "en": "sardana",
+      "wikidata": "http://www.wikidata.org/entity/Q1413570"
+    },
+    "fom:ssp": {
+      "en": "singspiel",
+      "it": "singspiel",
+      "wikidata": "http://www.wikidata.org/entity/Q377258"
+    },
+    "fom:st": {
+      "it": "studio",
+      "wikidata": "http://www.wikidata.org/entity/Q207841"
+    },
+    "fom:sth": {
+      "it": "Chotis",
+      "wikidata": "http://www.wikidata.org/entity/Q329385"
+    },
+    "fom:str": {
+      "en": "strambotto",
+      "wikidata": "http://www.wikidata.org/entity/Q3500513"
+    },
+    "fom:su": {
+      "it": "suite",
+      "wikidata": "http://www.wikidata.org/entity/Q203005"
+    },
+    "fom:swi": {
+      "it": "swing",
+      "wikidata": "http://www.wikidata.org/entity/Q203775"
+    },
+    "fom:sww": {
+      "it": "musica strumentale",
+      "wikidata": "http://www.wikidata.org/entity/Q639197"
+    },
+    "fom:sy": {
+      "it": "sinfonia",
+      "wikidata": "http://www.wikidata.org/entity/Q9734"
+    },
+    "fom:tar": {
+      "en": "tarantella",
+      "wikidata": "http://www.wikidata.org/entity/Q324617"
+    },
+    "fom:tc": {
+      "en": "toccata",
+      "wikidata": "http://www.wikidata.org/entity/Q140544"
+    },
+    "fom:tem": {
+      "it": "techno",
+      "wikidata": "http://www.wikidata.org/entity/Q170611"
+    },
+    "fom:tex": {
+      "it": "Musica Tex-Mex",
+      "wikidata": "http://www.wikidata.org/entity/Q107197766"
+    },
+    "fom:ths": {
+      "it": "third Stream",
+      "wikidata": "http://www.wikidata.org/entity/Q539089"
+    },
+    "fom:tmb": {
+      "en": "tambourin",
+      "it": "tambourin",
+      "wikidata": "http://www.wikidata.org/entity/Q2731147"
+    },
+    "fom:tng": {
+      "it": "tango flamenco",
+      "wikidata": "http://www.wikidata.org/entity/Q1001165"
+    },
+    "fom:tra": {
+      "it": "tratto",
+      "wikidata": "http://www.wikidata.org/entity/Q2296224"
+    },
+    "fom:tro": {
+      "it": "tropo",
+      "wikidata": "http://www.wikidata.org/entity/Q1554097"
+    },
+    "fom:trt": {
+      "en": "transitorium",
+      "it": "transitorium",
+      "wikidata": "http://www.wikidata.org/entity/Q106554914"
+    },
+    "fom:tvo": {
+      "it": "opera per la televisione",
+      "wikidata": "http://www.wikidata.org/entity/Q106393147"
+    },
+    "fom:uuu": {
+      "it": "Forma sconosciuta",
+      "wikidata": "http://www.wikidata.org/entity/Q106278257"
+    },
+    "fom:vau": {
+      "en": "vaudeville",
+      "it": "vaudeville",
+      "wikidata": "http://www.wikidata.org/entity/Q17118203"
+    },
+    "fom:vil": {
+      "en": "villanelle",
+      "it": "villanelle",
+      "wikidata": "http://www.wikidata.org/entity/Q386850"
+    },
+    "fom:vir": {
+      "en": "virelai",
+      "it": "virelai",
+      "wikidata": "http://www.wikidata.org/entity/Q1053849"
+    },
+    "fom:vlc": {
+      "en": "villancico",
+      "it": "villancico",
+      "wikidata": "http://www.wikidata.org/entity/Q1232283"
+    },
+    "fom:vln": {
+      "en": "villanella",
+      "wikidata": "http://www.wikidata.org/entity/Q2273147"
+    },
+    "fom:vlt": {
+      "en": "villotta",
+      "wikidata": "http://www.wikidata.org/entity/Q1092924"
+    },
+    "fom:voc": {
+      "it": "vocalizzo",
+      "wikidata": "http://www.wikidata.org/entity/Q1510942"
+    },
+    "fom:vr": {
+      "it": "variazione",
+      "wikidata": "http://www.wikidata.org/entity/Q214981"
+    },
+    "fom:wsg": {
+      "it": "canto di guerra",
+      "wikidata": "http://www.wikidata.org/entity/Q16194930"
+    },
+    "fom:wz": {
+      "it": "valzer",
+      "wikidata": "http://www.wikidata.org/entity/Q8701407"
+    },
+    "fom:zar": {
+      "en": "zarzuela",
+      "it": "zarzuela",
+      "wikidata": "http://www.wikidata.org/entity/Q148163"
+    },
+    "fom:zmb": {
+      "en": "zamba",
+      "wikidata": "http://www.wikidata.org/entity/Q3106448"
+    },
+    "fom:zor": {
+      "en": "zortziko",
+      "it": "zortziko",
+      "wikidata": "http://www.wikidata.org/entity/Q3325918"
+    },
+    "graphicsfd:ak": {
+      "it": "illustrazione",
+      "wikidata": "http://www.wikidata.org/entity/Q178659"
+    },
+    "graphicstd:ab": {
+      "it": "grafite",
+      "wikidata": "http://www.wikidata.org/entity/Q124488113"
+    },
+    "graphicstd:ad": {
+      "it": "inchiostro di china",
+      "wikidata": "http://www.wikidata.org/entity/Q12981547"
+    },
+    "graphicstd:ak": {
+      "it": "pittura a tempera",
+      "wikidata": "http://www.wikidata.org/entity/Q28951616"
+    },
+    "graphicstd:am": {
+      "it": "pastello",
+      "wikidata": "http://www.wikidata.org/entity/Q12043905"
+    },
+    "graphicstd:an": {
+      "it": "pittura a olio",
+      "wikidata": "http://www.wikidata.org/entity/Q174705"
+    },
+    "graphicstd:bh": {
+      "it": "encausto",
+      "wikidata": "http://www.wikidata.org/entity/Q308968"
+    },
+    "graphicstd:bj": {
+      "it": "collage",
+      "wikidata": "http://www.wikidata.org/entity/Q170593"
+    },
+    "graphicstp:ba": {
+      "it": "xilografia",
+      "wikidata": "http://www.wikidata.org/entity/Q173242"
+    },
+    "graphicstp:bf": {
+      "it": "cromolitografia",
+      "wikidata": "http://www.wikidata.org/entity/Q1121337"
+    },
+    "graphicstp:bg": {
+      "it": "linoleografia",
+      "wikidata": "http://www.wikidata.org/entity/Q752633"
+    },
+    "graphicstp:bh": {
+      "it": "acquaforte",
+      "wikidata": "http://www.wikidata.org/entity/Q186986"
+    },
+    "graphicstp:bi": {
+      "it": "litografia",
+      "wikidata": "http://www.wikidata.org/entity/Q133036"
+    },
+    "graphicstp:bk": {
+      "it": "zincografia",
+      "wikidata": "http://www.wikidata.org/entity/Q204867"
+    },
+    "graphicstp:bm": {
+      "it": "acquatinta",
+      "wikidata": "http://www.wikidata.org/entity/Q18396864"
+    },
+    "graphicstp:cb": {
+      "it": "incisione",
+      "wikidata": "http://www.wikidata.org/entity/Q139106"
+    },
+    "graphicstp:ce": {
+      "it": "puntasecca",
+      "wikidata": "http://www.wikidata.org/entity/Q542340"
+    },
+    "graphicstp:cf": {
+      "it": "maniera nera",
+      "wikidata": "http://www.wikidata.org/entity/Q731980"
+    },
+    "graphicstp:ch": {
+      "it": "serigrafia",
+      "wikidata": "http://www.wikidata.org/entity/Q187791"
+    },
+    "graphicstp:ci": {
+      "it": "siderografia",
+      "wikidata": "http://www.wikidata.org/entity/Q482097"
+    },
+    "graphicstp:ck": {
+      "it": "fotocopiatura",
+      "wikidata": "http://www.wikidata.org/entity/Q56821429"
+    },
+    "key:a": {
+      "it": "La maggiore",
+      "wikidata": "http://www.wikidata.org/entity/Q277793"
+    },
+    "key:ab": {
+      "it": "La bemolle maggiore",
+      "wikidata": "http://www.wikidata.org/entity/Q719309"
+    },
+    "key:abm": {
+      "it": "La bemolle minore",
+      "wikidata": "http://www.wikidata.org/entity/Q312016"
+    },
+    "key:am": {
+      "it": "la minore",
+      "wikidata": "http://www.wikidata.org/entity/Q277855"
+    },
+    "key:axm": {
+      "it": "La diesis minore",
+      "wikidata": "http://www.wikidata.org/entity/Q287469"
+    },
+    "key:b": {
+      "it": "Si maggiore",
+      "wikidata": "http://www.wikidata.org/entity/Q1132862"
+    },
+    "key:bb": {
+      "it": "Si bemolle maggiore",
+      "wikidata": "http://www.wikidata.org/entity/Q795134"
+    },
+    "key:bbm": {
+      "it": "Si bemolle minore",
+      "wikidata": "http://www.wikidata.org/entity/Q283887"
+    },
+    "key:bm": {
+      "it": "Si minore",
+      "wikidata": "http://www.wikidata.org/entity/Q284039"
+    },
+    "key:c": {
+      "it": "Do maggiore",
+      "wikidata": "http://www.wikidata.org/entity/Q1022293"
+    },
+    "key:cb": {
+      "it": "Do bemolle maggiore",
+      "wikidata": "http://www.wikidata.org/entity/Q1056662"
+    },
+    "key:cm": {
+      "it": "Do minore",
+      "wikidata": "http://www.wikidata.org/entity/Q309994"
+    },
+    "key:cx": {
+      "it": "Do diesis maggiore",
+      "wikidata": "http://www.wikidata.org/entity/Q1093180"
+    },
+    "key:cxm": {
+      "it": "Do diesis minore",
+      "wikidata": "http://www.wikidata.org/entity/Q283749"
+    },
+    "key:d": {
+      "it": "re maggiore",
+      "wikidata": "http://www.wikidata.org/entity/Q1124006"
+    },
+    "key:db": {
+      "it": "re bemolle maggiore",
+      "wikidata": "http://www.wikidata.org/entity/Q682779"
+    },
+    "key:dm": {
+      "it": "Re minore",
+      "wikidata": "http://www.wikidata.org/entity/Q283903"
+    },
+    "key:dxm": {
+      "it": "Re diesis minore",
+      "wikidata": "http://www.wikidata.org/entity/Q283874"
+    },
+    "key:e": {
+      "it": "Mi maggiore",
+      "wikidata": "http://www.wikidata.org/entity/Q1125102"
+    },
+    "key:eb": {
+      "it": "Mi bemolle maggiore",
+      "wikidata": "http://www.wikidata.org/entity/Q934895"
+    },
+    "key:ebm": {
+      "it": "Mi bemolle minore",
+      "wikidata": "http://www.wikidata.org/entity/Q14254276"
+    },
+    "key:em": {
+      "it": "Mi minore",
+      "wikidata": "http://www.wikidata.org/entity/Q283880"
+    },
+    "key:f": {
+      "it": "Fa maggiore",
+      "wikidata": "http://www.wikidata.org/entity/Q913790"
+    },
+    "key:fm": {
+      "it": "Fa minore",
+      "wikidata": "http://www.wikidata.org/entity/Q283741"
+    },
+    "key:fx": {
+      "it": "Fa diesis maggiore",
+      "wikidata": "http://www.wikidata.org/entity/Q507255"
+    },
+    "key:fxm": {
+      "it": "Fa diesis minore",
+      "wikidata": "http://www.wikidata.org/entity/Q283910"
+    },
+    "key:g": {
+      "it": "Sol maggiore",
+      "wikidata": "http://www.wikidata.org/entity/Q5728362"
+    },
+    "key:gb": {
+      "it": "Sol bemolle maggiore",
+      "wikidata": "http://www.wikidata.org/entity/Q1132841"
+    },
+    "key:gm": {
+      "it": "Sol minore",
+      "wikidata": "http://www.wikidata.org/entity/Q283895"
+    },
+    "key:gxm": {
+      "it": "Sol diesis minore",
+      "wikidata": "http://www.wikidata.org/entity/Q11160262"
+    },
+    "key:zz": {
+      "it": "Altro",
+      "wikidata": "http://www.wikidata.org/entity/Q105541075"
+    },
+    "planet:ea": {
+      "it": "Terra",
+      "wikidata": "http://www.wikidata.org/entity/Q2"
+    },
+    "planet:ju": {
+      "it": "Giove",
+      "wikidata": "http://www.wikidata.org/entity/Q319"
+    },
+    "planet:pl": {
+      "it": "Plutone",
+      "wikidata": "http://www.wikidata.org/entity/Q339"
+    },
+    "satcat:a": {
+      "it": "satellite meteorologico",
+      "wikidata": "http://www.wikidata.org/entity/Q209363"
+    },
+    "satname:ae": {
+      "it": "Meteosat",
+      "wikidata": "http://www.wikidata.org/entity/Q1429889"
+    },
+    "satname:ma": {
+      "it": "Explorer 1",
+      "wikidata": "http://www.wikidata.org/entity/Q49901"
+    },
+    "soundatm:a": {
+      "it": "discografia",
+      "wikidata": "http://www.wikidata.org/entity/Q273057"
+    },
+    "soundatm:d": {
+      "it": "libretto",
+      "wikidata": "http://www.wikidata.org/entity/Q131084"
+    },
+    "soundatm:i": {
+      "it": "informazioni storiche sulla musica",
+      "wikidata": "http://www.wikidata.org/entity/Q124416929"
+    },
+    "soundgrw:b": {
+      "it": "disco a microsolco",
+      "wikidata": "http://www.wikidata.org/entity/Q86816874"
+    },
+    "soundrep:e": {
+      "it": "Dolby A",
+      "wikidata": "http://www.wikidata.org/entity/Q29458594"
+    },
+    "soundrep:f": {
+      "it": "Dolby B",
+      "wikidata": "http://www.wikidata.org/entity/Q29552891"
+    },
+    "soundtaw:c": {
+      "it": "1 in.",
+      "wikidata": "http://www.wikidata.org/entity/Q123512130"
+    },
+    "soundtec:c": {
+      "it": "registrazione digitale",
+      "wikidata": "http://www.wikidata.org/entity/Q2473736"
+    },
+    "visacc:c": {
+      "it": "manifesto",
+      "wikidata": "http://www.wikidata.org/entity/Q429785"
+    },
+    "visacc:e": {
+      "it": "fotobusta",
+      "wikidata": "http://www.wikidata.org/entity/Q29230229"
+    },
+    "viscol:a": {
+      "it": "bianco e nero",
+      "wikidata": "http://www.wikidata.org/entity/Q838368"
+    },
+    "viscol:b": {
+      "it": "colore",
+      "wikidata": "http://www.wikidata.org/entity/Q22006653"
+    },
+    "visfor:a": {
+      "it": "bobina di pellicola",
+      "wikidata": "http://www.wikidata.org/entity/Q105759907"
+    },
+    "visfor:b": {
+      "it": "cartuccia di pellicola",
+      "wikidata": "http://www.wikidata.org/entity/Q105821739"
+    },
+    "visfor:g": {
+      "it": "Cartuccia di filmina",
+      "wikidata": "http://www.wikidata.org/entity/Q105821808"
+    },
+    "visfor:h": {
+      "it": "Spezzone di pellicola",
+      "wikidata": "http://www.wikidata.org/entity/Q105953346"
+    },
+    "visfov:a": {
+      "it": "cartuccia video",
+      "wikidata": "http://www.wikidata.org/entity/Q105063216"
+    },
+    "visfov:b": {
+      "it": "videodisco",
+      "wikidata": "http://www.wikidata.org/entity/Q764322"
+    },
+    "visfov:c": {
+      "it": "videocassetta",
+      "wikidata": "http://www.wikidata.org/entity/Q121141504"
+    },
+    "visfov:d": {
+      "it": "bobina di nastro video",
+      "wikidata": "http://www.wikidata.org/entity/Q60533098"
+    }
+  },
+  "retrieved": "2026-08-28",
+  "source": "Wikidata P9112 labels retrieved through QLever"
+}

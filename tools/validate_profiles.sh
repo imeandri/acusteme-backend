@@ -9,6 +9,9 @@ SCHEMA="$ROOT_DIR/profile.xsd"
 TMP_ENGLISH="$(mktemp)"
 trap 'rm -f "$TMP_ENGLISH"' EXIT
 
+python3 "$ROOT_DIR/tools/build_ifla_lists.py" --audit-only
+python3 "$ROOT_DIR/tools/build_loc_lists.py" --audit-only
+python3 "$ROOT_DIR/tools/build_wikidata_search_queries.py" --check
 xmllint --noout --schema "$SCHEMA" "$CANONICAL"
 xmllint --noout --schema "$SCHEMA" "$ENGLISH"
 

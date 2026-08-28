@@ -1,0 +1,1999 @@
+{
+  "source": "ACUSTEME semantic translations for missing IFLA UNIMARC English/Italian labels",
+  "reviewed": "2026-08-28",
+  "policy": "Every entry is an explicit cataloguing-language label. Identical labels are deliberate international or historical terms, never cross-locale fallback.",
+  "entries": {
+    "altos:a": {
+      "it": "terrestre"
+    },
+    "altos:b": {
+      "it": "aerea"
+    },
+    "altos:c": {
+      "it": "spaziale"
+    },
+    "attos:a": {
+      "it": "obliquo basso"
+    },
+    "attos:b": {
+      "it": "obliquo alto"
+    },
+    "attos:c": {
+      "it": "verticale"
+    },
+    "cartcha:a": {
+      "it": "immagine non fotografica"
+    },
+    "cartcha:b": {
+      "it": "immagine fotografica"
+    },
+    "cartcha:c": {
+      "it": "immagine telerilevata"
+    },
+    "cartfor:b": {
+      "it": "diagramma"
+    },
+    "cartfor:c": {
+      "it": "globo terrestre"
+    },
+    "cartfor:e": {
+      "it": "modello"
+    },
+    "cartfor:f": {
+      "it": "profilo"
+    },
+    "cartfor:g": {
+      "it": "immagine telerilevata"
+    },
+    "cartfor:h": {
+      "it": "sezione"
+    },
+    "cartfor:i": {
+      "it": "veduta"
+    },
+    "cartfor:j": {
+      "it": "pianta"
+    },
+    "cartfor:z": {
+      "it": "altro"
+    },
+    "cartpop:a": {
+      "it": "terrestre"
+    },
+    "cartpop:b": {
+      "it": "aerea"
+    },
+    "cartpop:c": {
+      "it": "spaziale"
+    },
+    "cartpro:aa": {
+      "it": "proiezione di Aitoff"
+    },
+    "cartpro:ac": {
+      "it": "proiezione azimutale equivalente di Lambert"
+    },
+    "cartpro:ad": {
+      "it": "proiezione ortografica"
+    },
+    "cartpro:ae": {
+      "it": "proiezione azimutale equidistante"
+    },
+    "cartpro:af": {
+      "it": "proiezione stereografica"
+    },
+    "cartpro:ag": {
+      "it": "proiezione azimutale equivalente"
+    },
+    "cartpro:au": {
+      "it": "proiezione azimutale, tipo specifico sconosciuto"
+    },
+    "cartpro:az": {
+      "it": "proiezione azimutale, altro tipo specifico noto"
+    },
+    "cartpro:ba": {
+      "it": "proiezione di Gall"
+    },
+    "cartpro:bb": {
+      "it": "proiezione omolografica di Goode"
+    },
+    "cartpro:bc": {
+      "it": "proiezione cilindrica equivalente di Lambert"
+    },
+    "cartpro:be": {
+      "it": "proiezione di Miller"
+    },
+    "cartpro:bf": {
+      "it": "proiezione di Mollweide"
+    },
+    "cartpro:bg": {
+      "it": "proiezione sinusoidale"
+    },
+    "cartpro:bh": {
+      "it": "proiezione trasversa di Mercatore"
+    },
+    "cartpro:bi": {
+      "it": "proiezione di Gauss"
+    },
+    "cartpro:bj": {
+      "it": "proiezione Plate Carrée"
+    },
+    "cartpro:bk": {
+      "it": "proiezione di Cassini"
+    },
+    "cartpro:bl": {
+      "it": "proiezione di Laborde"
+    },
+    "cartpro:bm": {
+      "it": "proiezione obliqua di Mercatore"
+    },
+    "cartpro:bu": {
+      "it": "proiezione cilindrica, tipo specifico sconosciuto"
+    },
+    "cartpro:bz": {
+      "it": "proiezione cilindrica, altro tipo specifico noto"
+    },
+    "cartpro:ca": {
+      "it": "proiezione equivalente di Albers"
+    },
+    "cartpro:cb": {
+      "it": "proiezione di Bonne"
+    },
+    "cartpro:cc": {
+      "it": "proiezione conica conforme di Lambert"
+    },
+    "cartpro:cd": {
+      "it": "proiezione conica semplice"
+    },
+    "cartpro:ce": {
+      "it": "proiezione conica conforme obliqua bipolare di Miller"
+    },
+    "cartpro:cf": {
+      "it": "proiezione di De Lisle"
+    },
+    "cartpro:cg": {
+      "it": "proiezione della Carta internazionale del mondo"
+    },
+    "cartpro:ch": {
+      "it": "proiezione conica conforme di Tissot"
+    },
+    "cartpro:cp": {
+      "it": "proiezione policonica"
+    },
+    "cartpro:cu": {
+      "it": "proiezione conica, tipo specifico sconosciuto"
+    },
+    "cartpro:cz": {
+      "it": "proiezione conica, altro tipo specifico noto"
+    },
+    "cartpro:da": {
+      "it": "proiezione Armadillo"
+    },
+    "cartpro:db": {
+      "it": "proiezione a farfalla"
+    },
+    "cartpro:dc": {
+      "it": "proiezione di Eckert"
+    },
+    "cartpro:dd": {
+      "it": "proiezione omolosina di Goode"
+    },
+    "cartpro:de": {
+      "it": "proiezione bipolare di Miller"
+    },
+    "cartpro:df": {
+      "it": "proiezione di Van der Grinten"
+    },
+    "cartpro:dg": {
+      "it": "proiezione Dymaxion"
+    },
+    "cartpro:dh": {
+      "it": "proiezione cordiforme"
+    },
+    "cartpro:di": {
+      "it": "proiezione poliedrica"
+    },
+    "cartpro:uu": {
+      "it": "tipo di proiezione sconosciuto"
+    },
+    "cartpro:xx": {
+      "it": "non applicabile"
+    },
+    "cartpro:zz": {
+      "it": "altro tipo noto"
+    },
+    "cartprt:aa": {
+      "it": "anaglifica"
+    },
+    "cartprt:ab": {
+      "it": "polarizzata"
+    },
+    "cartprt:ac": {
+      "it": "planimetrica"
+    },
+    "cartprt:ad": {
+      "it": "carta diagrammatica"
+    },
+    "cartprt:ae": {
+      "it": "carta a linee di flusso, carta di flusso"
+    },
+    "cartprt:af": {
+      "it": "carta a punti"
+    },
+    "cartprt:ag": {
+      "it": "carta schematica"
+    },
+    "cartprt:ah": {
+      "it": "carta coropletica"
+    },
+    "cartprt:ai": {
+      "it": "carta corocromatica"
+    },
+    "cartprt:aj": {
+      "it": "carta dasimetrica"
+    },
+    "cartprt:ak": {
+      "it": "carta a isoplete"
+    },
+    "cartprt:am": {
+      "it": "carta anamorfica"
+    },
+    "cartprt:an": {
+      "it": "carta pittorica"
+    },
+    "cartprt:ao": {
+      "it": "modello spaziale su superficie bidimensionale"
+    },
+    "cartprt:ap": {
+      "it": "mappa mentale o cognitiva"
+    },
+    "cartprt:aq": {
+      "it": "veduta con orizzonte"
+    },
+    "cartprt:ar": {
+      "it": "veduta senza orizzonte"
+    },
+    "cartprt:as": {
+      "it": "veduta cartografica"
+    },
+    "cartprt:da": {
+      "it": "carta pittografica"
+    },
+    "cartprt:db": {
+      "it": "carta a punti casuali"
+    },
+    "cartprt:dc": {
+      "it": "retinata"
+    },
+    "cartprt:dd": {
+      "it": "non retinata"
+    },
+    "cartrel:a": {
+      "it": "curve di livello"
+    },
+    "cartrel:b": {
+      "it": "rilievo ombreggiato a tono continuo"
+    },
+    "cartrel:c": {
+      "it": "tinte ipsometriche – metodo a strati"
+    },
+    "cartrel:d": {
+      "it": "tratteggio"
+    },
+    "cartrel:e": {
+      "it": "batimetria – scandagli"
+    },
+    "cartrel:f": {
+      "it": "curve di forma"
+    },
+    "cartrel:g": {
+      "it": "quote altimetriche"
+    },
+    "cartrel:h": {
+      "it": "altri metodi a colori"
+    },
+    "cartrel:i": {
+      "it": "rappresentazione pittorica"
+    },
+    "cartrel:j": {
+      "it": "forme del terreno"
+    },
+    "cartrel:k": {
+      "it": "batimetria – isolinee"
+    },
+    "cartrel:x": {
+      "it": "non applicabile"
+    },
+    "cartrel:z": {
+      "it": "altri metodi di rappresentazione del rilievo"
+    },
+    "cartret:aa": {
+      "it": "videoregistrazione"
+    },
+    "cartret:ab": {
+      "it": "fotografia a falsi colori"
+    },
+    "cartret:ac": {
+      "it": "fotografia multispettrale"
+    },
+    "cartret:ad": {
+      "it": "scansione multispettrale"
+    },
+    "cartret:av": {
+      "it": "combinazione di diverse tecniche di emissione luminosa"
+    },
+    "cartret:da": {
+      "it": "scansione lineare all'infrarosso"
+    },
+    "cartret:dv": {
+      "it": "combinazione di diverse tecniche di scansione nell'infrarosso termico"
+    },
+    "cartret:ga": {
+      "it": "radar aviotrasportato a scansione laterale (SLAR)"
+    },
+    "cartret:gc": {
+      "it": "mappatura passiva a microonde"
+    },
+    "carttos:b": {
+      "it": "scala angolare"
+    },
+    "carttos:z": {
+      "it": "altro tipo di scala"
+    },
+    "fom:abs": {
+      "en": "absolution"
+    },
+    "fom:acc": {
+      "en": "academy"
+    },
+    "fom:acm": {
+      "en": "actus musicus",
+      "it": "actus musicus"
+    },
+    "fom:agn": {
+      "en": "agnus dei",
+      "it": "agnus dei"
+    },
+    "fom:ai": {
+      "it": "ayr"
+    },
+    "fom:ain": {
+      "it": "aria strumentale"
+    },
+    "fom:aka": {
+      "en": "akathistos hymnos",
+      "it": "akathistos hymnos"
+    },
+    "fom:ala": {
+      "en": "alba"
+    },
+    "fom:all": {
+      "en": "hallelujah"
+    },
+    "fom:alm": {
+      "en": "allemande"
+    },
+    "fom:ame": {
+      "en": "promenade"
+    },
+    "fom:an": {
+      "it": "inno"
+    },
+    "fom:ana": {
+      "en": "anagram"
+    },
+    "fom:ane": {
+      "en": "ante evangelium",
+      "it": "ante evangelium"
+    },
+    "fom:app": {
+      "en": "applause"
+    },
+    "fom:ark": {
+      "en": "aurresku",
+      "it": "aurresku"
+    },
+    "fom:arn": {
+      "it": "aria strumentale"
+    },
+    "fom:azm": {
+      "en": "azione musicale"
+    },
+    "fom:azs": {
+      "en": "azione sacra"
+    },
+    "fom:bad": {
+      "en": "badinage",
+      "it": "badinage"
+    },
+    "fom:bag": {
+      "en": "bagatelle",
+      "it": "bagatella"
+    },
+    "fom:bai": {
+      "en": "baião",
+      "it": "baião"
+    },
+    "fom:bal": {
+      "en": "dance"
+    },
+    "fom:bat": {
+      "en": "battle"
+    },
+    "fom:ben": {
+      "en": "benedictus",
+      "it": "benedictus"
+    },
+    "fom:bhn": {
+      "en": "Bergreihen",
+      "it": "Bergreihen"
+    },
+    "fom:bic": {
+      "en": "bicinium",
+      "it": "bicinium"
+    },
+    "fom:bkb": {
+      "it": "black bottom"
+    },
+    "fom:bkg": {
+      "en": "Bänkelgesang",
+      "it": "Bänkelgesang"
+    },
+    "fom:bkm": {
+      "it": "musica nera"
+    },
+    "fom:blc": {
+      "it": "bolero cubano"
+    },
+    "fom:bll": {
+      "en": "ballad"
+    },
+    "fom:blt": {
+      "en": "bluette",
+      "it": "bluette"
+    },
+    "fom:bou": {
+      "it": "bourrée"
+    },
+    "fom:bra": {
+      "en": "branle",
+      "it": "branle"
+    },
+    "fom:brr": {
+      "en": "barriera"
+    },
+    "fom:bst": {
+      "it": "boston"
+    },
+    "fom:bt": {
+      "it": "balletto"
+    },
+    "fom:btd": {
+      "en": "boutade",
+      "it": "boutade"
+    },
+    "fom:bto": {
+      "en": "ballet"
+    },
+    "fom:btq": {
+      "en": "batuque",
+      "it": "batuque"
+    },
+    "fom:byc": {
+      "it": "canone bizantino"
+    },
+    "fom:cad": {
+      "en": "cadenza"
+    },
+    "fom:cal": {
+      "en": "calata"
+    },
+    "fom:cb": {
+      "it": "canto non cristiano"
+    },
+    "fom:ccn": {
+      "en": "canción",
+      "it": "canción"
+    },
+    "fom:cdt": {
+      "en": "chanson de toile",
+      "it": "chanson de toile"
+    },
+    "fom:cfr": {
+      "en": "confractorium"
+    },
+    "fom:chh": {
+      "en": "cachucha",
+      "it": "cachucha"
+    },
+    "fom:chn": {
+      "it": "charleston"
+    },
+    "fom:chp": {
+      "it": "pezzo caratteristico"
+    },
+    "fom:chr": {
+      "it": "coro"
+    },
+    "fom:chs": {
+      "it": "canto infantile"
+    },
+    "fom:cht": {
+      "en": "chanson sentencieuse",
+      "it": "chanson sentencieuse"
+    },
+    "fom:chz": {
+      "en": "chiarenzana"
+    },
+    "fom:ckw": {
+      "it": "cakewalk"
+    },
+    "fom:cld": {
+      "en": "Colinde",
+      "it": "Colinde"
+    },
+    "fom:cli": {
+      "it": "corale strumentale"
+    },
+    "fom:cll": {
+      "en": "carousel"
+    },
+    "fom:cmg": {
+      "en": "carmagnole",
+      "it": "carmagnole"
+    },
+    "fom:cmn": {
+      "en": "carmen",
+      "it": "carmen"
+    },
+    "fom:cmp": {
+      "en": "completorium",
+      "it": "completorium"
+    },
+    "fom:cnl": {
+      "en": "cantilena"
+    },
+    "fom:cnr": {
+      "en": "canario"
+    },
+    "fom:cns": {
+      "en": "canso",
+      "it": "canso"
+    },
+    "fom:cob": {
+      "en": "comédie-ballet",
+      "it": "comédie-ballet"
+    },
+    "fom:cou": {
+      "en": "couplet",
+      "it": "strofa"
+    },
+    "fom:cow": {
+      "it": "composizione per concorso o esame"
+    },
+    "fom:cp": {
+      "it": "chanson polifonica"
+    },
+    "fom:cpl": {
+      "en": "cachucha (duplicate)",
+      "it": "cachucha (duplicato)"
+    },
+    "fom:cre": {
+      "en": "credo",
+      "it": "credo"
+    },
+    "fom:cri": {
+      "en": "carioca",
+      "it": "carioca"
+    },
+    "fom:crt": {
+      "it": "corrente"
+    },
+    "fom:csa": {
+      "it": "csárdás"
+    },
+    "fom:cse": {
+      "en": "chasse",
+      "it": "chasse"
+    },
+    "fom:csn": {
+      "it": "chanson monodica"
+    },
+    "fom:css": {
+      "en": "spiritual chanson",
+      "it": "chanson spirituale"
+    },
+    "fom:cst": {
+      "it": "cassazione"
+    },
+    "fom:ctc": {
+      "en": "contacio"
+    },
+    "fom:ctd": {
+      "it": "contraddanza"
+    },
+    "fom:ctf": {
+      "en": "contrafactum",
+      "it": "contraffattura"
+    },
+    "fom:ctg": {
+      "en": "cantiga",
+      "it": "cantiga"
+    },
+    "fom:cti": {
+      "en": "cantio",
+      "it": "cantio"
+    },
+    "fom:cto": {
+      "en": "cento",
+      "it": "cento"
+    },
+    "fom:ctp": {
+      "it": "contrappunto"
+    },
+    "fom:cue": {
+      "en": "cueca"
+    },
+    "fom:czn": {
+      "en": "canzone"
+    },
+    "fom:czp": {
+      "en": "polyphonic canzone"
+    },
+    "fom:czs": {
+      "en": "spiritual canzonetta"
+    },
+    "fom:dbl": {
+      "en": "double",
+      "it": "double"
+    },
+    "fom:des": {
+      "en": "descort",
+      "it": "descort"
+    },
+    "fom:dev": {
+      "en": "devotion"
+    },
+    "fom:df": {
+      "it": "forma di danza"
+    },
+    "fom:dia": {
+      "it": "dialogo"
+    },
+    "fom:din": {
+      "it": "introduzione drammatica"
+    },
+    "fom:dmk": {
+      "en": "dumka",
+      "it": "dumka"
+    },
+    "fom:dod": {
+      "it": "danza macabra"
+    },
+    "fom:dox": {
+      "it": "dossologia"
+    },
+    "fom:drh": {
+      "en": "Dreher",
+      "it": "Dreher"
+    },
+    "fom:dsg": {
+      "it": "mascherata"
+    },
+    "fom:dtr": {
+      "it": "ditirambo"
+    },
+    "fom:dts": {
+      "it": "scherzo drammatico"
+    },
+    "fom:due": {
+      "it": "duetto"
+    },
+    "fom:dui": {
+      "it": "duo"
+    },
+    "fom:dv": {
+      "en": "divertimento"
+    },
+    "fom:eco": {
+      "it": "écossaise"
+    },
+    "fom:egl": {
+      "it": "egloga"
+    },
+    "fom:ele": {
+      "en": "elevation",
+      "it": "elevazione"
+    },
+    "fom:elm": {
+      "it": "musica elettroacustica"
+    },
+    "fom:elx": {
+      "it": "musica elettroacustica mista"
+    },
+    "fom:ens": {
+      "en": "cantiga (duplicate)",
+      "it": "cantiga (duplicato)"
+    },
+    "fom:ent": {
+      "en": "entrée",
+      "it": "entrée"
+    },
+    "fom:enw": {
+      "it": "valzer inglese"
+    },
+    "fom:epo": {
+      "en": "epos",
+      "it": "epos"
+    },
+    "fom:ext": {
+      "en": "extravaganza",
+      "it": "stravaganza"
+    },
+    "fom:far": {
+      "it": "farsa"
+    },
+    "fom:fax": {
+      "en": "fauxbourdon",
+      "it": "falso bordone"
+    },
+    "fom:fea": {
+      "it": "festa"
+    },
+    "fom:fls": {
+      "it": "canto dei flagellanti"
+    },
+    "fom:frd": {
+      "it": "farandola"
+    },
+    "fom:fro": {
+      "en": "frottola"
+    },
+    "fom:fum": {
+      "it": "marcia funebre"
+    },
+    "fom:fur": {
+      "it": "furiant"
+    },
+    "fom:fus": {
+      "it": "fusione"
+    },
+    "fom:fvm": {
+      "en": "favola per musica"
+    },
+    "fom:gas": {
+      "en": "Gassenhauer",
+      "it": "Gassenhauer"
+    },
+    "fom:gle": {
+      "it": "glee"
+    },
+    "fom:glo": {
+      "it": "gloria"
+    },
+    "fom:gop": {
+      "en": "gopak",
+      "it": "gopak"
+    },
+    "fom:gos": {
+      "it": "canto goliardico"
+    },
+    "fom:gre": {
+      "en": "greghesca"
+    },
+    "fom:gym": {
+      "it": "gymel"
+    },
+    "fom:gyp": {
+      "it": "canto zigano"
+    },
+    "fom:had": {
+      "en": "hadutanc",
+      "it": "hadutanc"
+    },
+    "fom:hal": {
+      "en": "halling"
+    },
+    "fom:hit": {
+      "it": "brano di successo"
+    },
+    "fom:hoq": {
+      "en": "hoquetus"
+    },
+    "fom:hrk": {
+      "it": "hard rock"
+    },
+    "fom:hym": {
+      "en": "hymenaios",
+      "it": "hymenaios"
+    },
+    "fom:idy": {
+      "it": "idillio"
+    },
+    "fom:iex": {
+      "it": "estratti strumentali di un'opera lirica o coreografica"
+    },
+    "fom:imp": {
+      "it": "implorazione"
+    },
+    "fom:imu": {
+      "en": "impromptu",
+      "it": "improvviso"
+    },
+    "fom:inc": {
+      "en": "invocation",
+      "it": "invocazione"
+    },
+    "fom:ind": {
+      "it": "ingresso"
+    },
+    "fom:ing": {
+      "en": "ingressa",
+      "it": "ingressa"
+    },
+    "fom:int": {
+      "it": "introduzione"
+    },
+    "fom:inv": {
+      "it": "invenzione"
+    },
+    "fom:iph": {
+      "en": "hyporchema"
+    },
+    "fom:itd": {
+      "en": "intermedio"
+    },
+    "fom:itn": {
+      "it": "intonazione"
+    },
+    "fom:ivu": {
+      "en": "invitatorium",
+      "it": "invitatorium"
+    },
+    "fom:jep": {
+      "it": "jeu-parti"
+    },
+    "fom:jgg": {
+      "it": "giga"
+    },
+    "fom:jub": {
+      "it": "giubileo"
+    },
+    "fom:kld": {
+      "en": "koleda"
+    },
+    "fom:kol": {
+      "it": "kolo"
+    },
+    "fom:kuj": {
+      "en": "kujawiak",
+      "it": "kujawiak"
+    },
+    "fom:kyr": {
+      "en": "kyrie",
+      "it": "kyrie"
+    },
+    "fom:lby": {
+      "it": "ninnananna o canto della culla"
+    },
+    "fom:lds": {
+      "en": "Liederspiel",
+      "it": "Liederspiel"
+    },
+    "fom:ldy": {
+      "it": "lindy"
+    },
+    "fom:lec": {
+      "en": "lectio",
+      "it": "lectio"
+    },
+    "fom:les": {
+      "en": "Leise",
+      "it": "Leise"
+    },
+    "fom:lgu": {
+      "en": "Langaus",
+      "it": "Langaus"
+    },
+    "fom:li": {
+      "en": "Lied",
+      "it": "Lied"
+    },
+    "fom:lir": {
+      "en": "lyric"
+    },
+    "fom:lit": {
+      "it": "liturgia"
+    },
+    "fom:lou": {
+      "en": "loure",
+      "it": "loure"
+    },
+    "fom:luc": {
+      "en": "lucernarium"
+    },
+    "fom:maz": {
+      "en": "mazur",
+      "it": "mazur"
+    },
+    "fom:mc": {
+      "it": "rivista musicale e commedia"
+    },
+    "fom:mcc": {
+      "en": "macchietta"
+    },
+    "fom:mdc": {
+      "it": "commedia madrigalesca"
+    },
+    "fom:mds": {
+      "en": "salon piece",
+      "it": "pezzo da salotto"
+    },
+    "fom:mdy": {
+      "it": "melodia"
+    },
+    "fom:mgg": {
+      "en": "maggiolata"
+    },
+    "fom:mgs": {
+      "en": "spiritual madrigal"
+    },
+    "fom:mld": {
+      "en": "mélodie",
+      "it": "mélodie"
+    },
+    "fom:mlg": {
+      "en": "malagueña",
+      "it": "malagueña"
+    },
+    "fom:mls": {
+      "en": "melos",
+      "it": "melos"
+    },
+    "fom:mmd": {
+      "en": "mimodrama"
+    },
+    "fom:mme": {
+      "en": "measured music",
+      "it": "musica misurata"
+    },
+    "fom:mmm": {
+      "it": "mumming"
+    },
+    "fom:mod": {
+      "it": "danza morris"
+    },
+    "fom:mph": {
+      "en": "metamorphosis",
+      "it": "metamorfosi"
+    },
+    "fom:msc": {
+      "en": "moresca"
+    },
+    "fom:msq": {
+      "it": "mascherata"
+    },
+    "fom:mtb": {
+      "en": "matachin",
+      "it": "matachin"
+    },
+    "fom:mtp": {
+      "en": "moto perpetuo"
+    },
+    "fom:mtz": {
+      "en": "mutanza"
+    },
+    "fom:mu": {
+      "it": "forme multiple"
+    },
+    "fom:mum": {
+      "it": "momento musicale"
+    },
+    "fom:mun": {
+      "en": "muiñeira",
+      "it": "muiñeira"
+    },
+    "fom:mus": {
+      "en": "musette",
+      "it": "musette"
+    },
+    "fom:mut": {
+      "it": "teatro musicale"
+    },
+    "fom:mxx": {
+      "en": "maxixe",
+      "it": "maxixe"
+    },
+    "fom:nau": {
+      "it": "nūba andalusa"
+    },
+    "fom:nen": {
+      "en": "nenia"
+    },
+    "fom:nom": {
+      "en": "nomos",
+      "it": "nomos"
+    },
+    "fom:non": {
+      "it": "nonetto"
+    },
+    "fom:ntz": {
+      "it": "coppia di danze"
+    },
+    "fom:obk": {
+      "en": "oberek",
+      "it": "oberek"
+    },
+    "fom:oct": {
+      "it": "ottetto"
+    },
+    "fom:ofd": {
+      "en": "officium defunctorum",
+      "it": "officium defunctorum"
+    },
+    "fom:ora": {
+      "en": "oratio",
+      "it": "oratio"
+    },
+    "fom:pae": {
+      "it": "peana"
+    },
+    "fom:pch": {
+      "it": "miscellanea"
+    },
+    "fom:pco": {
+      "en": "post-communion",
+      "it": "postcommunio"
+    },
+    "fom:pdd": {
+      "en": "pas de deux",
+      "it": "pas de deux"
+    },
+    "fom:pdv": {
+      "en": "padovana"
+    },
+    "fom:pev": {
+      "en": "post evangelium",
+      "it": "post evangelium"
+    },
+    "fom:pf": {
+      "it": "preludio e fuga"
+    },
+    "fom:pgl": {
+      "en": "pavaniglia"
+    },
+    "fom:piv": {
+      "en": "piva"
+    },
+    "fom:plc": {
+      "en": "planctus",
+      "it": "planctus"
+    },
+    "fom:ple": {
+      "en": "post lectionem",
+      "it": "post lectionem"
+    },
+    "fom:pll": {
+      "en": "penillon",
+      "it": "penillon"
+    },
+    "fom:plo": {
+      "en": "palotás",
+      "it": "palotás"
+    },
+    "fom:plr": {
+      "en": "plaisanterie",
+      "it": "plaisanterie"
+    },
+    "fom:pls": {
+      "it": "canto delle piantagioni"
+    },
+    "fom:plt": {
+      "en": "plainte",
+      "it": "plainte"
+    },
+    "fom:plu": {
+      "it": "postludio"
+    },
+    "fom:pnk": {
+      "en": "punk"
+    },
+    "fom:pol": {
+      "en": "polo",
+      "it": "polo"
+    },
+    "fom:ppo": {
+      "it": "opera per burattini"
+    },
+    "fom:prf": {
+      "en": "praefatio",
+      "it": "praefatio"
+    },
+    "fom:prg": {
+      "en": "périgourdine",
+      "it": "périgourdine"
+    },
+    "fom:prm": {
+      "it": "marcia processionale"
+    },
+    "fom:pro": {
+      "en": "proemium"
+    },
+    "fom:prz": {
+      "en": "prophecy"
+    },
+    "fom:psa": {
+      "it": "salmo"
+    },
+    "fom:psp": {
+      "it": "passepied"
+    },
+    "fom:psr": {
+      "en": "pas redoublé",
+      "it": "pas redoublé"
+    },
+    "fom:pt": {
+      "it": "canto a più voci"
+    },
+    "fom:ptn": {
+      "en": "pater noster",
+      "it": "pater noster"
+    },
+    "fom:ptt": {
+      "en": "partita"
+    },
+    "fom:qav": {
+      "it": "quartetto vocale"
+    },
+    "fom:qiv": {
+      "it": "quintetto vocale"
+    },
+    "fom:qui": {
+      "it": "quintetto"
+    },
+    "fom:rad": {
+      "en": "rada",
+      "it": "rada"
+    },
+    "fom:rct": {
+      "en": "récit",
+      "it": "récit"
+    },
+    "fom:rdv": {
+      "en": "ranz des vaches",
+      "it": "ranz des vaches"
+    },
+    "fom:rej": {
+      "en": "réjouissance",
+      "it": "réjouissance"
+    },
+    "fom:rem": {
+      "en": "reminiscence",
+      "it": "reminiscenza"
+    },
+    "fom:rer": {
+      "en": "reverie",
+      "it": "rêverie"
+    },
+    "fom:rgl": {
+      "en": "Reigenlied",
+      "it": "Reigenlied"
+    },
+    "fom:rgr": {
+      "en": "ruggiero"
+    },
+    "fom:rhl": {
+      "en": "Rheinländer",
+      "it": "Rheinländer"
+    },
+    "fom:ri": {
+      "en": "ricercar"
+    },
+    "fom:rit": {
+      "en": "ritornello"
+    },
+    "fom:rjk": {
+      "en": "rejdovák",
+      "it": "rejdovák"
+    },
+    "fom:rot": {
+      "en": "rota"
+    },
+    "fom:rsc": {
+      "en": "romanesca"
+    },
+    "fom:rsp": {
+      "en": "raspa",
+      "it": "raspa"
+    },
+    "fom:rtg": {
+      "it": "rotruenge"
+    },
+    "fom:rtt": {
+      "en": "rotta"
+    },
+    "fom:rue": {
+      "en": "rueda",
+      "it": "rueda"
+    },
+    "fom:rug": {
+      "en": "ruggero"
+    },
+    "fom:sad": {
+      "it": "dramma sacro"
+    },
+    "fom:san": {
+      "en": "sanctus",
+      "it": "sanctus"
+    },
+    "fom:sar": {
+      "en": "sacred representation"
+    },
+    "fom:scc": {
+      "it": "cantata sacra"
+    },
+    "fom:scd": {
+      "it": "dramma scolastico"
+    },
+    "fom:sce": {
+      "it": "scena"
+    },
+    "fom:scp": {
+      "en": "Schuhplattler",
+      "it": "Schuhplattler"
+    },
+    "fom:scs": {
+      "it": "canto sacro"
+    },
+    "fom:sdh": {
+      "en": "Schnadahüpfl",
+      "it": "Schnadahüpfl"
+    },
+    "fom:sdr": {
+      "en": "dramatic scherzo"
+    },
+    "fom:sep": {
+      "en": "sepolcro"
+    },
+    "fom:sex": {
+      "it": "sestetto"
+    },
+    "fom:shm": {
+      "it": "shimmy"
+    },
+    "fom:skt": {
+      "it": "bozzetto"
+    },
+    "fom:sll": {
+      "en": "sallenda"
+    },
+    "fom:sml": {
+      "en": "psalmellus",
+      "it": "psalmellus"
+    },
+    "fom:spt": {
+      "it": "settetto"
+    },
+    "fom:sq": {
+      "it": "square dance"
+    },
+    "fom:srm": {
+      "it": "Sarum"
+    },
+    "fom:srv": {
+      "en": "serventois",
+      "it": "serventois"
+    },
+    "fom:sss": {
+      "en": "seises",
+      "it": "seises"
+    },
+    "fom:ste": {
+      "en": "Schottische",
+      "it": "Schottische"
+    },
+    "fom:sto": {
+      "en": "stornello"
+    },
+    "fom:sts": {
+      "it": "strathspey"
+    },
+    "fom:stt": {
+      "en": "German saltarello"
+    },
+    "fom:syc": {
+      "en": "sinfonia concertante"
+    },
+    "fom:syd": {
+      "en": "dramatic symphony",
+      "it": "sinfonia drammatica"
+    },
+    "fom:sym": {
+      "en": "symbolum",
+      "it": "symbolum"
+    },
+    "fom:syo": {
+      "en": "shōmyō",
+      "it": "shōmyō"
+    },
+    "fom:tcn": {
+      "en": "trecanum",
+      "it": "trecanum"
+    },
+    "fom:tct": {
+      "en": "tricotet",
+      "it": "tricotet"
+    },
+    "fom:tdn": {
+      "en": "triodion",
+      "it": "triodion"
+    },
+    "fom:ten": {
+      "en": "tenso",
+      "it": "tenso"
+    },
+    "fom:ter": {
+      "it": "terzetto"
+    },
+    "fom:tfm": {
+      "en": "table music",
+      "it": "musica da tavola"
+    },
+    "fom:thr": {
+      "en": "threnos",
+      "it": "threnos"
+    },
+    "fom:tir": {
+      "en": "tirana"
+    },
+    "fom:tnc": {
+      "it": "trenchmore"
+    },
+    "fom:tod": {
+      "it": "danza delle fiaccole"
+    },
+    "fom:tom": {
+      "en": "tombeau",
+      "it": "tombeau"
+    },
+    "fom:ton": {
+      "en": "seises (duplicate)",
+      "it": "seises (duplicato)"
+    },
+    "fom:tou": {
+      "it": "torneo"
+    },
+    "fom:trd": {
+      "en": "tourdion",
+      "it": "tourdion"
+    },
+    "fom:trg": {
+      "en": "trishagion",
+      "it": "trishagion"
+    },
+    "fom:tri": {
+      "en": "trio"
+    },
+    "fom:trl": {
+      "en": "lyric tragedy",
+      "it": "tragedia lirica"
+    },
+    "fom:trm": {
+      "en": "tricinium",
+      "it": "tricinium"
+    },
+    "fom:trq": {
+      "en": "traquenard",
+      "it": "traquenard"
+    },
+    "fom:trs": {
+      "it": "trattato"
+    },
+    "fom:trz": {
+      "en": "trezza"
+    },
+    "fom:ts": {
+      "it": "sonata a tre"
+    },
+    "fom:ttt": {
+      "it": "tattoo (ritirata militare)"
+    },
+    "fom:tum": {
+      "en": "tumba",
+      "it": "tumba"
+    },
+    "fom:two": {
+      "it": "two-step"
+    },
+    "fom:vly": {
+      "it": "voluntary"
+    },
+    "fom:vnz": {
+      "en": "veneziana"
+    },
+    "fom:vra": {
+      "it": "verso dell'alleluia"
+    },
+    "fom:vrg": {
+      "it": "verso del graduale"
+    },
+    "fom:vri": {
+      "it": "verso dell'introito"
+    },
+    "fom:vrl": {
+      "it": "versetto"
+    },
+    "fom:vrr": {
+      "it": "verso del responsorio"
+    },
+    "fom:vrs": {
+      "it": "verso"
+    },
+    "fom:vsp": {
+      "it": "vespri"
+    },
+    "fom:vvn": {
+      "en": "varsovienne",
+      "it": "varsovienne"
+    },
+    "fom:wem": {
+      "it": "marcia nuziale"
+    },
+    "fom:wom": {
+      "it": "world music"
+    },
+    "fom:yar": {
+      "en": "yaraví",
+      "it": "yaraví"
+    },
+    "fom:zam": {
+      "en": "zamacueca",
+      "it": "zamacueca"
+    },
+    "fom:zap": {
+      "en": "zapateado",
+      "it": "zapateado"
+    },
+    "fom:zmb": {
+      "it": "zamba"
+    },
+    "fom:zop": {
+      "en": "zoppa"
+    },
+    "fom:zwi": {
+      "en": "Zwiefacher",
+      "it": "Zwiefacher"
+    },
+    "graphicstd:aa": {
+      "it": "matita"
+    },
+    "graphicstd:ac": {
+      "it": "matita colorata"
+    },
+    "graphicstd:ae": {
+      "it": "lavis a inchiostro di china"
+    },
+    "graphicstd:af": {
+      "it": "carboncino"
+    },
+    "graphicstd:ag": {
+      "it": "gesso"
+    },
+    "graphicstd:ah": {
+      "it": "pietra nera"
+    },
+    "graphicstd:ai": {
+      "it": "sanguigna"
+    },
+    "graphicstd:aj": {
+      "it": "acquerello"
+    },
+    "graphicstd:al": {
+      "it": "guazzo"
+    },
+    "graphicstd:ba": {
+      "it": "pennarello"
+    },
+    "graphicstd:bb": {
+      "it": "tinta"
+    },
+    "graphicstd:bc": {
+      "it": "pastello"
+    },
+    "graphicstd:bd": {
+      "it": "seppia"
+    },
+    "graphicstd:be": {
+      "it": "inchiostro da scrittura"
+    },
+    "graphicstd:bf": {
+      "it": "tempera alla caseina"
+    },
+    "graphicstd:bg": {
+      "it": "doratura"
+    },
+    "graphicstd:bi": {
+      "it": "colori acrilici"
+    },
+    "graphicstd:bk": {
+      "it": "punta d'argento"
+    },
+    "graphicstd:bl": {
+      "it": "aerografo"
+    },
+    "graphicstd:uu": {
+      "it": "sconosciuta"
+    },
+    "graphicstd:vv": {
+      "it": "mista"
+    },
+    "graphicstd:xx": {
+      "it": "non applicabile"
+    },
+    "graphicstd:zz": {
+      "it": "altra"
+    },
+    "graphicstp:bb": {
+      "it": "xilografia a chiaroscuro"
+    },
+    "graphicstp:bc": {
+      "it": "xilografia a linea bianca"
+    },
+    "graphicstp:bd": {
+      "it": "xilografia a cammeo (camaïeu)"
+    },
+    "graphicstp:be": {
+      "it": "eliogravura"
+    },
+    "graphicstp:bj": {
+      "it": "fotolitografia"
+    },
+    "graphicstp:bl": {
+      "it": "algrafia"
+    },
+    "graphicstp:bn": {
+      "it": "riserva (acquatinta allo zucchero)"
+    },
+    "graphicstp:ca": {
+      "it": "vernice molle (acquaforte su fondo molle o ricalco)"
+    },
+    "graphicstp:cc": {
+      "it": "incisione a pastello"
+    },
+    "graphicstp:cd": {
+      "it": "incisione a bulino"
+    },
+    "graphicstp:cg": {
+      "it": "monotipo"
+    },
+    "graphicstp:cj": {
+      "it": "grafica computerizzata"
+    },
+    "graphicstp:uu": {
+      "it": "sconosciuta"
+    },
+    "graphicstp:vv": {
+      "it": "mista"
+    },
+    "graphicstp:xx": {
+      "it": "non applicabile"
+    },
+    "graphicstp:zz": {
+      "it": "altra"
+    },
+    "planet:ma": {
+      "it": "Marte"
+    },
+    "planet:me": {
+      "it": "Mercurio"
+    },
+    "planet:ne": {
+      "it": "Nettuno"
+    },
+    "planet:sa": {
+      "it": "Saturno"
+    },
+    "planet:ur": {
+      "it": "Urano"
+    },
+    "planet:ve": {
+      "it": "Venere"
+    },
+    "planet:zz": {
+      "it": "altro"
+    },
+    "satcat:b": {
+      "it": "osservazione delle risorse terrestri"
+    },
+    "satcat:c": {
+      "it": "osservazione spaziale"
+    },
+    "satname:aa": {
+      "it": "TIROS"
+    },
+    "satname:ab": {
+      "it": "ATS"
+    },
+    "satname:ac": {
+      "it": "NOAA"
+    },
+    "satname:ad": {
+      "it": "Nimbus"
+    },
+    "satname:ga": {
+      "it": "ERTS"
+    },
+    "satname:gb": {
+      "it": "Landsat I"
+    },
+    "satname:gc": {
+      "it": "Landsat II"
+    },
+    "satname:gd": {
+      "it": "Landsat III"
+    },
+    "satname:ge": {
+      "it": "Seasat"
+    },
+    "satname:gf": {
+      "it": "Skylab"
+    },
+    "satname:gg": {
+      "it": "Spacelab"
+    },
+    "satname:mb": {
+      "it": "Explorer II"
+    },
+    "soundatm:b": {
+      "it": "bibliografia"
+    },
+    "soundatm:c": {
+      "it": "indice tematico"
+    },
+    "soundatm:e": {
+      "it": "biografia del compositore"
+    },
+    "soundatm:f": {
+      "it": "biografia dell'interprete o storia dell'ensemble"
+    },
+    "soundatm:g": {
+      "it": "informazioni tecniche o storiche sugli strumenti"
+    },
+    "soundatm:h": {
+      "it": "informazioni tecniche sulla musica"
+    },
+    "soundatm:j": {
+      "it": "altre informazioni storiche"
+    },
+    "soundatm:k": {
+      "it": "informazioni etnologiche"
+    },
+    "soundatm:l": {
+      "it": "biografia dell'arrangiatore o del trascrittore"
+    },
+    "soundatm:r": {
+      "it": "materiale didattico"
+    },
+    "soundatm:s": {
+      "it": "partitura"
+    },
+    "soundatm:z": {
+      "it": "altro materiale testuale di accompagnamento"
+    },
+    "soundcut:a": {
+      "it": "incisione laterale o combinata"
+    },
+    "soundcut:b": {
+      "it": "incisione verticale (hill-and-dale)"
+    },
+    "soundcut:u": {
+      "it": "sconosciuta"
+    },
+    "soundcut:x": {
+      "it": "non applicabile"
+    },
+    "soundgrw:a": {
+      "it": "solco largo/standard"
+    },
+    "soundgrw:u": {
+      "it": "sconosciuta"
+    },
+    "soundgrw:x": {
+      "it": "non applicabile"
+    },
+    "soundgrw:z": {
+      "it": "altra"
+    },
+    "soundrep:a": {
+      "it": "standard NAB"
+    },
+    "soundrep:b": {
+      "it": "standard CCIR/IEC"
+    },
+    "soundrep:c": {
+      "it": "codificato DBX"
+    },
+    "soundrep:d": {
+      "it": "digitale (compact disc)"
+    },
+    "soundrep:g": {
+      "it": "codificato Dolby-C"
+    },
+    "soundrep:h": {
+      "it": "codificato CX"
+    },
+    "soundrep:u": {
+      "it": "sconosciuta"
+    },
+    "soundrep:x": {
+      "it": "non applicabile"
+    },
+    "soundrep:z": {
+      "it": "altra"
+    },
+    "soundspe:a": {
+      "it": "16 ⅔ giri/min"
+    },
+    "soundspe:b": {
+      "it": "33 ⅓ giri/min"
+    },
+    "soundspe:c": {
+      "it": "45 giri/min"
+    },
+    "soundspe:d": {
+      "it": "78 giri/min"
+    },
+    "soundspe:e": {
+      "it": "8 giri/min"
+    },
+    "soundspe:g": {
+      "it": "1,4 m/s"
+    },
+    "soundspe:h": {
+      "it": "1 pollice/s (120 giri/min)"
+    },
+    "soundspe:i": {
+      "it": "160 giri/min"
+    },
+    "soundspe:k": {
+      "it": "1 ⅞ pollici/s"
+    },
+    "soundspe:l": {
+      "it": "15/16 pollici/s"
+    },
+    "soundspe:m": {
+      "it": "3 ¾ pollici/s"
+    },
+    "soundspe:n": {
+      "it": "7 ½ pollici/s"
+    },
+    "soundspe:o": {
+      "it": "15 pollici/s"
+    },
+    "soundspe:p": {
+      "it": "30 pollici/s"
+    },
+    "soundspe:q": {
+      "it": "8/10 pollici/s"
+    },
+    "soundspe:r": {
+      "it": "4/10 pollici/s"
+    },
+    "soundspe:u": {
+      "it": "sconosciuta"
+    },
+    "soundspe:x": {
+      "it": "non applicabile"
+    },
+    "soundspe:z": {
+      "it": "altra"
+    },
+    "soundtac:a": {
+      "it": "pista intera (1 pista)"
+    },
+    "soundtac:b": {
+      "it": "mezza pista (2 piste)"
+    },
+    "soundtac:c": {
+      "it": "quarto di pista (4 piste)"
+    },
+    "soundtac:d": {
+      "it": "otto piste"
+    },
+    "soundtac:e": {
+      "it": "dodici piste"
+    },
+    "soundtac:f": {
+      "it": "sedici piste"
+    },
+    "soundtac:g": {
+      "it": "ventiquattro piste"
+    },
+    "soundtac:h": {
+      "it": "sei piste"
+    },
+    "soundtac:u": {
+      "it": "sconosciuta"
+    },
+    "soundtac:x": {
+      "it": "registrazione non su nastro"
+    },
+    "soundtac:z": {
+      "it": "altra"
+    },
+    "soundtaw:a": {
+      "it": "¼ di pollice"
+    },
+    "soundtaw:b": {
+      "it": "½ pollice"
+    },
+    "soundtaw:d": {
+      "it": "⅛ di pollice"
+    },
+    "soundtaw:e": {
+      "it": "2 pollici"
+    },
+    "soundtaw:f": {
+      "it": "⅓ di pollice (8 mm)"
+    },
+    "soundtaw:u": {
+      "it": "sconosciuta"
+    },
+    "soundtaw:x": {
+      "it": "registrazione non su nastro"
+    },
+    "soundtaw:z": {
+      "it": "altra"
+    },
+    "soundtec:a": {
+      "it": "acustica"
+    },
+    "soundtec:b": {
+      "it": "elettrica"
+    },
+    "soundtec:u": {
+      "it": "sconosciuta"
+    },
+    "soundtec:z": {
+      "it": "altra"
+    },
+    "soundtyp:a": {
+      "it": "istantanea"
+    },
+    "soundtyp:b": {
+      "it": "prodotta in serie"
+    },
+    "soundtyp:c": {
+      "it": "nastro master"
+    },
+    "soundtyp:d": {
+      "it": "master per duplicazione su nastro"
+    },
+    "soundtyp:e": {
+      "it": "matrice del disco"
+    },
+    "soundtyp:f": {
+      "it": "madre"
+    },
+    "soundtyp:g": {
+      "it": "matrice di stampa"
+    },
+    "soundtyp:h": {
+      "it": "stampa di prova"
+    },
+    "soundtyp:u": {
+      "it": "sconosciuta"
+    },
+    "soundtyp:x": {
+      "it": "non applicabile"
+    },
+    "soundtyp:z": {
+      "it": "altra"
+    },
+    "visacc:a": {
+      "it": "immagini fisse"
+    },
+    "visacc:b": {
+      "it": "materiale di sceneggiatura"
+    },
+    "visacc:d": {
+      "it": "programmi e pressbook"
+    },
+    "visacc:f": {
+      "it": "materiali didattici"
+    },
+    "visacc:g": {
+      "it": "partitura o altro formato musicale"
+    },
+    "visacc:h": {
+      "it": "bozzetti scenografici o di costumi"
+    },
+    "visacc:z": {
+      "it": "altro materiale di accompagnamento"
+    },
+    "viscol:c": {
+      "it": "combinazione di bianco e nero e colore"
+    },
+    "viscol:u": {
+      "it": "sconosciuto"
+    },
+    "viscol:z": {
+      "it": "altro"
+    },
+    "visfor:1": {
+      "en": "deprecated unlabeled IFLA entry (code 1)",
+      "it": "voce IFLA deprecata senza etichetta (codice 1)"
+    },
+    "visfor:c": {
+      "it": "cassetta cinematografica"
+    },
+    "visfor:d": {
+      "it": "altro tipo di pellicola cinematografica"
+    },
+    "visfor:i": {
+      "it": "altro tipo di filmina"
+    },
+    "visfor:j": {
+      "it": "rullo di filmina"
+    },
+    "visfor:k": {
+      "it": "diapositiva, serie di diapositive, stereografia"
+    },
+    "visfor:l": {
+      "it": "trasparenza"
+    },
+    "visfor:u": {
+      "it": "sconosciuta"
+    },
+    "visfor:x": {
+      "it": "non è un film o una proiezione visiva"
+    },
+    "visfor:z": {
+      "it": "altra forma di distribuzione"
+    },
+    "visfov:e": {
+      "it": "videoregistrazione elettronica (EVR)"
+    },
+    "visfov:x": {
+      "it": "non è una videoregistrazione"
+    },
+    "visfov:z": {
+      "it": "altro tipo di videoregistrazione"
+    },
+    "vismfs:a": {
+      "it": "colonna sonora ottica su pellicola cinematografica"
+    },
+    "vismfs:b": {
+      "it": "colonna sonora magnetica su pellicola cinematografica"
+    },
+    "vismfs:c": {
+      "it": "nastro audio magnetico in cartuccia"
+    },
+    "vismfs:d": {
+      "it": "disco sonoro"
+    },
+    "vismfs:e": {
+      "it": "nastro audio magnetico su bobina"
+    },
+    "vismfs:f": {
+      "it": "nastro audio magnetico in cassetta"
+    },
+    "vismfs:g": {
+      "it": "colonna sonora ottica e magnetica su pellicola cinematografica"
+    },
+    "vismfs:h": {
+      "it": "nastro video"
+    },
+    "vismfs:i": {
+      "it": "videodisco"
+    },
+    "vismfs:u": {
+      "it": "sconosciuto"
+    },
+    "vismfs:x": {
+      "it": "senza sonoro"
+    },
+    "vismfs:z": {
+      "it": "altro"
+    }
+  }
+}

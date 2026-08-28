@@ -35,6 +35,33 @@ python3 tools/build_en_profile.py
 tools/validate_profiles.sh
 ```
 
+The closed IFLA UNIMARC lists are generated from the pinned upstream revision
+recorded in `tools/build_ifla_lists.py`. Missing upstream labels are completed
+by the reviewed semantic pairs in `tools/ifla_acusteme_labels.json`, followed
+by the Wikidata snapshot. Both English and Italian are mandatory; generation
+fails if either label is unavailable. To rebuild or verify the lists:
+
+```sh
+python3 tools/build_ifla_lists.py
+python3 tools/build_ifla_lists.py --check
+```
+
+The five closed LoC/MARC video vocabularies are maintained in the same way:
+
+```sh
+python3 tools/build_loc_lists.py
+python3 tools/build_loc_lists.py --check
+python3 tools/build_loc_lists.py --check-source
+```
+
+The seven open-domain Wikidata searches for electronic resources share a
+canonical query that returns one row per entity. To apply or verify it:
+
+```sh
+python3 tools/build_wikidata_search_queries.py
+python3 tools/build_wikidata_search_queries.py --check
+```
+
 ## Backend Documentation
 
 Backend documentation is in preparation:
@@ -115,6 +142,35 @@ profili:
 ```sh
 python3 tools/build_en_profile.py
 tools/validate_profiles.sh
+```
+
+Le liste chiuse IFLA UNIMARC sono generate dalla revisione upstream fissata in
+`tools/build_ifla_lists.py`. Le etichette mancanti nella fonte sono completate
+dalle coppie semantiche revisionate in `tools/ifla_acusteme_labels.json` e poi
+dallo snapshot Wikidata. Inglese e italiano sono entrambi obbligatori: la
+generazione fallisce se manca una delle due etichette. Per rigenerarle o
+verificarle:
+
+```sh
+python3 tools/build_ifla_lists.py
+python3 tools/build_ifla_lists.py --check
+```
+
+I cinque vocabolari video chiusi LoC/MARC sono gestiti nello stesso modo:
+
+```sh
+python3 tools/build_loc_lists.py
+python3 tools/build_loc_lists.py --check
+python3 tools/build_loc_lists.py --check-source
+```
+
+Le sette ricerche Wikidata a dominio aperto per le risorse elettroniche usano
+una query canonica che restituisce una riga per entità. Per applicarla o
+verificarla:
+
+```sh
+python3 tools/build_wikidata_search_queries.py
+python3 tools/build_wikidata_search_queries.py --check
 ```
 
 ## Documentazione backend
