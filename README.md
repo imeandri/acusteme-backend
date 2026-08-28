@@ -2,7 +2,10 @@
 
 First public-draft package of the ACUSTEME CollectiveAccess installation profile.
 
-This public repository contains only backend/profile materials, not Wiki.js generated HTML pages, local documentation exports, CSS, upload scripts, frontend code, credentials, or production data.
+This public repository contains backend/profile materials and the audited
+Wiki.js GraphQL synchronization source code. It does not contain generated HTML
+pages, local documentation exports, CSS, legacy browser upload scripts,
+frontend code, credentials, or production data.
 
 ## Contents
 
@@ -14,6 +17,10 @@ This public repository contains only backend/profile materials, not Wiki.js gene
   XML schema used to validate the profile files.
 - `CHANGELOG.md`  
   Release notes for the profile package.
+- `tools/wikijs_sync/`
+  Incremental Wiki.js GraphQL synchronizer, SPARQL/generation audit, automated
+  tests, and operating instructions. Generated documentation is kept out of
+  Git and built in memory from the canonical profile.
 
 ## Authoritative source and editing workflow
 
@@ -34,6 +41,9 @@ Backend documentation is in preparation:
 
 - Italian: https://wiki.acusteme.org/it/home
 - English: https://wiki.acusteme.org/en/home
+
+Synchronization and canary instructions are documented in
+[`tools/wikijs_sync/README.md`](tools/wikijs_sync/README.md).
 
 ## Draft Status and Disclaimer
 
@@ -74,7 +84,10 @@ If executable scripts or software components are added in future releases, they 
 
 Prima draft del pacchetto backend del profilo di installazione CollectiveAccess di ACUSTEME.
 
-Questo repository pubblico contiene esclusivamente materiali backend/profilo, non le pagine HTML generate per Wiki.js, gli export locali della documentazione, CSS, script di upload, frontend, credenziali o dati di produzione.
+Questo repository pubblico contiene materiali backend/profilo e il codice
+verificato per la sincronizzazione GraphQL di Wiki.js. Non contiene le pagine
+HTML generate, gli export locali della documentazione, CSS, i vecchi uploader
+via browser, frontend, credenziali o dati di produzione.
 
 ## Contenuto
 
@@ -86,6 +99,10 @@ Questo repository pubblico contiene esclusivamente materiali backend/profilo, no
   Schema XML usato per validare i file del profilo.
 - `CHANGELOG.md`  
   Note di rilascio del pacchetto profilo.
+- `tools/wikijs_sync/`
+  Sincronizzatore incrementale GraphQL per Wiki.js, audit della generazione e
+  delle query SPARQL, test automatici e istruzioni operative. La documentazione
+  generata non viene versionata ed è costruita in memoria dal profilo canonico.
 
 ## Fonte autorevole e flusso di modifica
 
@@ -106,6 +123,9 @@ La documentazione backend è in preparazione:
 
 - Italiano: https://wiki.acusteme.org/it/home
 - Inglese: https://wiki.acusteme.org/en/home
+
+La procedura di sincronizzazione e canary è descritta in
+[`tools/wikijs_sync/README.md`](tools/wikijs_sync/README.md).
 
 ## Stato della draft e disclaimer
 

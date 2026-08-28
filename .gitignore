@@ -6,6 +6,9 @@
 .vscode/
 .project
 .settings/
+__pycache__/
+*.py[cod]
+.venv/
 
 *.bak
 *.backup
@@ -50,3 +53,11 @@ generate_english_profile.py
 wikijs_*.py
 wikijs_upload_config*.json
 requirements.txt
+
+# Versioned GraphQL synchronizer; only its runtime secrets/state stay local.
+!tools/wikijs_sync/
+!tools/wikijs_sync/*.py
+!tools/wikijs_sync/README.md
+!tools/wikijs_sync/requirements.txt
+tools/wikijs_sync/.wikijs-sync/
+tools/wikijs_sync/wikijs_api_token.txt
