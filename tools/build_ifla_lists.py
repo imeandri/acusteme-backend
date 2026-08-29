@@ -290,7 +290,7 @@ def build_list(
             [
                 f'        <item idno="{xml_text(item_id)}" enabled="{enabled}" default="0" value="{html.escape(notation, quote=True)}" rank="{rank}">',
                 "          <labels>",
-                '            <label locale="en_US" preferred="0">',
+                '            <label locale="en_US" preferred="1">',
                 f"              <name_singular>{xml_text(label_en)}</name_singular>",
                 f"              <name_plural>{xml_text(label_en)}</name_plural>",
                 f"              <description>IFLA UNIMARC code: {xml_text(notation)}</description>",

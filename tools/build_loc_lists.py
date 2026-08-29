@@ -138,7 +138,7 @@ def build_list(scheme: str, title_it: str, title_en: str) -> str:
             [
                 f'        <item idno="{code}" enabled="1" default="0" value="{code}" rank="{rank}">',
                 "          <labels>",
-                '            <label locale="en_US" preferred="0">',
+                '            <label locale="en_US" preferred="1">',
                 f"              <name_singular>{xml_text(label_en)}</name_singular>",
                 f"              <name_plural>{xml_text(label_en)}</name_plural>",
                 f"              <description>LoC/MARC code: {code}</description>",
