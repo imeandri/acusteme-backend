@@ -2,10 +2,11 @@
 
 First public-draft package of the ACUSTEME CollectiveAccess installation profile.
 
-This public repository contains backend/profile materials and the audited
-Wiki.js GraphQL synchronization source code. It does not contain generated HTML
-pages, local documentation exports, CSS, legacy browser upload scripts,
-frontend code, credentials, or production data.
+This public repository contains backend/profile materials, the audited Wiki.js
+GraphQL synchronization source code, and reviewed Providence runtime
+customizations. It does not contain generated HTML pages, local documentation
+exports, legacy browser upload scripts, frontend code, credentials, or
+production data.
 
 ## Contents
 
@@ -21,6 +22,11 @@ frontend code, credentials, or production data.
   Incremental Wiki.js GraphQL synchronizer, SPARQL/generation audit, automated
   tests, and operating instructions. Generated documentation is kept out of
   Git and built in memory from the canonical profile.
+- `providence/`
+  Production-derived Providence runtime customizations for the Organico
+  datatype/editor and the title prepopulate plugin. Paths mirror the Providence
+  installation root; provenance, deployment notes, hashes, and licensing are
+  documented in `providence/README.md`.
 
 ## Authoritative source and editing workflow
 
@@ -111,10 +117,11 @@ If executable scripts or software components are added in future releases, they 
 
 Prima draft del pacchetto backend del profilo di installazione CollectiveAccess di ACUSTEME.
 
-Questo repository pubblico contiene materiali backend/profilo e il codice
-verificato per la sincronizzazione GraphQL di Wiki.js. Non contiene le pagine
-HTML generate, gli export locali della documentazione, CSS, i vecchi uploader
-via browser, frontend, credenziali o dati di produzione.
+Questo repository pubblico contiene materiali backend/profilo, il codice
+verificato per la sincronizzazione GraphQL di Wiki.js e le personalizzazioni
+runtime Providence revisionate. Non contiene le pagine HTML generate, gli
+export locali della documentazione, i vecchi uploader via browser, frontend,
+credenziali o dati di produzione.
 
 ## Contenuto
 
@@ -130,6 +137,11 @@ via browser, frontend, credenziali o dati di produzione.
   Sincronizzatore incrementale GraphQL per Wiki.js, audit della generazione e
   delle query SPARQL, test automatici e istruzioni operative. La documentazione
   generata non viene versionata ed è costruita in memoria dal profilo canonico.
+- `providence/`
+  Personalizzazioni runtime Providence derivate dalla produzione per il
+  datatype/editor Organico e per il plugin di prepopolamento del titolo. I
+  percorsi rispecchiano la root dell'installazione Providence; provenienza,
+  distribuzione, hash e licenza sono documentati in `providence/README.md`.
 
 ## Fonte autorevole e flusso di modifica
 

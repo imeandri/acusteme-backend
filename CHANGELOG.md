@@ -1,5 +1,29 @@
 # Changelog
 
+## 0.1.15-draft - 2026-08-31
+
+- Added the production-derived Providence runtime package for the Organico
+  datatype/editor, including its asset-loader configuration, Italian source
+  catalogue, vocabularies, renderer assets, and fullscreen stage support.
+- Added the authoritative production `prepopulatePHP` plugin together with its
+  required dictionaries; runtime logs and backups remain excluded.
+- Added exact source hashes and automated PHP, JavaScript, JSON, SVG, gettext,
+  and integrity validation for the runtime package.
+
+---
+
+## 0.1.15-draft - 2026-08-31
+
+- Aggiunto il pacchetto runtime Providence derivato dalla produzione per il
+  datatype/editor Organico, includendo configurazione degli asset, catalogo
+  sorgente italiano, vocabolari, risorse del renderer e supporto fullscreen.
+- Aggiunto il plugin `prepopulatePHP` autorevole in produzione insieme ai
+  dizionari richiesti; log e backup runtime restano esclusi.
+- Aggiunti hash esatti della fonte e validazione automatica di PHP, JavaScript,
+  JSON, SVG, gettext e integrità del pacchetto runtime.
+
+---
+
 ## 0.1.14-draft - 2026-08-28
 
 - Replaced the five closed LoC/MARC video Linked Data fields (`broadcaststandard_ME`, `videoplayback_ME`, `polarity_ME`, `aspectration_ME`, and `tecnique_ME`) with local bilingual controlled lists.

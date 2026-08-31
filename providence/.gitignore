@@ -1,0 +1,3 @@
+app/locale/user/*/messages.mo
+app/plugins/prepopulatePHP/*.log
+app/plugins/prepopulatePHP/*.bak-*

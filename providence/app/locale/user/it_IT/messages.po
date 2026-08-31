@@ -1,0 +1,302 @@
+# ACUSTEME/Organico plugin — user-level translation overrides.
+# Non toccare app/locale/it_IT/messages.po (catalogo core di CollectiveAccess):
+# questo file vive in app/locale/user/, il percorso dedicato alle traduzioni
+# personalizzate del sito, controllato con priorita' rispetto al core (vedi
+# app/helpers/initializeLocale.php) e quindi al sicuro dagli aggiornamenti
+# del framework.
+msgid ""
+msgstr ""
+"Project-Id-Version: ACUSTEME Organico plugin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it_IT\n"
+
+msgid "Edit instrumentation"
+msgstr "Modifica organico"
+
+msgid "Close and save"
+msgstr "Chiudi e salva"
+
+msgid "Title"
+msgstr "Titolo"
+
+msgid "Synthetic instrumentation"
+msgstr "Organico sintetico"
+
+msgid "Ensemble type"
+msgstr "Tipo ensemble"
+
+msgid "Automatic"
+msgstr "Automatico"
+
+msgid "Orchestra (fan chart)"
+msgstr "Orchestra (ventaglio)"
+
+msgid "Ensemble (rows)"
+msgstr "Ensemble (righe)"
+
+msgid "Instrument palette"
+msgstr "Palette strumenti"
+
+msgid "Group into ensemble"
+msgstr "Raggruppa in ensemble"
+
+msgid "Create alternative"
+msgstr "Crea alternativa"
+
+msgid "Remove selected"
+msgstr "Rimuovi selezionati"
+
+msgid "Import from text (SBN MARC)"
+msgstr "Importa da testo (SBN MARC)"
+
+msgid "Instrumentation items"
+msgstr "Elementi dell'organico"
+
+msgid "No instruments added. Click an icon in the palette on the left to start."
+msgstr "Nessuno strumento aggiunto. Clicca un'icona nella palette a sinistra per iniziare."
+
+msgid "Preview"
+msgstr "Anteprima"
+
+msgid "JSON payload"
+msgstr "JSON payload"
+
+msgid "Copy JSON"
+msgstr "Copia JSON"
+
+msgid "Loading MOP vocabulary…"
+msgstr "Caricamento vocabolario MOP…"
+
+msgid "No IFLA MOP term matches the search."
+msgstr "Nessun termine IFLA MOP corrisponde alla ricerca."
+
+msgid "{n} term(s) found"
+msgstr "{n} termine/i trovato/i"
+
+msgid " (showing the first {limit} — refine your search)"
+msgstr " (mostrati i primi {limit} — affina la ricerca)"
+
+msgid "Search among {n} IFLA MOP terms…"
+msgstr "Cerca fra i {n} termini IFLA MOP…"
+
+msgid "Search instrument in the IFLA MOP vocabulary"
+msgstr "Cerca strumento nel vocabolario IFLA MOP"
+
+msgid "alternative {group} · option {option}"
+msgstr "alternativa {group} · opzione {option}"
+
+msgid "Remove"
+msgstr "Rimuovi"
+
+msgid "Number of items"
+msgstr "Numero di elementi"
+
+msgid "Number of performers differs from number of items"
+msgstr "Numero di esecutori diverso dagli elementi"
+
+msgid "Number of performers"
+msgstr "Numero di esecutori"
+
+msgid "Solo"
+msgstr "Solo"
+
+msgid "Ad libitum"
+msgstr "Ad libitum"
+
+msgid "Overdub"
+msgstr "Overdub"
+
+msgid "Digital processing"
+msgstr "Elaborazione digitale"
+
+msgid "Suffix"
+msgstr "Suffisso"
+
+msgid "Section / part / voice"
+msgstr "Sezione / parte / voce"
+
+msgid "e.g. I, II, S, A, T, B"
+msgstr "es. I, II, S, A, T, B"
+
+msgid "Detach from ensemble group"
+msgstr "Sciogli dal gruppo ensemble"
+
+msgid "Remove from alternative"
+msgstr "Rimuovi dall'alternativa"
+
+msgid "-- none --"
+msgstr "-- nessuno --"
+
+msgid "Other (free text)…"
+msgstr "Altro (testo libero)…"
+
+msgid "e.g. in B flat"
+msgstr "es. in Sib"
+
+msgid "-- select an ensemble --"
+msgstr "-- seleziona un ensemble --"
+
+msgid "Instrumental ensembles"
+msgstr "Ensemble strumentali"
+
+msgid "Choirs / group voices"
+msgstr "Cori / voci di gruppo"
+
+msgid "Technical groupings (non-IFLA)"
+msgstr "Raggruppamenti tecnici (non IFLA)"
+
+msgid "Percussion"
+msgstr "Percussioni"
+
+msgid "Continuo"
+msgstr "Continuo"
+
+msgid "{n} instruments selected. The ensemble name is chosen from the IFLA MOP vocabulary, for compatibility (for non-IFLA technical groupings, e.g. \"Continuo\", use \"Technical groupings\" or \"Other\"). The \"group number\" is optional: use it when the same ensemble has multiple sub-groups (e.g. \"Percussion\" 1 and 2, one performer each) - the label numbers itself automatically."
+msgstr "{n} strumenti selezionati. Il nome ensemble e' scelto dal vocabolario IFLA MOP, per compatibilita' (per raggruppamenti tecnici non IFLA, es. \"Continuo\", usa \"Raggruppamenti tecnici\" o \"Altro\"). Il \"numero gruppo\" e' opzionale: usalo quando lo stesso ensemble ha piu' sotto-gruppi (es. \"Percussioni\" 1 e 2, un esecutore ciascuno) - l'etichetta si numera da sola."
+
+msgid "Ensemble name (IFLA MOP)"
+msgstr "Nome ensemble (IFLA MOP)"
+
+msgid "Custom label"
+msgstr "Etichetta personalizzata"
+
+msgid "e.g. Percussion, Continuo, ..."
+msgstr "es. Percussioni, Continuo, ..."
+
+msgid "Group number (optional)"
+msgstr "Numero gruppo (opzionale)"
+
+msgid "Cancel"
+msgstr "Annulla"
+
+msgid "Group"
+msgstr "Raggruppa"
+
+msgid "Assign the same \"Option\" number to instruments that should be shown together as a single bundle (e.g. flute+piccolo = option 1); use a different number for the alternative (e.g. trumpet+cornet = option 2)."
+msgstr "Assegna lo stesso numero di \"Opzione\" agli strumenti che vanno mostrati insieme come un unico bundle (es. flauto+ottavino = opzione 1); usa un numero diverso per l'alternativa (es. tromba+cornetta = opzione 2)."
+
+msgid "At least two different options are needed to create an alternative."
+msgstr "Servono almeno due opzioni diverse per creare un'alternativa."
+
+msgid "Paste here the already catalogued value of the \"Analytical instrumentation (SBN MARC)\" field (e.g. \"pf-solo,fl,2ob,2fag,2cor,2vl,vla,vlc,cb\"). The text is analyzed but not modified; after the preview you can correct each item before saving."
+msgstr "Incolla qui il valore del campo \"Organico analitico (SBN MARC)\" gia' catalogato (es. \"pf-solo,fl,2ob,2fag,2cor,2vl,vla,vlc,cb\"). Il testo viene analizzato ma non modificato; dopo l'anteprima potrai correggere ogni elemento prima di salvare."
+
+msgid "e.g."
+msgstr "es."
+
+msgid "Analyze"
+msgstr "Analizza"
+
+msgid "Import items"
+msgstr "Importa elementi"
+
+msgid "No items recognized in the pasted text."
+msgstr "Nessun elemento riconosciuto nel testo incollato."
+
+msgid "{n} items found"
+msgstr "{n} elementi trovati"
+
+msgid ", {m} to review (highlighted below)."
+msgstr ", {m} da rivedere (evidenziati sotto)."
+
+msgid "Copied ✓"
+msgstr "Copiato ✓"
+
+msgid "No instrumentation to display."
+msgstr "Nessun organico da visualizzare."
+
+msgid "Preview not available (unexpected error)."
+msgstr "Anteprima non disponibile (errore imprevisto)."
+
+msgid "No instrumentation"
+msgstr "Nessun organico"
+
+msgid "item"
+msgstr "elemento"
+
+msgid "items"
+msgstr "elementi"
+
+msgid "Instrumentation"
+msgstr "Organico"
+
+msgid "{n} instruments or sections"
+msgstr "{n} strumenti o sezioni"
+
+msgid "Work instrumentation"
+msgstr "Organico dell'opera"
+
+msgid "or: "
+msgstr "oppure: "
+
+msgid "digital"
+msgstr "digitale"
+
+msgid "conductor's podium"
+msgstr "podio del direttore"
+
+msgid "How to import"
+msgstr "Come importare"
+
+msgid "Add to the {n} existing items"
+msgstr "Aggiungi ai {n} elementi già presenti"
+
+msgid "Replace the {n} existing items"
+msgstr "Sostituisci i {n} elementi già presenti"
+
+msgid "Clear all"
+msgstr "Azzera tutto"
+
+msgid "Clear instrumentation"
+msgstr "Azzera organico"
+
+msgid "This removes all {n} items in the instrumentation. This action cannot be undone."
+msgstr "Rimuove tutti i {n} elementi dell'organico. Questa azione non può essere annullata."
+
+msgid "{label}: open the Wikidata page"
+msgstr "{label}: apri la pagina Wikidata"
+
+msgid "{label}: open the term in the IFLA vocabulary"
+msgstr "{label}: apri il termine nel vocabolario IFLA"
+
+msgid "{label}: open the linked term"
+msgstr "{label}: apri il termine collegato"
+
+msgid "section/part: {value}"
+msgstr "sezione/parte: {value}"
+
+msgid "{n} items"
+msgstr "{n} elementi"
+
+msgid "{n} performers"
+msgstr "{n} esecutori"
+
+msgid "solo"
+msgstr "solo"
+
+msgid "ad libitum"
+msgstr "ad libitum"
+
+msgid "overdub"
+msgstr "overdub"
+
+msgid "digital processing"
+msgstr "elaborazione digitale"
+
+msgid "(generic family icon)"
+msgstr "(icona generica di famiglia)"
+
+msgid "Wikidata: {uri}"
+msgstr "Wikidata: {uri}"
+
+msgid "MOP: {uri}"
+msgstr "MOP: {uri}"
+
+msgid "View fullscreen"
+msgstr "Visualizza a schermo intero"
+
+msgid "Exit fullscreen"
+msgstr "Esci da schermo intero"
+

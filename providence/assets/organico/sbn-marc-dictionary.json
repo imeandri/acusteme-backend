@@ -1,0 +1,3115 @@
+{
+  "%": {
+    "label": "ad libitum",
+    "famiglia_sbn": "",
+    "category": "prefisso"
+  },
+  "-a": {
+    "label": "contralto",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-am": {
+    "label": "d'amore",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-ampl": {
+    "label": "amplificato",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "technique"
+  },
+  "-ant": {
+    "label": "antico",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-b": {
+    "label": "basso",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-bg": {
+    "label": "basso grave",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-bi": {
+    "label": "voce bianca",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-br": {
+    "label": "baritono",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-cac": {
+    "label": "da caccia",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-cb": {
+    "label": "contrabbasso",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-des": {
+    "label": "due esecutori su uno strumento",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "technique"
+  },
+  "-el": {
+    "label": "elettrico",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "technique"
+  },
+  "-etn": {
+    "label": "etnico",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-f": {
+    "label": "femminile",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-gr": {
+    "label": "grande/grave",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-m": {
+    "label": "maschile",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-med": {
+    "label": "medio",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-mid": {
+    "label": "midi",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "technique"
+  },
+  "-mix": {
+    "label": "misto",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-oc": {
+    "label": "a otto mani",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "technique"
+  },
+  "-picc": {
+    "label": "piccolo/acuto",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-prep": {
+    "label": "preparato",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "technique"
+  },
+  "-qt": {
+    "label": "a quattro mani",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "technique"
+  },
+  "-r": {
+    "label": "registrato",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "technique"
+  },
+  "-recit": {
+    "label": "recitante",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "technique"
+  },
+  "-s": {
+    "label": "soprano",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-sno": {
+    "label": "sopranino",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-solo": {
+    "label": "solo",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "solo"
+  },
+  "-spc": {
+    "label": "sopracuto",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-sx": {
+    "label": "a sei mani",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "technique"
+  },
+  "-t": {
+    "label": "tenore",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "register"
+  },
+  "-tron": {
+    "label": "elettronico",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "technique"
+  },
+  "-ts": {
+    "label": "a tre mani",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "technique"
+  },
+  "-um": {
+    "label": "a una mano",
+    "famiglia_sbn": "",
+    "category": "suffisso",
+    "role": "technique"
+  },
+  "1 (posposto)": {
+    "label": "primo",
+    "famiglia_sbn": "",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "2 (posposto)": {
+    "label": "secondo",
+    "famiglia_sbn": "",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "A": {
+    "label": "contralto (voce)",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "voce",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "A-bi": {
+    "label": "contralto voce bianca",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "voce",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "B": {
+    "label": "basso (voce)",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "voce",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "Br": {
+    "label": "baritono (voce)",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "voce",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "C": {
+    "label": "cantus (voce)",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "voce",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "Coro": {
+    "label": "coro",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "coro",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "Cvo": {
+    "label": "complesso vocale",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "Mzs": {
+    "label": "mezzosoprano",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "voce",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "S": {
+    "label": "soprano (voce)",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "voce",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "S-bi": {
+    "label": "soprano voce bianca",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "voce",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "T": {
+    "label": "tenore (voce)",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "voce",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "V": {
+    "label": "voce",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "voce",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "V-d": {
+    "label": "decima vox",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "V-dd": {
+    "label": "duodecima vox",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "V-nn": {
+    "label": "nona vox",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "V-oc": {
+    "label": "octava vox",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "V-q": {
+    "label": "quinta vox",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "V-recit": {
+    "label": "voce recitante",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "voce",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "V-sp": {
+    "label": "septima vox",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "V-sx": {
+    "label": "sexta vox",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "V-ud": {
+    "label": "undecima vox",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "Vag": {
+    "label": "vagans",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "ago": {
+    "label": "agogó",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "alpcor": {
+    "label": "alphorn",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "corno",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "arcemb": {
+    "label": "archicembalo",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "clavicembalo",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "archi": {
+    "label": "archi",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "violino",
+    "family": "archi",
+    "iconMatched": false
+  },
+  "arl": {
+    "label": "arciliuto",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "arm": {
+    "label": "armonica",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "fisarmonica",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "armus": {
+    "label": "arco musicale",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "arp": {
+    "label": "arpa",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "arpa",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "arpan": {
+    "label": "arpanetta",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "arpa",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "arpeg": {
+    "label": "arpeggione",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "aul": {
+    "label": "aulos",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "b": {
+    "label": "basso (str)",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "contrabbasso",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "b/org": {
+    "label": "basso/organo",
+    "famiglia_sbn": "",
+    "category": "strumento",
+    "icon": "contrabbasso",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "bal": {
+    "label": "balalajka",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "banda": {
+    "label": "banda",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "banj": {
+    "label": "banjo",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "banjo",
+    "family": "pizzicati",
+    "iconMatched": true
+  },
+  "batt": {
+    "label": "batteria",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "rullante",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "bc": {
+    "label": "basso continuo",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "contrabbasso",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "bcl": {
+    "label": "biucolo",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "bigb": {
+    "label": "big band",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "biw": {
+    "label": "biwa",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "blo": {
+    "label": "bassanello",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "bnn": {
+    "label": "bandoneon",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "bomb": {
+    "label": "bombarda",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "bomb-t": {
+    "label": "bombarda tenore",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "voce",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "bombne": {
+    "label": "bombardone",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "bombno": {
+    "label": "bombardino",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "bon": {
+    "label": "bongos",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "boob": {
+    "label": "boobams",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "boz": {
+    "label": "bouzouki",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "brn": {
+    "label": "bronté",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "bry": {
+    "label": "baryton",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "bto": {
+    "label": "bassetto",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "buc": {
+    "label": "buccina",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "bum": {
+    "label": "bumbasz",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cA": {
+    "label": "contratenor altus",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "voce",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "cT": {
+    "label": "contratenor",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "voce",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "camp": {
+    "label": "campana",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "campl": {
+    "label": "campane a lastra",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "campla": {
+    "label": "campanella",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "campven": {
+    "label": "campanelle a vento",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cann": {
+    "label": "cannone",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cart": {
+    "label": "carillon",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cast": {
+    "label": "castagnette",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": true
+  },
+  "cat": {
+    "label": "catene",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cb": {
+    "label": "contrabbasso",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "contrabbasso",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "cbs": {
+    "label": "cimbasso",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "contrabbasso",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "cbz": {
+    "label": "cabaza",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "ccvl": {
+    "label": "caccavella",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cel": {
+    "label": "celesta",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "celesta",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "cemb": {
+    "label": "clavicembalo",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "clavicembalo",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "cemb-qt": {
+    "label": "clavicembalo a 4 mani",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "clavicembalo",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "cemb-sx": {
+    "label": "clavicembalo a 6 mani",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "clavicembalo",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "cemb-ts": {
+    "label": "clavicembalo a 3 mani",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "clavicembalo",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "cembar": {
+    "label": "cembalo ad arco",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "clavicembalo",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "cfag": {
+    "label": "controfagotto",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "fagotto",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "chal": {
+    "label": "chalumeau",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "chit": {
+    "label": "chitarra",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "chitarra",
+    "family": "pizzicati",
+    "iconMatched": true
+  },
+  "chit-b-el": {
+    "label": "chitarra bassa elettrica",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "chitarra",
+    "family": "pizzicati",
+    "iconMatched": true
+  },
+  "chit-el": {
+    "label": "chitarra elettrica",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "chitarra-elettrica",
+    "family": "pizzicati",
+    "iconMatched": true
+  },
+  "chith": {
+    "label": "chitarra hawaiana",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "chitarra",
+    "family": "pizzicati",
+    "iconMatched": true
+  },
+  "chitne": {
+    "label": "chitarrone",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "choc": {
+    "label": "chocalho",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "chord": {
+    "label": "chordette",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "ciar": {
+    "label": "ciaramella",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cis": {
+    "label": "cister",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cit": {
+    "label": "citola",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cja": {
+    "label": "complesso jazz",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cl": {
+    "label": "clarinetto",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "clarinetto",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "cl-b": {
+    "label": "clarinetto basso",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "clarinetto-basso",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "cl-cb": {
+    "label": "clarinetto contrabbasso",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "clarinetto",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "cl-picc": {
+    "label": "clarinetto piccolo",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "clarinetto",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "claves": {
+    "label": "claves",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "clcit": {
+    "label": "claviciterio",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "clne": {
+    "label": "clarone",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "clno": {
+    "label": "clarino",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "clorg": {
+    "label": "claviorgano",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "organo",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "clvd": {
+    "label": "clavicordo",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cmpc": {
+    "label": "campanaccio",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cms": {
+    "label": "cornamusa",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cnta": {
+    "label": "cornetta",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "tromba",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "cntach": {
+    "label": "cornetta a chiavi",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "tromba",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "cnto": {
+    "label": "cornetto",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "tromba",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "cnto-b": {
+    "label": "cornetto basso",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "contrabbasso",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "cnu": {
+    "label": "cornu",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cob": {
+    "label": "cobza",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "col": {
+    "label": "colascione",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "combo": {
+    "label": "combo",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "comp": {
+    "label": "computer",
+    "famiglia_sbn": "elettronici",
+    "category": "strumento",
+    "icon": "elettronica",
+    "family": "elettronica",
+    "iconMatched": true
+  },
+  "con": {
+    "label": "conga",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cor": {
+    "label": "corno",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "corno",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "corbass": {
+    "label": "corno di bassetto",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "corno",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "corpos": {
+    "label": "cornetta da postiglione",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "tromba",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "corrus": {
+    "label": "corno russo",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "corno",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "corseg": {
+    "label": "corno segnale",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "corno",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "crom": {
+    "label": "cromorno",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "crot": {
+    "label": "crotali",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "crw": {
+    "label": "crwth",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cst": {
+    "label": "complesso strumentale",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "cuic": {
+    "label": "cuíca",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "darab": {
+    "label": "darabukke",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "dea": {
+    "label": "dispositivo elettroacustico",
+    "famiglia_sbn": "elettronici",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "diap": {
+    "label": "diapason",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "dmm": {
+    "label": "dispositivo multimediale",
+    "famiglia_sbn": "elettronici",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "dop": {
+    "label": "doppione",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "dsd": {
+    "label": "dispositivo spaziale digitale",
+    "famiglia_sbn": "elettronici",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "dsp": {
+    "label": "dispositivo spaziale",
+    "famiglia_sbn": "elettronici",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "dulc": {
+    "label": "dulciana",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "dup": {
+    "label": "duplex",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "dvo": {
+    "label": "dvoinice",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "eh": {
+    "label": "corno inglese",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "corno-inglese",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "eol": {
+    "label": "arpa eolia",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "arpa",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "esch": {
+    "label": "eschiquier",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "euf": {
+    "label": "eufonio",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "fag": {
+    "label": "fagotto",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "fagotto",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "fagno": {
+    "label": "fagottino",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "fanf": {
+    "label": "fanfara",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "fiati": {
+    "label": "fiati",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "flauto",
+    "family": "legni",
+    "iconMatched": false
+  },
+  "fis": {
+    "label": "fisarmonica",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "fisarmonica",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "fisc": {
+    "label": "fischietto",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "fl": {
+    "label": "flauto",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "flauto",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "fl-a": {
+    "label": "flauto contralto",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "flauto",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "fl-am": {
+    "label": "flauto d'amore",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "flauto",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "fl-b": {
+    "label": "flauto basso",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "flauto",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "flag": {
+    "label": "flageolet",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "flcoul": {
+    "label": "flauto a coulisse",
+    "famiglia_sbn": "fiati",
+    "category": "strumento",
+    "icon": "flauto",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "flex": {
+    "label": "flexaton",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "flic": {
+    "label": "flicorno",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "corno",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "flic-a": {
+    "label": "flicorno contralto",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "corno",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "flic-cb": {
+    "label": "flicorno contrabbasso",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "contrabbasso",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "flic-s": {
+    "label": "flicorno soprano",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "corno",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "flic-sno": {
+    "label": "flicorno sopranino",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "corno",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "flic-spc": {
+    "label": "flicorno sopracuto",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "corno",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "flic-t": {
+    "label": "flicorno tenore",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "corno",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "flno": {
+    "label": "flautino",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "fluhr": {
+    "label": "flötenuhr",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "fp": {
+    "label": "fortepiano",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "pianoforte",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "fr": {
+    "label": "frusta",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "gal": {
+    "label": "galoubet",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "gamba": {
+    "label": "viola da gamba",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "viola",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "gamba-b": {
+    "label": "viola da gamba basso",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "viola",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "gamba-s": {
+    "label": "viola da gamba soprano",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "viola",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "gc": {
+    "label": "grancassa",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "grancassa",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "gem": {
+    "label": "corno di camoscio",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "corno",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "gh": {
+    "label": "ghironda",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "glarm": {
+    "label": "glassharmonika",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "glock": {
+    "label": "glockenspiel",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "glockenspiel",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "glot": {
+    "label": "glockenspiel a tastiera",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "glockenspiel",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "gml": {
+    "label": "gamelan",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "gong": {
+    "label": "gong",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "tam-tam",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "gongin": {
+    "label": "gong intonato",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "tam-tam",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "guir": {
+    "label": "güiro",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "gus": {
+    "label": "gusle",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "harm": {
+    "label": "harmonium",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "hornp": {
+    "label": "hornpipe",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "corno",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "incud": {
+    "label": "incudine",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "intr": {
+    "label": "intonarumori",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "jem": {
+    "label": "jembe",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "kar": {
+    "label": "karnyx",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "keyb": {
+    "label": "tastiere",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "pianoforte",
+    "family": "tastiere",
+    "iconMatched": false
+  },
+  "keyp": {
+    "label": "tastiere a corde pizzicate",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "kit": {
+    "label": "kithara",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "kor": {
+    "label": "kora",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "lam": {
+    "label": "lamellafono",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "legni": {
+    "label": "legni",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "flauto",
+    "family": "legni",
+    "iconMatched": false
+  },
+  "lel": {
+    "label": "live electronic",
+    "famiglia_sbn": "elettronici",
+    "category": "strumento",
+    "icon": "elettronica",
+    "family": "elettronica",
+    "iconMatched": true
+  },
+  "lir": {
+    "label": "lira",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "lirb": {
+    "label": "lira da braccio",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "lirch": {
+    "label": "lira chitarra",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "chitarra",
+    "family": "pizzicati",
+    "iconMatched": true
+  },
+  "lirne": {
+    "label": "lirone",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "lit": {
+    "label": "litofono",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "lt": {
+    "label": "liuto",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "ltf": {
+    "label": "liuto (famiglia)",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "luj": {
+    "label": "lujon",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "lur": {
+    "label": "lur",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "lyr": {
+    "label": "lyricon",
+    "famiglia_sbn": "elettronici",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "mand": {
+    "label": "mandolino",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "mandolino",
+    "family": "pizzicati",
+    "iconMatched": true
+  },
+  "mar": {
+    "label": "marimba",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "vibrafono",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "mart": {
+    "label": "martello",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "meld": {
+    "label": "melodica",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "melp": {
+    "label": "melopiano",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "pianoforte",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "mirl": {
+    "label": "mirliton",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "ml": {
+    "label": "mezzaluna",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "mla": {
+    "label": "mandola",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "mon": {
+    "label": "monocordo",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "mrc": {
+    "label": "maracas",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": true
+  },
+  "mstr": {
+    "label": "metastrumento",
+    "famiglia_sbn": "elettronici",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "mus": {
+    "label": "musette",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "nco": {
+    "label": "nastro realizzato da computer",
+    "famiglia_sbn": "elettronici",
+    "category": "strumento",
+    "icon": "elettronica",
+    "family": "elettronica",
+    "iconMatched": true
+  },
+  "ney": {
+    "label": "ney",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "nyck": {
+    "label": "nyckelharpa",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "arpa",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "ob": {
+    "label": "oboe",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "oboe",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "ob-am": {
+    "label": "oboe d'amore",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "oboe",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "ob-br": {
+    "label": "oboe baritono",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "oboe",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "ob-cac": {
+    "label": "oboe da caccia",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "oboe",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "ob-t": {
+    "label": "oboe tenore",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "oboe",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "ocbs": {
+    "label": "octobasse",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "ocr": {
+    "label": "ocarina",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "of": {
+    "label": "oficleide",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "of-cb": {
+    "label": "oficleide contrabbasso",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "contrabbasso",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "ogs": {
+    "label": "oggetto sonoro",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "omar": {
+    "label": "onde martenot",
+    "famiglia_sbn": "elettronici",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "orbo": {
+    "label": "organo a bocca",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "organo",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "orcam": {
+    "label": "orchestra da camera",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "orcb": {
+    "label": "orchestra da ballo",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "orch": {
+    "label": "orchestra",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "orchar": {
+    "label": "orchestra d'archi",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "orchfi": {
+    "label": "orchestra di fiati",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "orcpe": {
+    "label": "orchestra di percussioni",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "org": {
+    "label": "organo",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "organo",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "org-qt": {
+    "label": "organo a 4 mani",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "organo",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "org-sx": {
+    "label": "organo a 6 mani",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "organo",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "org-tron": {
+    "label": "organo elettronico",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "organo",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "orgb": {
+    "label": "organo di barberia",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "organo",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "osc": {
+    "label": "oscillatore",
+    "famiglia_sbn": "elettronici",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "ott": {
+    "label": "ottavino",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "ottavino",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "ottoni": {
+    "label": "ottoni",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "tromba",
+    "family": "ottoni",
+    "iconMatched": false
+  },
+  "pan": {
+    "label": "flauto di pan",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "flauto",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "perc": {
+    "label": "percussioni",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "rullante",
+    "family": "percussioni",
+    "iconMatched": false
+  },
+  "perc-tron": {
+    "label": "percussioni elettroniche",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "pf": {
+    "label": "pianoforte",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "pianoforte",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "pf-el": {
+    "label": "pianoforte elettrico",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "pianoforte",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "pf-qt": {
+    "label": "pianoforte a 4 mani",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "pianoforte",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "pf-sx": {
+    "label": "pianoforte a 6 mani",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "pianoforte",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "pf-ts": {
+    "label": "pianoforte a 3 mani",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "pianoforte",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "phor": {
+    "label": "phorminx",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "pif": {
+    "label": "piffero",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "pim": {
+    "label": "postazione informatica musicale",
+    "famiglia_sbn": "elettronici",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "pizz": {
+    "label": "pizzicati",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "pla": {
+    "label": "pianola",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "pianoforte",
+    "family": "tastiere",
+    "iconMatched": true
+  },
+  "pmp": {
+    "label": "viola pomposa",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "viola",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "poch": {
+    "label": "pochette",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "pt": {
+    "label": "piatti",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "piatti",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "ptch": {
+    "label": "piatto chiodato",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "piatti",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "ptcin": {
+    "label": "piatto cinese",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "piatti",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "ptn": {
+    "label": "piattini",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "piatti",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "ptp": {
+    "label": "piatti a pedale",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "piatti",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "pts": {
+    "label": "piatto sospeso",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "piatti",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "qan": {
+    "label": "qanun",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "quint": {
+    "label": "quintone",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "rab": {
+    "label": "rabab",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "rack": {
+    "label": "rackett",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "rag": {
+    "label": "raganella",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "rast": {
+    "label": "rain stick",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "rba": {
+    "label": "ragtime band",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "rec": {
+    "label": "flauto dolce",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "flauto",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "reg": {
+    "label": "regale",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "rib": {
+    "label": "ribeca",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "rom": {
+    "label": "rombo",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "trombone",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "roth": {
+    "label": "rothfono",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "roto": {
+    "label": "roto-toms",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "rute": {
+    "label": "rute",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "salt": {
+    "label": "salterio a percussione",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "sandp": {
+    "label": "carta vetrata",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "sapi": {
+    "label": "salterio pizzicato",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "sar": {
+    "label": "sarrusofono",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "sax": {
+    "label": "saxofono",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sassofono",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "scac": {
+    "label": "scacciapensieri",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "scat": {
+    "label": "scatola musicale",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "scult": {
+    "label": "scultura sonora",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "sega": {
+    "label": "sega musicale",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "separare i codici ripetendo l'abbreviazione": {
+    "label": "primo e secondo",
+    "famiglia_sbn": "",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "serp": {
+    "label": "serpentone",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "shak": {
+    "label": "shakuhachi",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "sho": {
+    "label": "shofar",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "sin": {
+    "label": "sintetizzatore",
+    "famiglia_sbn": "elettronici",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "sir": {
+    "label": "sirenion",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "sis": {
+    "label": "sistro",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "sna": {
+    "label": "sirena",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "son": {
+    "label": "sonagli",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "sord": {
+    "label": "sordone",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "spin": {
+    "label": "spinetta",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "spx": {
+    "label": "salpinx",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "steb": {
+    "label": "steel band",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "sthor": {
+    "label": "stierhorn",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "corno",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "stm": {
+    "label": "strumento melodico",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "stp": {
+    "label": "strumento polifonico",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "str": {
+    "label": "strumento",
+    "famiglia_sbn": "",
+    "category": "organico_sintetico",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "tabl": {
+    "label": "tabla",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "taf": {
+    "label": "tamburo a fessura",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "rullante",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "tamb": {
+    "label": "tamburo",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "rullante",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "tamblo": {
+    "label": "tamburello",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "tamburello",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "tambmil": {
+    "label": "tamburo militare",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "rullante",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "tambmil-picc": {
+    "label": "tamburo militare piccolo",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "rullante",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "tambno": {
+    "label": "tamburino",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "tan": {
+    "label": "tanbur",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "tape": {
+    "label": "nastro magnetico",
+    "famiglia_sbn": "elettronici",
+    "category": "strumento",
+    "icon": "elettronica",
+    "family": "elettronica",
+    "iconMatched": true
+  },
+  "tba": {
+    "label": "tuba",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "tuba",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "tba-b": {
+    "label": "basso tuba",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "tuba",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "tba-cb": {
+    "label": "tuba contrabbasso",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "tuba",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "tbaw": {
+    "label": "tuba wagneriana",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "tuba",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "tbea": {
+    "label": "tambourin de béarn",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "tbl": {
+    "label": "temple block",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "tdf": {
+    "label": "tamburo di ferro",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "rullante",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "term": {
+    "label": "teremin",
+    "famiglia_sbn": "elettronici",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "timb": {
+    "label": "timbales",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "timp": {
+    "label": "timpani",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "timpani",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "tior": {
+    "label": "tiorba",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "tom": {
+    "label": "tom-tom",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "tr": {
+    "label": "tromba",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "tromba",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "tr-picc": {
+    "label": "tromba piccola",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "tromba",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "trb": {
+    "label": "trombone",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "trombone",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "trb-b": {
+    "label": "trombone basso",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "trombone",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "trb-cb": {
+    "label": "trombone contrabbasso",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "trombone",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "trdir": {
+    "label": "tromba diritta",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "tromba",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "triang": {
+    "label": "triangolo",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "triangolo",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "trm": {
+    "label": "tromba marina",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "tromba",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "tub": {
+    "label": "tuba antica",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "tuba",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "tuono": {
+    "label": "lastra del tuono",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "ud": {
+    "label": "ud",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "uk": {
+    "label": "ukulele",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "vbslp": {
+    "label": "vibraslap",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "ven": {
+    "label": "macchina del vento",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "vi": {
+    "label": "viella",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "vibr": {
+    "label": "vibrafono",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "vibrafono",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "vih": {
+    "label": "vihuela",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "virg": {
+    "label": "virginale",
+    "famiglia_sbn": "tastiere",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "vl": {
+    "label": "violino",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "violino",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "vl-picc": {
+    "label": "violino piccolo",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "violino",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "vla": {
+    "label": "viola",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "viola",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "vla-am": {
+    "label": "viola d'amore",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "viola",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "vlc": {
+    "label": "violoncello",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "violoncello",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "vlf": {
+    "label": "violino di ferro",
+    "famiglia_sbn": "diversi",
+    "category": "strumento",
+    "icon": "violino",
+    "family": "archi",
+    "iconMatched": true
+  },
+  "vlne": {
+    "label": "violone",
+    "famiglia_sbn": "archi",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "vu": {
+    "label": "voce umana",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "voce",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "wbl": {
+    "label": "wood blocks",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "xil": {
+    "label": "xilofono",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "xilofono",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "xmar": {
+    "label": "xilomarimba",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "vibrafono",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "zarb": {
+    "label": "zarb",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "zit": {
+    "label": "zither",
+    "famiglia_sbn": "pizzicati",
+    "category": "strumento",
+    "icon": "sconosciuto",
+    "family": "altro",
+    "iconMatched": false
+  },
+  "picc": {
+    "label": "ottavino",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "ottavino",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "cor-ingl": {
+    "label": "corno inglese",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "corno-inglese",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "mS": {
+    "label": "mezzosoprano",
+    "famiglia_sbn": "voci",
+    "category": "strumento",
+    "icon": "voce",
+    "family": "voce",
+    "iconMatched": true
+  },
+  "tamt": {
+    "label": "gong",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "tam-tam",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "corno-ingl": {
+    "label": "corno inglese",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "corno-inglese",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "contrafag": {
+    "label": "controfagotto",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "fagotto",
+    "family": "legni",
+    "iconMatched": true
+  },
+  "tuba": {
+    "label": "tuba",
+    "famiglia_sbn": "ottoni",
+    "category": "strumento",
+    "icon": "tuba",
+    "family": "ottoni",
+    "iconMatched": true
+  },
+  "piatti": {
+    "label": "piatti",
+    "famiglia_sbn": "percussioni",
+    "category": "strumento",
+    "icon": "piatti",
+    "family": "percussioni",
+    "iconMatched": true
+  },
+  "fl-picc": {
+    "label": "flauto piccolo",
+    "famiglia_sbn": "legni",
+    "category": "strumento",
+    "icon": "ottavino",
+    "family": "legni",
+    "iconMatched": true
+  }
+}

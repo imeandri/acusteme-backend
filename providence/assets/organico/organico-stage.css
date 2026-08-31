@@ -1,0 +1,395 @@
+/*
+ * Stili per il rendering dell'organico (ventaglio/righe) — copia vendorizzata
+ * di Acusteme/frontend/special-interfaces/Organico/organico.css (solo le
+ * regole .organico-stage, .organico-seat, .organico-placement ecc.; le
+ * regole .organico-interface di quel file sono il wrapper del visualizzatore
+ * frontend — blocchi SBN, etichette per sorgente — e non si applicano qui,
+ * dove l'anteprima vive dentro il pannello dell'editor, non in quella
+ * struttura). Aggiornato 2026-08-05 assieme a organico-stage.js.
+ *
+ * Tema chiaro fisso di default (per integrarsi nelle interfacce bianche di
+ * CollectiveAccess): come nel file di origine, NON si segue
+ * prefers-color-scheme del sistema operativo. Il tema scuro resta disponibile
+ * solo come opt-in esplicito via :root[data-theme="dark"] — che l'admin di
+ * CollectiveAccess non imposta mai, quindi qui il widget resta sempre chiaro,
+ * esattamente come richiesto in origine.
+ */
+.organico-stage {
+  --organico-bg: #ffffff;
+  --organico-stage-floor: #eef3f7;
+  --organico-stage-glow: #c8d8e1;
+  --organico-stage-edge: #f8fafb;
+  --organico-ink: #17212b;
+  --organico-muted: #667483;
+  --organico-line: #d7e0e7;
+  --organico-tile: #f8fafb;
+  --organico-tile-hover: #eef6fb;
+  --organico-focus: #2d78a2;
+  --organico-solo: #b8860b;
+  --organico-adlib: #98a2b3;
+  --organico-digitale: #0f766e;
+  --organico-cluster-bg: #f7f9fa;
+  --organico-cluster-line: #bac8d3;
+  --organico-fallback-mark: #d92d20;
+  --band-archi: #cbb8ea;
+  --band-legni: #b7dba8;
+  --band-ottoni: #a9c8e8;
+  --band-percussioni: #edd28c;
+  --band-voce: #ecb9cb;
+
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--organico-ink);
+  background:
+    radial-gradient(
+      ellipse at 50% 62%,
+      var(--organico-stage-glow) 0%,
+      var(--organico-stage-floor) 48%,
+      var(--organico-stage-edge) 100%
+    );
+  border: 1px solid var(--organico-line);
+  border-radius: 8px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+:root[data-theme="dark"] .organico-stage {
+  --organico-bg: #151a1e;
+  --organico-stage-floor: #202a31;
+  --organico-stage-glow: #354650;
+  --organico-stage-edge: #11171b;
+  --organico-ink: #edf2f5;
+  --organico-muted: #a6b3bd;
+  --organico-line: #394750;
+  --organico-tile: #1b2329;
+  --organico-tile-hover: #22313a;
+  --organico-focus: #77bde3;
+  --organico-solo: #e0b33e;
+  --organico-adlib: #9a9a9a;
+  --organico-digitale: #57c4ac;
+  --organico-cluster-bg: #1b2329;
+  --organico-cluster-line: #526571;
+  --organico-fallback-mark: #e07a7a;
+  --band-archi: #665786;
+  --band-legni: #4d724e;
+  --band-ottoni: #466c91;
+  --band-percussioni: #846f32;
+  --band-voce: #814f60;
+}
+
+:root[data-theme="light"] .organico-stage {
+  --organico-bg: #ffffff;
+  --organico-stage-floor: #eef3f7;
+  --organico-stage-glow: #c8d8e1;
+  --organico-stage-edge: #f8fafb;
+  --organico-ink: #17212b;
+  --organico-muted: #667483;
+  --organico-line: #d7e0e7;
+  --organico-tile: #f8fafb;
+  --organico-tile-hover: #eef6fb;
+  --organico-focus: #2d78a2;
+  --organico-solo: #b8860b;
+  --organico-adlib: #98a2b3;
+  --organico-digitale: #0f766e;
+  --organico-cluster-bg: #f7f9fa;
+  --organico-cluster-line: #bac8d3;
+  --organico-fallback-mark: #d92d20;
+}
+
+.organico-stage__header {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-height: 1.75rem;
+  margin-bottom: 6px;
+}
+
+.organico-stage__title {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0;
+  color: var(--organico-ink);
+}
+
+.organico-stage__total {
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.65rem;
+  height: 1.65rem;
+  padding: 0 0.35rem;
+  border: 1px solid var(--organico-line);
+  border-radius: 999px;
+  background: var(--organico-tile);
+  color: var(--organico-ink);
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.organico-stage__fullscreen-btn {
+  margin-left: auto;
+  display: inline-grid;
+  place-items: center;
+  width: 1.65rem;
+  height: 1.65rem;
+  padding: 0;
+  border: 1px solid var(--organico-line);
+  border-radius: 4px;
+  background: var(--organico-tile);
+  color: var(--organico-muted);
+  cursor: pointer;
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+.organico-stage__fullscreen-btn:hover,
+.organico-stage__fullscreen-btn:focus-visible {
+  border-color: var(--organico-focus);
+  color: var(--organico-focus);
+  outline: none;
+}
+
+.organico-stage__fullscreen-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.organico-stage:fullscreen,
+.organico-stage:-webkit-full-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 2.5vh 3vw;
+  border-radius: 0;
+  box-sizing: border-box;
+  background: var(--organico-bg);
+}
+
+.organico-stage:fullscreen .organico-stage__svg,
+.organico-stage:-webkit-full-screen .organico-stage__svg {
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+  max-height: calc(100vh - 6rem);
+  margin: 0 auto;
+}
+
+.organico-stage__empty {
+  color: var(--organico-muted);
+  font-style: italic;
+  padding: 24px;
+  text-align: center;
+}
+
+.organico-stage__svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 6px;
+  background: transparent;
+}
+
+.organico-stage--orchestra {
+  background:
+    radial-gradient(
+      ellipse at 50% 74%,
+      var(--organico-stage-glow) 0%,
+      var(--organico-stage-floor) 48%,
+      var(--organico-stage-edge) 100%
+    );
+}
+
+/* icone */
+.organico-seat__icon {
+  color: var(--organico-ink);
+}
+
+.organico-seat--linked {
+  cursor: pointer;
+  outline: none;
+}
+
+.organico-seat--linked:hover .organico-seat__icon,
+.organico-seat--linked:focus .organico-seat__icon {
+  color: var(--organico-focus);
+}
+
+.organico-seat--linked:hover .organico-seat__label,
+.organico-seat--linked:focus .organico-seat__label {
+  fill: var(--organico-focus);
+  text-decoration: underline;
+}
+
+.organico-seat__icon--adlib {
+  color: var(--organico-adlib);
+  stroke-dasharray: 3 3;
+  opacity: 0.75;
+}
+
+.organico-seat__ghost {
+  color: var(--organico-muted);
+  opacity: 0.35;
+}
+
+.organico-seat__solo-ring {
+  fill: none;
+  stroke: var(--organico-solo);
+  stroke-width: 2.5;
+  stroke-dasharray: 2 3;
+}
+
+.organico-seat__fallback-mark {
+  font-size: 16px;
+  font-weight: 700;
+  fill: var(--organico-fallback-mark);
+}
+
+/* etichette */
+.organico-seat__label {
+  font-size: 10px;
+  font-weight: 600;
+  fill: var(--organico-ink);
+}
+
+.organico-seat__sublabel {
+  font-size: 9.5px;
+  fill: var(--organico-muted);
+  font-style: italic;
+}
+
+.organico-chip--digitale {
+  font-size: 8.5px;
+  font-weight: 600;
+  fill: var(--organico-digitale);
+  text-anchor: middle;
+}
+
+/* badge */
+.organico-badge circle,
+.organico-badge rect {
+  fill: var(--organico-bg);
+  stroke: var(--organico-line);
+  stroke-width: 1;
+}
+
+.organico-badge text {
+  font-size: 10px;
+  fill: var(--organico-ink);
+}
+
+.organico-badge--solo circle {
+  fill: var(--organico-solo);
+  stroke: none;
+}
+
+.organico-badge--solo text {
+  fill: #fff;
+  font-size: 9px;
+}
+
+.organico-badge--count rect {
+  fill: var(--organico-ink);
+  stroke: none;
+}
+
+.organico-badge--count text {
+  fill: var(--organico-bg);
+  font-weight: 600;
+  font-size: 9.5px;
+}
+
+/* cluster ensemble */
+.organico-ensemble-tile {
+  fill: var(--organico-tile);
+  stroke: var(--organico-line);
+  stroke-width: 1;
+}
+
+.organico-placement:hover .organico-ensemble-tile,
+.organico-placement:focus-within .organico-ensemble-tile {
+  fill: var(--organico-tile-hover);
+  stroke: var(--organico-focus);
+}
+
+.organico-placement--family-archi .organico-ensemble-tile { stroke: color-mix(in srgb, var(--band-archi) 70%, var(--organico-line)); }
+.organico-placement--family-legni .organico-ensemble-tile { stroke: color-mix(in srgb, var(--band-legni) 70%, var(--organico-line)); }
+.organico-placement--family-ottoni .organico-ensemble-tile { stroke: color-mix(in srgb, var(--band-ottoni) 70%, var(--organico-line)); }
+.organico-placement--family-percussioni .organico-ensemble-tile { stroke: color-mix(in srgb, var(--band-percussioni) 70%, var(--organico-line)); }
+
+.organico-cluster-box {
+  fill: var(--organico-cluster-bg);
+  stroke: var(--organico-cluster-line);
+  stroke-width: 1.5;
+  stroke-dasharray: 4 3;
+}
+
+.organico-cluster-label {
+  font-size: 10px;
+  font-weight: 600;
+  fill: var(--organico-muted);
+}
+
+/* alternative toggle */
+.organico-alt-toggle__bg {
+  fill: var(--organico-bg);
+  stroke: var(--organico-line);
+  stroke-width: 1.5;
+}
+
+.organico-alt-toggle__icon {
+  font-size: 12px;
+  fill: var(--organico-ink);
+}
+
+.organico-alt-toggle:hover .organico-alt-toggle__bg {
+  stroke: var(--organico-solo);
+}
+
+/* podio del direttore */
+.organico-podium rect {
+  fill: var(--organico-muted);
+}
+
+/* fasce colorate per famiglia nel ventaglio orchestrale */
+.organico-band {
+  stroke: none;
+  fill-opacity: 0.42;
+}
+
+.organico-band--archi { fill: var(--band-archi); }
+.organico-band--legni { fill: var(--band-legni); }
+.organico-band--ottoni { fill: var(--band-ottoni); }
+.organico-band--percussioni { fill: var(--band-percussioni); }
+.organico-band--voce { fill: var(--band-voce); }
+
+/* legenda famiglie sotto il ventaglio */
+.organico-stage__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 4px;
+  font-size: 10.5px;
+  color: var(--organico-muted);
+}
+
+.organico-stage__legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.organico-stage__legend-swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.organico-stage__legend-swatch--archi { background: var(--band-archi); }
+.organico-stage__legend-swatch--legni { background: var(--band-legni); }
+.organico-stage__legend-swatch--ottoni { background: var(--band-ottoni); }
+.organico-stage__legend-swatch--percussioni { background: var(--band-percussioni); }
+.organico-stage__legend-swatch--voce { background: var(--band-voce); }
